@@ -1,9 +1,13 @@
 body {
-  background-color: black;
+	background-color:black;
 }
 h1 {
-  color: #FF5900;
+	color:#FF5900;
+	border:5px solid red;
 }
 p {
-  color: white;
+	color:white;
+}
+li {
+	color:white;
 }
