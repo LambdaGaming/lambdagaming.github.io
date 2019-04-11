@@ -14,14 +14,12 @@ div.top_left {
 	left:0px;
 	top:0px;
 	z-index:1;
-	
 }
 div.top_right {
 	position:absolute;
-	left:1920px;
+	left:1440px;
 	top:0px;
 	z-index:1;
-	
 }
 h1 {
 	color:#FF5900;
