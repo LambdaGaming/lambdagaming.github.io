@@ -1,0 +1,35 @@
+body {
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+}
+container {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:1920px;
+}
+div.top_left {
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:1;
+	
+}
+div.top_right {
+	position:absolute;
+	left:1920px;
+	top:0px;
+	z-index:1;
+	
+}
+h1 {
+	color:#FF5900;
+}
+p {
+	color:white;
+	text-align:center;
+}
+li {
+	color:white;
+}
