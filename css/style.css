@@ -24,9 +24,23 @@ div.top_right {
 h1 {
 	color:#FF5900;
 }
+h2 {
+	color:#FF5900;
+}
+h3 {
+	color:#FF5900;
+}
+h4 {
+	color:#FF5900;
+}
+h5 {
+	color:white;
+}
+hr {
+	background-color:white;
+}
 p {
 	color:white;
-	text-align:center;
 }
 li {
 	color:white;
