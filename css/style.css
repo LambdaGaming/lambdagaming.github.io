@@ -20,7 +20,7 @@ div.background {
 	background-color:#000000;
 	}
 div.title{
-	position:relative;
+	position:absolute;
 	left:250px;
 	top:20px;
 }	
