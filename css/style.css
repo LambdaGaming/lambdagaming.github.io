@@ -15,10 +15,9 @@ div.background {
 	margin-right:auto;
 	top:20%;
 	width:1200px;
-	height:2200px;
+	height:auto;
 	max-width:80%;
 	background-color:#000000;
-	
 }
 div.title {
 	position:absolute;
@@ -27,19 +26,20 @@ div.title {
 	z-index:1;
 }
 div.list {
-	position:absolute;
-	top:800px;
-	left:200px;
+	position:relative;
+	top:auto;
+	left:0px;
 	z-index:1;
-	background-color:#000000;
+	text-align:left;
+	/*background-color:#000000;*/
 }
 div.article {
-	position:absolute;
+	position:relative;
 	top:170px;
-	margin: auto;
-	text-align: center;
+	margin:auto;
+	text-align:center;
 	z-index:1;
-	background-color:#000000;
+	/*background-color:#000000;*/
 }
 div.top_left {
 	position:absolute;
