@@ -19,6 +19,11 @@ div.background {
 	max-width:80%;
 	background-color:#000000;
 	}
+div.title{
+	position:relative;
+	left:250px;
+	top:20px;
+}	
 article {
 	position: relative;
 	margin: auto;
