@@ -21,15 +21,14 @@ div.background {
 	}
 div.title {
 	position:absolute;
-	left:250px;
+	left:600px;
 	top:20px;
 }	
 article {
 	position: relative;
 	margin: auto;
 	text-align: center;
-
-	;}
+}
 div.top_left {
 	position:absolute;
 	left:0px;
