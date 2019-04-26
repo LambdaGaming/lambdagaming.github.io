@@ -78,6 +78,9 @@ p {
 li {
 	color:white;
 }
+ol {
+	color:white;
+}
 div.column {
 	column-count:3;
 	column-gap: 20px;
