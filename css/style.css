@@ -3,7 +3,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 }
-container {
+div.container {
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
@@ -15,32 +15,49 @@ div.background {
 	margin-right:auto;
 	top:20%;
 	width:1200px;
-	height:auto;
+	scroll-margin-bottom: 5px;
+	height:100%;
 	max-width:80%;
-	background-color:#000000;
+	
 	z-index:1;
 }
 div.title {
 	position:absolute;
-	left:250px;
+	left:20%;
+
 	top:0px;
 	z-index:1;
+}
+@media only screen and (max-width: 1037px){
+	div.title {
+	transform:scale(.7);
+	background-color:lime;
+	}
+}
+@media only screen and (max-width: 800px){
+	div.title {
+	transform:scale(.4);
+	left: 7%;
+	background-color:lime;
+	}
 }
 div.list {
 	position:relative;
 	top:auto;
 	left:0px;
 	z-index:1;
+	padding-bottom: 10px;
 	text-align:left;
 	/*background-color:#000000;*/
 }
 div.article {
 	position:relative;
-	top:170px;
+	top:150px;
 	margin:auto;
+	height: auto;
 	text-align:center;
 	z-index:1;
-	/*background-color:#000000;*/
+	background-color:#000000;
 }
 div.top_left {
 	position:absolute;
