@@ -18,13 +18,11 @@ div.background {
 	scroll-margin-bottom: 5px;
 	height:100%;
 	max-width:80%;
-	
 	z-index:1;
 }
 div.title {
 	position:absolute;
 	left:20%;
-
 	top:0px;
 	z-index:1;
 }
@@ -44,9 +42,8 @@ div.list {
 	top:auto;
 	left:0px;
 	z-index:1;
-	padding-bottom: 10px;
+	padding-bottom:10px;
 	text-align:left;
-	/*background-color:#000000;*/
 }
 div.article {
 	position:relative;
@@ -56,6 +53,7 @@ div.article {
 	text-align:center;
 	z-index:1;
 	background-color:#000000;
+	padding:5px;
 }
 div.top_left {
 	position:absolute;
