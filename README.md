@@ -1,2 +1,2 @@
-# lambdagaming.github.io
-New WIP lambda gaming website because the new google sites is useless.
+# https://lambdagaming.github.io
+New official Lambda Gaming website to replace the old google sites one.
