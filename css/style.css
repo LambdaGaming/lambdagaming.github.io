@@ -111,3 +111,10 @@ div.column {
 	column-gap: 20px;
 	column-rule: 4px double #FF5900;
 }
+footer {
+	margin-top:8.5%;
+	background:#000011;
+	line-height:30px;
+	padding:0 5%;
+	text-align:center;
+}
