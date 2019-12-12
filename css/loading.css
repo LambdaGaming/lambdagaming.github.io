@@ -1,0 +1,39 @@
+
+.borderleft{
+	background-color:rgba( 255, 255, 255, 0.15 );
+	width:22%;
+	height:80%;
+	padding:25px;
+	border:1px solid #FF5900;
+	border-radius:25px;
+	margin-left:3%;
+	float:left;
+}
+
+.borderright{
+	background-color:rgba( 255, 255, 255, 0.15 );
+	width:22%;
+	height:80%;
+	padding:25px;
+	border:1px solid #FF5900;
+	border-radius:25px;
+	margin-right:3%;
+	float:right;
+}
+
+body{
+	padding-top:3%;
+}
+
+img{
+	width:40%;
+	display:auto;
+	margin-left:2.2%;
+	margin-right:auto;
+	margin-top:1.5%;
+}
+
+h1{
+	font-size:40px;
+	text-align:center;
+}
