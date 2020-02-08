@@ -25,7 +25,14 @@ body{
 	padding-top:5%;
 }
 
-img{
+img.logo{
+	width:10%;
+	float:left;
+	position:absolute;
+	margin-left:200px;
+}
+
+img.screenshots{
 	width:40%;
 	display:auto;
 	margin-left:2.2%;
@@ -34,6 +41,6 @@ img{
 }
 
 h1{
-	font-size:40px;
+	font-size:45px;
 	text-align:center;
 }
