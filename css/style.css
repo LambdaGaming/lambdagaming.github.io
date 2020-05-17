@@ -53,6 +53,7 @@ div.article {
 	text-align:center;
 	z-index:1;
 	background-color:#000000;
+	padding-bottom:5px;
 }
 div.top_left {
 	position:absolute;
