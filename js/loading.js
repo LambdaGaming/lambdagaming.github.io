@@ -100,12 +100,41 @@ const images_hlu = [
 	"https://steamuserimages-a.akamaihd.net/ugc/868487510164320053/72624C4143852CA9CA9C8B21B2C66F0F2AA6A089/"
 ]
 
+const images_various = [
+	"../graphics/various_screenshot1.png",
+	"https://steamuserimages-a.akamaihd.net/ugc/769484415898218454/BD52DB1BF4ECFF82522F7579799DF1461F4129BE/",
+	"https://steamuserimages-a.akamaihd.net/ugc/92724928148075182/1D2AC5CF6871D9D11B6E6EFEF5155E2298648CD8/"
+]
+
+const images_sandbox = [
+	"https://steamuserimages-a.akamaihd.net/ugc/771742638359780528/FBB2FC078CF6BAA5D1B2B5E9BE771082B1BC8D7D/",
+	"https://steamuserimages-a.akamaihd.net/ugc/948464026890128408/0A77BED3F6658DD4F3FDCD0725ADCAF808DF829E/",
+	"https://steamuserimages-a.akamaihd.net/ugc/784120056410448454/A91EDC84F2B6EDEEF391820F2DFD76F5965455FC/",
+	"https://steamuserimages-a.akamaihd.net/ugc/766100671604420906/07A417440D8A743F4498A4023D5EE3BB4F8E7E5B/",
+	"https://steamuserimages-a.akamaihd.net/ugc/766100671604420815/4053644D27F7436645D08C2EFD1AA140291950C9/",
+	"https://steamuserimages-a.akamaihd.net/ugc/766100671604420740/0B5B0F138A81DEB1838C7C95DCE987AF51B489F3/",
+	"https://steamuserimages-a.akamaihd.net/ugc/766100671604420645/0BF7A6F643D869F177FC9F055027EBEBD42DB947/",
+	"https://steamuserimages-a.akamaihd.net/ugc/766100671604420458/CA72437E72566873BBF9DA5975A6CD3CAA540A8D/",
+	"https://steamuserimages-a.akamaihd.net/ugc/781863270290773796/545D479E0CA1A21A406B41E7A8719436330029E0/",
+	"https://steamuserimages-a.akamaihd.net/ugc/781863270290772521/546E403A4A80F77315165557848A7C2B6B4206A5/",
+	"https://steamuserimages-a.akamaihd.net/ugc/965354846166824265/E35EE8292636B718E75DB68DF82B43378B327C95/",
+	"https://steamuserimages-a.akamaihd.net/ugc/936079456759225921/877F23FADE60BC53F3C7100AF0967CE929FB3A96/"
+]
+
 function WriteImage() {
-	if ( cityimages ) {
-		images = images_city
-	}
-	else {
-		images = images_hlu
+	switch ( imageid ) {
+		case 1:
+			images = images_city
+			break
+		case 2:
+			images = images_hlu
+			break
+		case 3:
+			images = images_various
+			break
+		case 4:
+			images = images_sandbox
+			break
 	}
 	var image = document.getElementById( "image" )
 	var initimage = Math.floor( Math.random() * images.length ) // Initialize the image with a random one so the page isn't blank for 3 seconds
