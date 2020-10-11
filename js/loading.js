@@ -74,7 +74,8 @@ const images_city = [
 	"https://steamuserimages-a.akamaihd.net/ugc/772870312904522026/5A1C0372C0179F769B821719EEB0618E1369A8BC/",
 	"https://steamuserimages-a.akamaihd.net/ugc/1322320380553935954/DD224489F6578338933120C3330CF06C466D496B/",
 	"https://steamuserimages-a.akamaihd.net/ugc/1458554772680445154/8B5EABE8A2F638524BF6DFF57923672E60B62B73/",
-	"https://steamuserimages-a.akamaihd.net/ugc/1458554772684842220/979D10D270E45C24F316947CFEDE45553A42AD90/"
+	"https://steamuserimages-a.akamaihd.net/ugc/1458554772684842220/979D10D270E45C24F316947CFEDE45553A42AD90/",
+	"https://steamuserimages-a.akamaihd.net/ugc/1645461720877768351/3E0E59C5331184A357F5F420A28A858A78CA84F3/"
 ]
 
 const images_hlu = [
