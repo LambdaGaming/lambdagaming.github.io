@@ -142,3 +142,27 @@ div.jobs {
 	width:20%;
 	float:left;
 }
+
+.gallery {
+	display: inline-grid;
+	grid-template-columns: repeat(auto-fit, 49%);
+	column-gap:2%;
+	row-gap:0.25%;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery img {
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.gallery figcaption {
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+.gallery figure {
+	margin:0 auto;
+}

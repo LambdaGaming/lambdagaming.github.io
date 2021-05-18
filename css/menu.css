@@ -59,7 +59,7 @@ nav.scroll {
 
 nav a:hover, .dropdown:hover .dropbtn {
 	background-color: #ff5900;
-	transition:all 0.1s ease-in;
+	transition:all 0.1s ease-in-out;
 }
 
 .dropdown-content {
@@ -82,7 +82,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .dropdown-content a:hover {
 	background-color: #ff5900;
-	transition:all 0.1s ease-in;
+	transition:all 0.1s ease-in-out;
 }
 
 .dropdown:hover .dropdown-content {
