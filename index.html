@@ -5,20 +5,21 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
+		<script src="js/navbar.js"></script>
 		<script>
 			const updated = "5-17-21"
 		</script>
 	</head>
 	<body>
-		<nav>
-			<div class="navbar">
+		<nav id="navbar">
+			<div id="menu" class="menu">
 				<a href="https://discord.gg/9RGdUS2">Discord</a>
 				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
 				<a href="https://lambdagaming.github.io/community_rules.html">Gallery</a>
 				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
 				<div class="dropdown">
 					<button class="dropbtn">Server Rules & Guidelines</button>
-					<div class="dropdown-content">
+					<div id="dropdown" class="dropdown-content">
 						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
 						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
 						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
@@ -26,9 +27,11 @@
 						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
 				</div>
-				<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img src="graphics/lambda_srcds_2020_circle.png"></a>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="graphics/lambda_srcds_2020_circle.png"></a>
 		</nav>
+		<h1 class="headertitle">Lambda Gaming</h1>
+		<h2 class="headertitle2">Welcome!</h2>
 		<div class="main">
 			<h1>About Us:</h1>
 			<p>We are a small gaming community mainly composed of a group of friends who used to play on a bunch of different Garry's Mod servers and came together to form this community. We occasionally host our own game servers, most of which are for Garry's Mod and Minecraft. We do not run our servers 24/7. Below is a list of all of our servers. Please note that all servers have the potential to be password locked for testing or private sessions without an announcement.</a></p>
