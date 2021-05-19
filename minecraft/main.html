@@ -5,89 +5,80 @@
         <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
     </head>
     <body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-				</div>
-				<div class="title">
-					<img src="https://lambdagaming.github.io/graphics/title.png">
-				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-					<h1>Minecraft Server Rules</h1>
-					<p>Note: Along with these rules, be sure to read the community-wide rules which can be found <a href="https://lambdagaming.github.io/community_rules.html">here.</a> Overhead images of the server maps can be found <a href="https://lambdagaming.github.io/minecraft/images.html">here.</a></p>
-					<br>
-					<div class="list">
-						<h1>Vanilla, RLCraft, and OG Modded Rules:</h1>
-						<ol>
-							<li>PVP is enabled. You can choose to base with someone or by yourself, who your allies and enemies are is up to you.</li>
-							<br>
-							<li>You can only use reasonable force to raid a base. For example, using TNT to blow up a small wooden hut or burning a mansion just to loot a chest isn't allowed, but using TNT to blow a hole in the side of a mansion to gain access to a chest is allowed. Ask an admin if you are unsure whether or not your raid method is reasonable.</li>
-							<br>
-							<li>You don't have to announce a raid, but you can only raid/loot bases that are occupied, unless they have been declared abandoned by the owner.</li>
-							<br>
-							<li>Using game exploits of any kind is not allowed.</li>
-							<br>
-							<li>Griefing is not allowed. Refer to the raiding rules above for what you're allowed to do if you want to mess with someone.</li>
-						</ol>
-						<br>
-						<h1>Unbalanced Rules:</h1>
-						<ol>
-							<li>Causing damage to a protected structure or causing damage to a player who is inside a protected structure is not allowed.</li>
-							<br>
-							<li>Players can declare something as a protected structure as long as it is owned by them and the structure has no weapons in or around it.</li>
-						</ol>
-						<br>
-						<h1>Unbalanced 2 Rules:</h1>
-						<ol>
-							<li>Causing damage to a protected structure or causing damage to a player who is inside a protected structure is not allowed.</li>
-							<br>
-							<li>Players can declare something as a protected structure as long as it is owned by them and the structure has no weapons in or around it.</li>
-							<br>
-							<li>Using the red matter bomb without superadmin permission is not allowed.</li>
-							<br>
-							<li>Structures owned by a disconnected player are to be considered protected structures until the owner returns.</li>
-						</ol>
-						<br>
-						<h1>Earth Rules:</h1>
-						<ol>
-							<li>All players are given admin to allow for more building freedom. Don't abuse this power.</li>
-							<br>
-							<li>If you want to go to war with another player, both of you must agree to the war and both of you must stay in survival mode for the duration of the war.</li>
-							<br>
-							<li>Damaging another players property is not allowed unless you are currently at war with them.</li>
-						</ol>
-					</div>
-					<footer>
-						<script>
-							const date = "1-4-21"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
 				</div>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">Minecraft</h1>
+		<h2 class="headertitle2">Server Rules</h2>
+		<div class="main">
+			<p>Note: Along with these rules, be sure to read the community-wide rules which can be found <a href="https://lambdagaming.github.io/community_rules.html">here.</a> Overhead images of the server maps can be found <a href="https://lambdagaming.github.io/minecraft/images.html">here.</a></p>
+			<br>
+			<div class="list">
+				<h1>Vanilla, RLCraft, and OG Modded Rules:</h1>
+				<ol>
+					<li>PVP is enabled. You can choose to base with someone or by yourself, who your allies and enemies are is up to you.</li>
+					<br>
+					<li>You can only use reasonable force to raid a base. For example, using TNT to blow up a small wooden hut or burning a mansion just to loot a chest isn't allowed, but using TNT to blow a hole in the side of a mansion to gain access to a chest is allowed. Ask an admin if you are unsure whether or not your raid method is reasonable.</li>
+					<br>
+					<li>You don't have to announce a raid, but you can only raid/loot bases that are occupied, unless they have been declared abandoned by the owner.</li>
+					<br>
+					<li>Using game exploits of any kind is not allowed.</li>
+					<br>
+					<li>Griefing is not allowed. Refer to the raiding rules above for what you're allowed to do if you want to mess with someone.</li>
+				</ol>
+				<br>
+				<h1>Unbalanced Rules:</h1>
+				<ol>
+					<li>Causing damage to a protected structure or causing damage to a player who is inside a protected structure is not allowed.</li>
+					<br>
+					<li>Players can declare something as a protected structure as long as it is owned by them and the structure has no weapons in or around it.</li>
+				</ol>
+				<br>
+				<h1>Unbalanced 2 Rules:</h1>
+				<ol>
+					<li>Causing damage to a protected structure or causing damage to a player who is inside a protected structure is not allowed.</li>
+					<br>
+					<li>Players can declare something as a protected structure as long as it is owned by them and the structure has no weapons in or around it.</li>
+					<br>
+					<li>Using the red matter bomb without superadmin permission is not allowed.</li>
+					<br>
+					<li>Structures owned by a disconnected player are to be considered protected structures until the owner returns.</li>
+				</ol>
+				<br>
+				<h1>Earth Rules:</h1>
+				<ol>
+					<li>All players are given admin to allow for more building freedom. Don't abuse this power.</li>
+					<br>
+					<li>If you want to go to war with another player, both of you must agree to the war and both of you must stay in survival mode for the duration of the war.</li>
+					<br>
+					<li>Damaging another players property is not allowed unless you are currently at war with them.</li>
+				</ol>
+			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>
