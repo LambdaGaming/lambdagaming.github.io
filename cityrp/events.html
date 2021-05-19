@@ -5,109 +5,99 @@
 		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
     </head>
     <body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-				</div>
-				<div class="title">
-					<img src="https://lambdagaming.github.io/graphics/title.png">
-				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-					<h1>CityRP Roleplay Events</h1>
-					<p>This is a list of RP events that players may encounter while on the server. This includes events from the old page, as well as the newly added automated events.</p>
-					<br>
-					<div class="list">
-						<hr>
-						<h2>Lockdown:</h2>
-						<p><u>Description:</u> Called by the mayor when there is an active threat in the city and citizens need to stay inside. Once started, a city announcement will play and a message will display above chat notifying players of the event. Police are typically ordered to find the suspect who caused the lockdown while the mayor remains locked in his office. This event automatically ends if the mayor dies or disconnects.</p>
-						<p><u>Command:</u> /lockdown to start, /unlockdown to end</p>
-						<hr>
-
-						<h2>Parade:</h2>
-						<p><u>Description:</u> Usually called by the mayor to celebrate some major event, such as winning the election or capturing a wanted criminal. Once started, music will start playing and a message will display above chat notifying players of the event. This event automatically ends if the mayor dies or disconnects.</p>
-						<p><u>Command:</u> /parade to start, /endparade to end</p>
-						<hr>
-
-						<h2>Purge:</h2>
-						<p><u>Description:</u> Called when the mayor feels he cannot control the city anymore and wants to let the server turn to anarchy. Once started, the EAS purge message will play and a message will display above chat notifying players of the event. This event automatically ends if the mayor dies or disconnects.</p>
-						<p><u>Command:</u> /purge to start, /endpurge to end</p>
-						<hr>
-
-						<h2>Random Fires:</h2>
-						<p><u>Description:</u> Spawns randomly at suburban and commercial buildings. The fires are set to grow until the entire building is engulfed. The fires do not go out on their own. If the fire is too large to handle, emergency responders can request a superadmin to have the fires turned off.</p>
-						<p><u>Target Jobs:</u> Emergency Response Commander, Emergency Responder</p>
-						<hr>
-
-						<h2>Overturned Truck:</h2>
-						<p><u>Description:</u> Spawns a truck and a trailer laying on it's side across a random road  on the map. The truck spawns with a random chance to catch fire. Once the truck is back on it's wheels, the event will end and any police and mechanics in the area will be rewarded.</p>
-						<p><u>Target Jobs:</u> Mechanic</p>
-						<hr>
-
-						<h2>Catering Service:</h2>
-						<p><u>Description:</u> Spawns an NPC at a random location outside of a commercial or residential building. The NPC will message the cook stating what type of pizza they want. Once the cook delivers the correct type of pizza to the NPC, he will be rewarded.</p>
-						<p><u>Target Jobs:</u> Cook</p>
-						<hr>
-
-						<h2>Bank Escort:</h2>
-						<p><u>Description:</u> Requires the banker to get a police escort to the banker NPC, where he will then deposit a check from the check machine. Unlike normally cashing in a check, however, during the event, the banker NPC will keep the money instead of giving it to the banker.</p>
-						<p><u>Target Jobs:</u> Law Enforcement jobs, Banker</p>
-						<hr>
-
-						<h2>Shooter:</h2>
-						<p><u>Description:</u> Spawns a citizen NPC armed with an SMG that targets any player that gets near it. The NPC's health will range anywhere from 50 to 500. The player who kills the NPC will be rewarded for it.</p>
-						<p><u>Target Jobs:</u> Law Enforcement jobs</p>
-						<hr>
-
-						<h2>Road Work:</h2>
-						<p><u>Description:</u> Spawns a 'pothole' in the middle of a high-traffic road. A mechanic is required to use a pickaxe on the pothole to even out the road surface. Each pickaxe strike varies in damage, so every pothole will have a slightly different removal time.</p>
-						<p><u>Target Jobs:</u> Mechanic</p>
-						<hr>
-
-						<h2>Bank Robbery:</h2>
-						<p><u>Description:</u> Spawns 2-6 hostile citizen NPCs armed with either a pistol, SMG, or shotgun inside the bank. Killing each NPC will reward $200 and a crafting blueprint. The event won't end until all NPCs have been killed.</p>
-						<p><u>Target Jobs:</u> Law Enforcement jobs, Banker</p>
-						<hr>
-
-						<h2>Drunk Driver:</h2>
-						<p><u>Description:</u> Spawns a random vehicle with a bot driving it. The bot will randomly drive around until it's kicked out of the vehicle and cuffed by police. Cuffing the bot will reward $500 and a crafting blueprint.</p>
-						<p><u>Target Jobs:</u> Law Enforcement jobs</p>
-						<hr>
-
-						<h2>Bus Passenger:</h2>
-						<p><u>Description:</u>Spawn an NPC at a random location outside of a commercial or residential building. The NPC will display above their head where they need to go. Bus drivers can press their use key on the NPC to move it to their bus. Once the bus driver is in range of the destination, they can type !busstop in chat to let the passenger know they can get off. Transporting the NPC will reward $500 and a crafting blueprint.</p>
-						<p><u>Target Jobs:</u> Law Enforcement jobs</p>
-					</div>
-					<footer>
-						<script>
-							const date = "1-11-21"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
 				</div>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">CityRP</h1>
+		<h2 class="headertitle2">Roleplay Events</h2>
+		<div class="main">
+			<p>This is a list of RP events that players may encounter while on the server. This includes both random, automated events and events triggered by players.</p>
+			<div class="list">
+				<hr>
+				<h2>Lockdown:</h2>
+				<p><u>Description:</u> Called by the mayor when there is an active threat in the city and citizens need to stay inside. Once started, a city announcement will play and a message will display above chat notifying players of the event. Police are typically ordered to find the suspect who caused the lockdown while the mayor remains locked in his office. This event automatically ends if the mayor dies or disconnects.</p>
+				<p><u>Command:</u> /lockdown to start, /unlockdown to end</p>
+				<hr>
+
+				<h2>Parade:</h2>
+				<p><u>Description:</u> Usually called by the mayor to celebrate some major event, such as winning the election or capturing a wanted criminal. Once started, music will start playing and a message will display above chat notifying players of the event. This event automatically ends if the mayor dies or disconnects.</p>
+				<p><u>Command:</u> /parade to start, /endparade to end</p>
+				<hr>
+
+				<h2>Purge:</h2>
+				<p><u>Description:</u> Called when the mayor feels he cannot control the city anymore and wants to let the server turn to anarchy. Once started, the EAS purge message will play and a message will display above chat notifying players of the event. This event automatically ends if the mayor dies or disconnects.</p>
+				<p><u>Command:</u> /purge to start, /endpurge to end</p>
+				<hr>
+
+				<h2>Random Fires:</h2>
+				<p><u>Description:</u> Spawns randomly at suburban and commercial buildings. The fires are set to grow until the entire building is engulfed. The fires do not go out on their own. If the fire is too large to handle, emergency responders can request a superadmin to have the fires turned off.</p>
+				<p><u>Target Jobs:</u> Emergency Response Commander, Emergency Responder</p>
+				<hr>
+
+				<h2>Overturned Truck:</h2>
+				<p><u>Description:</u> Spawns a truck and a trailer laying on it's side across a random road  on the map. The truck spawns with a random chance to catch fire. Once the truck is back on it's wheels, the event will end and any police and mechanics in the area will be rewarded.</p>
+				<p><u>Target Jobs:</u> Mechanic</p>
+				<hr>
+
+				<h2>Catering Service:</h2>
+				<p><u>Description:</u> Spawns an NPC at a random location outside of a commercial or residential building. The NPC will message the cook stating what type of pizza they want. Once the cook delivers the correct type of pizza to the NPC, he will be rewarded.</p>
+				<p><u>Target Jobs:</u> Cook</p>
+				<hr>
+
+				<h2>Bank Escort:</h2>
+				<p><u>Description:</u> Requires the banker to get a police escort to the banker NPC, where he will then deposit a check from the check machine. Unlike normally cashing in a check, however, during the event, the banker NPC will keep the money instead of giving it to the banker.</p>
+				<p><u>Target Jobs:</u> Law Enforcement jobs, Banker</p>
+				<hr>
+
+				<h2>Shooter:</h2>
+				<p><u>Description:</u> Spawns a citizen NPC armed with an SMG that targets any player that gets near it. The NPC's health will range anywhere from 50 to 500. The player who kills the NPC will be rewarded for it.</p>
+				<p><u>Target Jobs:</u> Law Enforcement jobs</p>
+				<hr>
+
+				<h2>Road Work:</h2>
+				<p><u>Description:</u> Spawns a 'pothole' in the middle of a high-traffic road. A mechanic is required to use a pickaxe on the pothole to even out the road surface. Each pickaxe strike varies in damage, so every pothole will have a slightly different removal time.</p>
+				<p><u>Target Jobs:</u> Mechanic</p>
+				<hr>
+
+				<h2>Bank Robbery:</h2>
+				<p><u>Description:</u> Spawns 2-6 hostile citizen NPCs armed with either a pistol, SMG, or shotgun inside the bank. Killing each NPC will reward $200 and a crafting blueprint. The event won't end until all NPCs have been killed.</p>
+				<p><u>Target Jobs:</u> Law Enforcement jobs, Banker</p>
+				<hr>
+
+				<h2>Drunk Driver:</h2>
+				<p><u>Description:</u> Spawns a random vehicle with a bot driving it. The bot will randomly drive around until it's kicked out of the vehicle and cuffed by police. Cuffing the bot will reward $500 and a crafting blueprint.</p>
+				<p><u>Target Jobs:</u> Law Enforcement jobs</p>
+				<hr>
+
+				<h2>Bus Passenger:</h2>
+				<p><u>Description:</u>Spawn an NPC at a random location outside of a commercial or residential building. The NPC will display above their head where they need to go. Bus drivers can press their use key on the NPC to move it to their bus. Once the bus driver is in range of the destination, they can type !busstop in chat to let the passenger know they can get off. Transporting the NPC will reward $500 and a crafting blueprint.</p>
+				<p><u>Target Jobs:</u> Law Enforcement jobs</p>
+			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>
