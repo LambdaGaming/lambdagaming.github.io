@@ -5,6 +5,10 @@
         <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
 		<style>
 			p{
 				line-height:30px;
@@ -12,57 +16,44 @@
 		</style>
     </head>
     <body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-				</div>
-				<div class="title">
-					<img src="https://lambdagaming.github.io/graphics/title.png">
-				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-					<h1>About Half-Life Universe RP</h1>
-					<div class="list">
-						<h2 style="color:#ff5900">Half-Life Universe RP Introduction:</h2>
-						<p>Welcome to the Lambda Gaming Half-Life Universe Roleplay server rules and guidelines. First off, it should be noted that our server is like no other out there, so we will do our best to make sure you know everything you need to have an enjoyable experience on the server, however, this guide is not perfect and probably does not include every detail the server has, so if you have a question that wasn't answered as you read through the guide, feel free to ask an admin and they will be glad to help! If you haven't figured it out already, this server covers some of the major events that have happened throughout the Half-Life series, hence the roleplay name "Half-Life Universe". There are 3 different types of roleplay that are packed into one server: (1) Black Mesa Roleplay, (2) City 17 Roleplay, and (3) Outland Roleplay. Each type of roleplay will be gone over as you continue to read through this guide.</p>
-						<br><br>
-						<h2 style="color:#ff5900">Black Mesa RP:</h2>
-						<p>Black Mesa Roleplay, as you might have guessed, takes place at the Black Mesa Research Facility. The facility has a wide-variety of inventions and work fields, but the main focus is teleportation. The following is a list of some of the more important jobs you can have at Black Mesa: Administrator, Security Officer, Survey Team Member, and HECU Marine. More details and the rest of the jobs for this type of roleplay can be found with the job rules and guidelines. As players work as their chosen job to create objects using addons like Wiremod, PCMod, GTerminal, and other custom addons made specifically for this server, random events may occur where players will have to complete a task in order to fix an item that isn't working, such as a door, portal, or computer system. Players who have Biochemist or Weapons Engineer jobs can also request Xen materials from the survey team to craft items such as aliens and advanced weapons. Any equipment that you may need to perform your duties as a scientist can be purchased at the item NPC using the facility budget. The final event that will occur on BMRP will be the cascade event, where aliens teleport into the facility and the military is ordered to kill or rescue any survivors. When the military takes over the facility, the HECU Captain can get permission from server admins and proceed to detonate the Thermonuclear Device, which will cause an explosion and change the map to one of four City 17 RP maps.</p>
-						<br><br>
-						<h2 style="color:#ff5900">City 17 RP:</h2>
-						<p>City 17 RP is a type of roleplay that takes the basic city parts of the Half-Life 2 storyline and turns it into a working roleplay environment. The main focus of City 17 RP is to either become a refugee and eventually take over the citadel using crafted weapons, become a loyal citizen and help the combine out by mining for them, become a recruit for the Combine and play your part protecting and serving Earth's Administrator, or become a government man and give secret information to one or both sides about their enemy to advance the war in your favor. For the first 30 minutes of the gamemode running, a ceasefire will be in place, giving all parties a chance to get settled in before the action starts. If and when the resistance has formed enough people to storm the citadel, they will have to find a scientist, free them from the custody of the combine if need-be, and escort them to the detonation console to start the sequence. Once the sequence is activated, it will slowly turn everyone's screen gray and after about two minutes the citadel will explode and change the gamemode to Outland RP. Throughout the RP, random events may pop up that will affect gameplay. Some of these events include a citadel power failure, which will temporarily open jail cell doors, a zombie invasion, where zombies raid the sewers and the rebel base, and a headcrab canister failure, which will cause a few headcrab canisters to launch and raid down on populated areas of the city.</p>
-						<br><br>
-						<h2 style="color:#ff5900">Outland RP:</h2>
-						<p>Outland RP is the final type of roleplay the server has to offer. In this type of roleplay, the first objective is for the rebels to keep fighting long enough to create a weak point in Combine defenses, allowing rebel forces to raid the Combine base and activate an orbiting satellite, which will then close the Combine portal. Once the Combine portal is closed, the RP will end and change to a wasteland map, indicating that the portal destruction affected the entire planet. The second objective is for the rebels to launch a rocket at their base to tap into the old Black Mesa satellite and close the Combine portal without causing mass destruction. To get the codes for launching the rocket, a rebel will have to search the map for it. It will either show up in a giant log, rebel computer, rebel crate, rebel generator, or concrete rubble. If the rebel holding the codes dies or disconnects before the rocket starts it's launch sequence, the codes will be hidden again for someone else to find. When launching the rocket, keep in mind that the Combine will know when one is activated, so be wise about your launch times. If the Combine stop a launch, rebels must wait 10 minutes before launching another rocket. If the rocket makes it into orbit and activates the satellite, the RP will end with an explosion and the server will close. Note that for the first 30 minutes of the gamemode running, a ceasefire will be in place, giving all parties a chance to get settled in before the action starts. During this time, both the combine portal closing and rebel rocket launch events will be disabled.</p>
-					</div>
-					<footer>
-						<script>
-							const date = "3-22-20"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
 				</div>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">Half-Life Universe RP</h1>
+		<h2 class="headertitle2">About</h2>
+		<div class="main">
+			<div class="list">
+				<h2 style="color:#ff5900">Half-Life Universe RP Introduction:</h2>
+				<p>Welcome to the Lambda Gaming Half-Life Universe Roleplay server rules and guidelines. First off, it should be noted that our server is like no other out there, so we will do our best to make sure you know everything you need to have an enjoyable experience on the server, however, this guide is not perfect and probably does not include every detail the server has, so if you have a question that wasn't answered as you read through the guide, feel free to ask an admin and they will be glad to help! If you haven't figured it out already, this server covers some of the major events that have happened throughout the Half-Life series, hence the roleplay name "Half-Life Universe". There are 3 different types of roleplay that are packed into one server: (1) Black Mesa Roleplay, (2) City 17 Roleplay, and (3) Outland Roleplay. Each type of roleplay will be gone over as you continue to read through this guide.</p>
+				<br><br>
+				<h2 style="color:#ff5900">Black Mesa RP:</h2>
+				<p>Black Mesa Roleplay, as you might have guessed, takes place at the Black Mesa Research Facility. The facility has a wide-variety of inventions and work fields, but the main focus is teleportation. The following is a list of some of the more important jobs you can have at Black Mesa: Administrator, Security Officer, Survey Team Member, and HECU Marine. More details and the rest of the jobs for this type of roleplay can be found with the job rules and guidelines. As players work as their chosen job to create objects using addons like Wiremod, PCMod, GTerminal, and other custom addons made specifically for this server, random events may occur where players will have to complete a task in order to fix an item that isn't working, such as a door, portal, or computer system. Players who have Biochemist or Weapons Engineer jobs can also request Xen materials from the survey team to craft items such as aliens and advanced weapons. Any equipment that you may need to perform your duties as a scientist can be purchased at the item NPC using the facility budget. The final event that will occur on BMRP will be the cascade event, where aliens teleport into the facility and the military is ordered to kill or rescue any survivors. When the military takes over the facility, the HECU Captain can get permission from server admins and proceed to detonate the Thermonuclear Device, which will cause an explosion and change the map to one of four City 17 RP maps.</p>
+				<br><br>
+				<h2 style="color:#ff5900">City 17 RP:</h2>
+				<p>City 17 RP is a type of roleplay that takes the basic city parts of the Half-Life 2 storyline and turns it into a working roleplay environment. The main focus of City 17 RP is to either become a refugee and eventually take over the citadel using crafted weapons, become a loyal citizen and help the combine out by mining for them, become a recruit for the Combine and play your part protecting and serving Earth's Administrator, or become a government man and give secret information to one or both sides about their enemy to advance the war in your favor. For the first 30 minutes of the gamemode running, a ceasefire will be in place, giving all parties a chance to get settled in before the action starts. If and when the resistance has formed enough people to storm the citadel, they will have to find a scientist, free them from the custody of the combine if need-be, and escort them to the detonation console to start the sequence. Once the sequence is activated, it will slowly turn everyone's screen gray and after about two minutes the citadel will explode and change the gamemode to Outland RP. Throughout the RP, random events may pop up that will affect gameplay. Some of these events include a citadel power failure, which will temporarily open jail cell doors, a zombie invasion, where zombies raid the sewers and the rebel base, and a headcrab canister failure, which will cause a few headcrab canisters to launch and raid down on populated areas of the city.</p>
+				<br><br>
+				<h2 style="color:#ff5900">Outland RP:</h2>
+				<p>Outland RP is the final type of roleplay the server has to offer. In this type of roleplay, the first objective is for the rebels to keep fighting long enough to create a weak point in Combine defenses, allowing rebel forces to raid the Combine base and activate an orbiting satellite, which will then close the Combine portal. Once the Combine portal is closed, the RP will end and change to a wasteland map, indicating that the portal destruction affected the entire planet. The second objective is for the rebels to launch a rocket at their base to tap into the old Black Mesa satellite and close the Combine portal without causing mass destruction. To get the codes for launching the rocket, a rebel will have to search the map for it. It will either show up in a giant log, rebel computer, rebel crate, rebel generator, or concrete rubble. If the rebel holding the codes dies or disconnects before the rocket starts it's launch sequence, the codes will be hidden again for someone else to find. When launching the rocket, keep in mind that the Combine will know when one is activated, so be wise about your launch times. If the Combine stop a launch, rebels must wait 10 minutes before launching another rocket. If the rocket makes it into orbit and activates the satellite, the RP will end with an explosion and the server will close. Note that for the first 30 minutes of the gamemode running, a ceasefire will be in place, giving all parties a chance to get settled in before the action starts. During this time, both the combine portal closing and rebel rocket launch events will be disabled.</p>
+			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>

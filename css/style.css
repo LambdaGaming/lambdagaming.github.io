@@ -185,7 +185,15 @@ footer p {
 
 .vertical {
 	border-left:3px solid #FF5900;
-	height:550px;
 	position:absolute;
+}
+
+.vertical.cityrp {
+	height:550px;
 	margin-left:-35px;
+}
+
+.vertical.hlurp {
+	height:450px;
+	margin-left:10px;
 }
