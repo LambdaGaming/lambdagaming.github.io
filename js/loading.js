@@ -85,7 +85,8 @@ const images_city = [
 	"https://steamuserimages-a.akamaihd.net/ugc/1646593864316695829/0D609CE00529D462F835658BD4E8806E59484587/",
 	"https://steamuserimages-a.akamaihd.net/ugc/1647720820455435693/9D32EF3708512DC91EA5789D5C17CEB6928148B8/",
 	"https://steamuserimages-a.akamaihd.net/ugc/1797477352555521066/6F43E84D66EDD2C41C5468846E0140BB3D647EBC/",
-	"https://steamuserimages-a.akamaihd.net/ugc/1771582194467909479/D3E488DFC3AE6263FBC906BA48585E987780CFF2/"
+	"https://steamuserimages-a.akamaihd.net/ugc/1771582194467909479/D3E488DFC3AE6263FBC906BA48585E987780CFF2/",
+	"https://steamuserimages-a.akamaihd.net/ugc/771743182357375713/112BDD795701BF29E93D27A3DC0F114F92FB4338/"
 ]
 
 const images_hlu = [
@@ -109,7 +110,8 @@ const images_hlu = [
 	"https://steamuserimages-a.akamaihd.net/ugc/862856504895065597/05A333614ECBA0DA66B3539F90FC037563AA9A1A/",
 	"https://steamuserimages-a.akamaihd.net/ugc/862852702977775347/79B5FAA1AA31346CE631366B4CFEECDF190A08A4/",
 	"https://steamuserimages-a.akamaihd.net/ugc/868487510164320053/72624C4143852CA9CA9C8B21B2C66F0F2AA6A089/",
-	"https://steamuserimages-a.akamaihd.net/ugc/1654473373993645048/4D3D063F59EF387AD10B177AD92DBA6E2F7BEFE1/"
+	"https://steamuserimages-a.akamaihd.net/ugc/1654473373993645048/4D3D063F59EF387AD10B177AD92DBA6E2F7BEFE1/",
+	"https://steamuserimages-a.akamaihd.net/ugc/1771582383736770635/591979B38E1E430E2748169D9825877329DD6F06/"
 ]
 
 const images_various = [
