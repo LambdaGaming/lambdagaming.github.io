@@ -5,91 +5,82 @@
         <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
     </head>
     <body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-				</div>
-				<div class="title">
-					<img src="https://lambdagaming.github.io/graphics/title.png">
-				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-					<h1>CityRP General Rules and Guidelines</h1>
-					<div class="list">
-						<ol>
-							<li>Along with these rules, be sure to read the community-wide rules which can be found by clicking <a href="https://lambdagaming.github.io/community_rules.html">here</a>.</li>
-							<br>
-							<li>Don't randomly kill people without a valid reason. Valid reasons include (but are not limited to) someone doing something negative to you in the same life, and someone entering your KOS zone. Using car bombs or other objects that indirectly kill players also apply to this rule.</li>
-							<br>
-							<li>Don't kill players just because they killed you, and don't keep an event going after you died unless members of your team are still taking part in the event.</li>
-							<br>
-							<li>If you are held at gunpoint, you can do whatever is necessary to survive as long as it doesn't break any other rules. However, if you are killed by the gunman, revived by a medic, and are still being held at gunpoint you have to comply with the gunman to avoid a potential infinite loop of dying.</li>
-							<br>
-							<li>You can commit crimes as any job, but you still have to perform your assigned duties.</li>
-							<br>
-							<li>Newly elected mayors are granted a 10 minute cooldown to setup their office, laws, taxes, etc. During this cooldown, players cannot do anything to negatively impact the mayor such as protesting or raiding his office.</li>
-							<br>
-							<li>Players must attempt to negotiate with the mayor about their problems before protesting, rioting, raiding, etc.</li>
-							<br>
-							<li>Equipping weapons from your inventory after being weapon checked is not allowed unless you are no longer in sight of the players who weapon checked you. This rule applies to both metal detector variants.</li>
-							<br>
-							<li>Prop surfing is not allowed no matter what, and prop climbing is only allowed as long as it realistically fits in with the RP. Example: Prop climbing to get over a fence and break into someone's home is allowed, but prop climbing into the air to escape the police is not allowed.</li>
-							<br>
-							<li>You cannot respawn your vehicle if there is an active mechanic on the server unless the vehicle has fallen into a spot that the tow truck cannot get to or the vehicle is permanently undrivable.</li>
-							<br>
-							<li>If you steal a car you must somehow announce to the owner that it was stolen. If you fail to do so and the owner respawns it, they will not be at fault.</li>
-							<br>
-							<li>You must have a valid reason for kidnapping someone. If you want to restrain someone or lock them in a room you must do something with them such as demand money for their release.</li>
-							<br>
-							<li>The maximum jail time allowed for a single sentence is 20 minutes if the arresting officer manually takes the player to the jails, and 10 minutes if the arresting officer uses the arrest stick.</li>
-							<br>
-							<li>You cannot obstruct public entities such as the health NPC, mayor voting NPC, and mining factories. See the server item page for a full list of public entities. Iron refiners and purifiers are exceptions to this rule.</li>
-							<br>
-							<li>You cannot suicide unless you have been roleplaying as a suicidal character prior to being wanted or arrested by the police.</li>
-							<br>
-							<li>If a player becomes a barricaded suspect (armed inside of a building and refusing to cooperate with police), or if a player is in a pursuit, the police are allowed to keep them wanted until they are arrested or killed unless the suspect manages to escape. Police can also re-want players to extend the time if they committed a new crime that isn't stated in the previous wanted reason. Police may post a bounty for a wanted player that a hitman can pursue after the 10 minute wanted period is over.</li>
-							<br>
-							<li>OOC chats that appear to be adverts can be used in RP situations. This includes the name of the person who sent it, and the contents of the message itself. (Valid Example: "(OOC) John Miller: selling stolen car at cabins pm for price" This chat would be able to be used by police to conduct an investigation and potentially arrest John.)</li>
-							<br>
-							<li>When mugging a person, you can only demand up to $200, unless you manage to kidnap the person, then you can demand up to $3000 for their release.</li>
-							<br>
-							<li>Cops are allowed to go rogue as long as they agree to change jobs if they die while rogue. (Going rogue means to refuse to follow any orders from the mayor and/or police chief.)</li>
-							<br>
-							<li>Media such as screenshots or videos of RP events may be used for RP purposes (such as evidence in court) if the media can be proven to be from the same session it is being used in.</li>
-							<br>
-							<li>Using meta information obtained outside of the game is allowed, but it is recommended you use the in-game text chat when participating in major RP events to help admins prove innocence and guilt if a rule is broken.</li>
-						</ol>
-					</div>
-					<footer>
-						<script>
-							const date = "5-17-21"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
 				</div>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">CityRP</h1>
+		<h2 class="headertitle2">General Rules</h2>
+		<div class="main">
+			<div class="list">
+				<ol>
+					<li>Along with these rules, be sure to read the community-wide rules which can be found by clicking <a href="https://lambdagaming.github.io/community_rules.html">here</a>.</li>
+					<br>
+					<li>Don't randomly kill people without a valid reason. Valid reasons include (but are not limited to) someone doing something negative to you in the same life, and someone entering your KOS zone. Using car bombs or other objects that indirectly kill players also apply to this rule.</li>
+					<br>
+					<li>Don't kill players just because they killed you, and don't keep an event going after you died unless members of your team are still taking part in the event.</li>
+					<br>
+					<li>If you are held at gunpoint, you can do whatever is necessary to survive as long as it doesn't break any other rules. However, if you are killed by the gunman, revived by a medic, and are still being held at gunpoint you have to comply with the gunman to avoid a potential infinite loop of dying.</li>
+					<br>
+					<li>You can commit crimes as any job, but you still have to perform your assigned duties.</li>
+					<br>
+					<li>Newly elected mayors are granted a 10 minute cooldown to setup their office, laws, taxes, etc. During this cooldown, players cannot do anything to negatively impact the mayor such as protesting or raiding his office.</li>
+					<br>
+					<li>Players must attempt to negotiate with the mayor about their problems before protesting, rioting, raiding, etc.</li>
+					<br>
+					<li>Equipping weapons from your inventory after being weapon checked is not allowed unless you are no longer in sight of the players who weapon checked you. This rule applies to both metal detector variants.</li>
+					<br>
+					<li>Prop surfing is not allowed no matter what, and prop climbing is only allowed as long as it realistically fits in with the RP. Example: Prop climbing to get over a fence and break into someone's home is allowed, but prop climbing into the air to escape the police is not allowed.</li>
+					<br>
+					<li>You cannot respawn your vehicle if there is an active mechanic on the server unless the vehicle has fallen into a spot that the tow truck cannot get to or the vehicle is permanently undrivable.</li>
+					<br>
+					<li>If you steal a car you must somehow announce to the owner that it was stolen. If you fail to do so and the owner respawns it, they will not be at fault.</li>
+					<br>
+					<li>You must have a valid reason for kidnapping someone. If you want to restrain someone or lock them in a room you must do something with them such as demand money for their release.</li>
+					<br>
+					<li>The maximum jail time allowed for a single sentence is 20 minutes if the arresting officer manually takes the player to the jails, and 10 minutes if the arresting officer uses the arrest stick.</li>
+					<br>
+					<li>You cannot obstruct public entities such as the health NPC, mayor voting NPC, and mining factories. See the server item page for a full list of public entities. Iron refiners and purifiers are exceptions to this rule.</li>
+					<br>
+					<li>You cannot suicide unless you have been roleplaying as a suicidal character prior to being wanted or arrested by the police.</li>
+					<br>
+					<li>If a player becomes a barricaded suspect (armed inside of a building and refusing to cooperate with police), or if a player is in a pursuit, the police are allowed to keep them wanted until they are arrested or killed unless the suspect manages to escape. Police can also re-want players to extend the time if they committed a new crime that isn't stated in the previous wanted reason. Police may post a bounty for a wanted player that a hitman can pursue after the 10 minute wanted period is over.</li>
+					<br>
+					<li>OOC chats that appear to be adverts can be used in RP situations. This includes the name of the person who sent it, and the contents of the message itself. (Valid Example: "(OOC) John Miller: selling stolen car at cabins pm for price" This chat would be able to be used by police to conduct an investigation and potentially arrest John.)</li>
+					<br>
+					<li>When mugging a person, you can only demand up to $200, unless you manage to kidnap the person, then you can demand up to $3000 for their release.</li>
+					<br>
+					<li>Cops are allowed to go rogue as long as they agree to change jobs if they die while rogue. (Going rogue means to refuse to follow any orders from the mayor and/or police chief.)</li>
+					<br>
+					<li>Media such as screenshots or videos of RP events may be used for RP purposes (such as evidence in court) if the media can be proven to be from the same session it is being used in.</li>
+					<br>
+					<li>Using meta information obtained outside of the game is allowed, but it is recommended you use the in-game text chat when participating in major RP events to help admins prove innocence and guilt if a rule is broken.</li>
+				</ol>
+			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>

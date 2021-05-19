@@ -5,566 +5,557 @@
         <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
+		<script src="../js/jobs.js"></script>
     </head>
     <body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
+					</div>
 				</div>
-				<div class="title">
-					<img src="https://lambdagaming.github.io/graphics/title.png">
+			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">CityRP</h1>
+		<h2 class="headertitle2">Jobs</h2>
+		<div class="main">
+			<div class="pageleft">
+				<div class="jobs">
+					<a href="javascript:void(0)" onclick="ChangeJob( 'mayor' ); return false">Mayor</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'mayorsbodyguard' ); return false">Mayors Bodyguard</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'iaagent' ); return false">IA Agent</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'policechief' ); return false">Police Chief</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'policeofficer' ); return false">Police Officer</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'undercoverofficer' ); return false">Undercover Officer</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'swatcommander' ); return false">SWAT Commander</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'swat' ); return false">SWAT</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'ercommander' ); return false">ER Commander</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'emergencyresponder' ); return false">Emergency Responder</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'detective' ); return false">Detective</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'mechanic' ); return false">Mechanic</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'newscameraman' ); return false">News Cameraman</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'hitman' ); return false">Hitman</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'banker' ); return false">Banker</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'cook' ); return false">Cook</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'busdriver' ); return false">Bus Driver</a>
+					<br><br>
+					<a href="javascript:void(0)" onclick="ChangeJob( 'citizen' ); return false">Citizen</a>
 				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
-					</div>
-					<hr>
-					<h1>CityRP Jobs</h1>
-					<div class="pageleft">
-						<div class="jobs">
-							<a href="javascript:void(0)" onclick="ChangeJob( 'mayor' ); return false">Mayor</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'mayorsbodyguard' ); return false">Mayors Bodyguard</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'iaagent' ); return false">IA Agent</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'policechief' ); return false">Police Chief</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'policeofficer' ); return false">Police Officer</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'undercoverofficer' ); return false">Undercover Officer</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'swatcommander' ); return false">SWAT Commander</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'swat' ); return false">SWAT</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'ercommander' ); return false">ER Commander</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'emergencyresponder' ); return false">Emergency Responder</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'detective' ); return false">Detective</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'mechanic' ); return false">Mechanic</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'newscameraman' ); return false">News Cameraman</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'hitman' ); return false">Hitman</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'banker' ); return false">Banker</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'cook' ); return false">Cook</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'busdriver' ); return false">Bus Driver</a>
-							<br><br>
-							<a href="javascript:void(0)" onclick="ChangeJob( 'citizen' ); return false">Citizen</a>
-						</div>
-					</div>
-					<div class="pageright">
-						<div id="mayor" class="list">
-							<h1 style="text-align:center">Mayor</h1>
-							<h2>In-Game Description:</h2>
-							<p>The Mayor of the city creates laws and sets taxes to govern the city. If you are the mayor you may create and accept warrants. Type /wanted [name]  to warrant a player. Type /jailpos to set the Jail Position. Type /lockdown initiate a lockdown of the city. Everyone must be inside during a lockdown. The cops patrol the area. /unlockdown to end a lockdown.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Set taxes and laws for your city.</li>
-								<br>
-								<li>Act as a judge in a court session, or make a law enforcement official judge if you are one of the defendants.</li>
-								<br>
-								<li>Complete events to improve the city's economy.</li>
-								<br>
-								<li>Control government jobs such as the police force and emergency response.</li>
-								<br>
-								<li>Occasionally host events such as a building contest or a lottery to improve relations with your citizens.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to set taxes and laws that players have to play by, control government jobs, control the citys economy, buy perks to improve law enforcement, and fire government and law enforcement officials through the F6 menu.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>If a riot does take place, it is recommended that you place the city into a lockdown. Once the lockdown has started, any civilian who isn't going back to their home should be arrested by patrolling law enforcement. To start a lockdown, type "/lockdown" in chat. To end a lockdown, type "/unlockdown".</li>
-								<br>
-								<li>As Mayor, you have say on what laws the city has to follow, but if you choose certain laws that a lot of people don't like, they may protest or riot.</li>
-								<br>
-								<li>As Mayor, you can only use weapons in self defense and not to enforce laws.</li>
-								<br>
-								<li>It is recommended that you don't make unlawful decisions. A corrupt mayor could mean a dead mayor, and if you break your own laws, the IA Agent has the right to fire you and anyone who is working for you if they have the evidence to do so.</li>
-								<br>
-								<li>It is recommended that you don't make unfair laws. This could lead to a bad economy and angry citizens. When you are elected, it is recommended that you call all government officials and citizens to the city hall for a meeting on laws.</li>
-								<br>
-								<li>Setting taxes is probably the most important thing you will do as mayor. To set taxes for certain kinds of jobs, press F2. You can then purchase perks that will improve the economy and set taxes to improve funding for the perks.</li>
-								<br>
-								<li>There will always be someone in the city who hates your guts to no end, so security is a top priority. It is recommended that you travel in your limo and be accompanied by bodyguards to ensure 24/7 protection.</li>
-							</ul>
-						</div>
-						<div id="mayorsbodyguard" style="display:none" class="list">
-							<h1 style="text-align:center">Mayor's Bodyguard</h1>
-							<h2>In-Game Description:</h2>
-							<p>As the mayor's bodyguard your highest priority will always be the mayor. If he asks for your help, you are required to help. You are equipped with an assault rifle and a sidearm to always ensure that the mayor has the best protection.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Protect the mayor at all times.</li>
-								<br>
-								<li>Follow any orders you may receive from the mayor.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to an AR-15 assault rifle and FiveSeven pistol by default and grenades, assault rifles, shotguns, and sidearms if the weapon perks are activated by the mayor.</li>
-								<br>
-								<li>Has ability to weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>Bodyguards can also help out with law enforcement related things such as a drug bust or a firefight, but you must get permission from the mayor before doing so.</li>
-								<br>
-								<li>Setting up a safe house for the mayor is highly recommended.</li>
-								<br>
-								<li>During court sessions, the mayor is usually the judge. As the mayor's bodyguard, it is recommended that you stand guard inside the courtroom near the mayor for security.</li>
-								<br>
-								<li>You may have higher authority than the Police Chief, but this does not mean you can command him or any other law enforcement officials.</li>
-								<br>
-								<li>You can deny orders from the chief, but not the mayor. Denying orders from the mayor will result in you possibly getting fired. If the mayor tells you to do something that may be illegal or against server rules, talk it over with him or an admin to get it sorted out.</li>
-							</ul>
-						</div>
-						<div id="iaagent" style="display:none" class="list">
-							<h1 style="text-align:center">IA Agent</h1>
-							<h2>In-Game Description:</h2>
-							<p>As an internal affairs agent, it is your responsibility to ensure that all government and law enforcement officials are following the laws they enforce, and are not being corrupt. If you do find corruption within the government, your duty is to fire or arrest the law breakers. Specifically, corruption not only includes government officials breaking their own laws, but it also includes the mayor killing or arresting multiple people for no apparent reason. You are equipped with a sidearm for protection just incase things go south.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Investigate government and law enforcement officials for corruption if you suspect it.</li>
-								<br>
-								<li>Protect the mayor is there aren't any bodyguards or police officers to do so.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to a free Glock pistol and unmarked government vehicles.</li>
-								<br>
-								<li>Has ability to weapon check players, arrest government and law enforcement officials, and hold a public vote to fire the mayor.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>Don't arrest civilians for breaking the law, your job is to investigate law breakers within the city government.</li>
-								<br>
-								<li>Only arrest officials when you have solid evidence that they are corrupt.</li>
-							</ul>
-						</div>
-						<div id="policechief" style="display:none" class="list">
-							<h1 style="text-align:center">Police Chief</h1>
-							<h2>In-Game Description:</h2>
-							<p>As Police Chief, it is your responsibility to command, control, and take care of your Officers.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Command Police Officers, SWAT Commander, Undercover Officers.</li>
-								<br>
-								<li>Assist your officers with jobs.</li>
-								<br>
-								<li>Protect the mayor if no bodyguards are available.</li>
-								<br>
-								<li>Enforce all set laws.</li>
-								<br>
-								<li>Help out players throughout the city if needed.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to command some units of the police force, weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
-								<br>
-								<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
-								<br>
-								<li>Has access to a Desert Eagle, MP5, speed radar, spike strips, and battering ram by default.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules:</h2>
-							<ul>
-								<li>You may only tell the SWAT Commander what to do, you cannot individually command SWAT units unless there is no active SWAT Commander to do so.</li>
-								<br>
-								<li>You on the other hand get your orders from the mayor, who will usually tell you to enforce the new laws he has put down. Much like the bodyguards, you cannot deny orders from the mayor, but if you think an order is unlawful, talk it over with him.</li>
-							</ul>
-						</div>
-						<div id="policeofficer" style="display:none" class="list">
-							<h1 style="text-align:center">Police Officer</h1>
-							<h2>In-Game Description:</h2>
-							<p>The Police Officer may be the lowest ranking job with law enforcement, but it is undoubtedly the most important. As a Police Officer, your job is to patrol the streets, respond to emergencies, and look out for any suspicious activity.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Enforce all set laws.</li>
-								<br>
-								<li>Help out players throughout the city if needed.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
-								<br>
-								<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
-								<br>
-								<li>Has access to a Desert Eagle, MP5, speed radar, spike strips, and battering ram by default.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules:</h2>
-							<ul>
-								<li>A Police Officer's main duty is to follow orders from the police chief. If there is no police chief available, command will either go to SWAT or the mayor, depending on which is available first. If neither of those jobs are available to command, each individual officer will have to take all matters into their own hands.</li>
-							</ul>
-						</div>
-						<div id="undercoverofficer" style="display:none" class="list">
-							<h1 style="text-align:center">Undercover Officer</h1>
-							<h2>In-Game Description:</h2>
-							<p>As an undercover agent, your job is the same as the Police Officer, but steakouts and undercover work is added. This job is very important if you have a suspected criminal but don't have enough evidence to make an arrest.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Go on steakouts to try and catch a law breaker.</li>
-								<br>
-								<li>Pretend to become a criminal so you can help your fellow officers make a bust.</li>
-								<br>
-								<li>Patrol the streets if you are not on any other jobs.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>                
-								<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
-								<br>
-								<li>Has access to a P99, handheld speed radar, spike strips, and disguise kit by default.</li>
-								<br>
-								<li>Has ability to weapon check players and spawn government vehicles.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>Much like the police officer, you also get your orders from the police chief, so if you need something to do, ask the chief.</li>
-								<br>
-								<li>You are permitted to pull over anyone if you have a reason to, but that isn't your top priority. Your top priority is to make arrests while concealing your identity as a cop.</li>
-							</ul>
-						</div>
-						<div id="swatcommander" style="display:none" class="list">
-							<h1 style="text-align:center">SWAT Commander</h1>
-							<h2>In-Game Description:</h2>
-							<p>As a SWAT Commander, you are responsible for commanding other SWAT units. You are required to take orders from the mayor and police chief. You are not required to take orders from federal agents. Aside from rank, the Commander differs from
-								the regular SWAT units by not having grenades, having a shield, and having extra armor.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Command other SWAT officers.</li>
-								<br>
-								<li>Respond to highly dangerous situations that officers can't deal with alone, such as drug busts or bank robberies.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
-								<br>
-								<li>Has access to an AR-15, Desert Eagle, SWAT shield, battering ram, and police leash by default.</li>
-								<br>
-								<li>Has ability to command other SWAT units, weapon check players, and spawn government vehicles.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>You cannot pull over or fine people as SWAT. If you see a law breaker, report it to officers. If there are no officers available, only then are you permitted to take actions into your own hands.</li>
-							</ul>
-						</div>
-						<div id="swat" style="display:none" class="list">
-							<h1 style="text-align:center">SWAT</h1>
-							<h2>In-Game Description:</h2>
-							<p>As SWAT, you are to respond to situations that may involve explosives, high powered weapons, or a lot of people. You are to go on duty when an Officer calls in for assistance, or when you are told to by your commander.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Respond to highly dangerous situations that officers can't deal with alone, such as drug busts or bank robberies.</li>
-								<br>
-								<li>Take orders from the SWAT Commander. If there isn't one available, take orders from the police chief.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
-								<br>
-								<li>Has access to an AR-15, Desert Eagle, flashbangs, battering ram, and police leash by default.</li>
-								<br>
-								<li>Has ability to weapon check players and spawn government vehicles.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>You cannot pull over or fine people as SWAT. If you see a law breaker, report it to officers. If there are no officers available, only then are you permitted to take actions into your own hands.</li>
-							</ul>
-						</div>
-						<div id="ercommander" style="display:none" class="list">
-							<h1 style="text-align:center">ER Commander</h1>
-							<h2>In-Game Description:</h2>
-							<p>As the emergency responder commander, your job is to command your team of emergency responders. You dont typically go and respond to emergencies, unless it is a major one and your team needs you. You spend most of your time inspecting unsafe fire hazards and talking with the mayor.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Command emergency responders.</li>
-								<br>
-								<li>Fight fires and respond to medical emergencies yourself if needed.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to command other emergency responders, spawn fire trucks and ambulances, and heal and revive players.</li>
-								<br>
-								<li>Has access to the fire extinguisher and fire hose for fire-related emergencies and narcan for drug-related emergencies.</li>
-							</ul>
-						</div>
-						<div id="emergencyresponder" style="display:none" class="list">
-							<h1 style="text-align:center">Emergency Responder</h1>
-							<h2>In-Game Description:</h2>
-							<p>As an emergency responder, your job is to respond to emergency calls concerning fires and medical emergencies. You are permitted to use either the fire truck or the ambulance for your duties.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Extinguish fires using your equipment.</li>
-								<br>
-								<li>Respond to medical emergencies.</li>
-								<br>
-								<li>Take orders from your commander.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to spawn fire trucks and ambulances as well as heal and revive players.</li>
-								<br>
-								<li>Has access to the fire extinguisher and fire hose for fire-related emergencies and narcan for drug-related emergencies.</li>
-							</ul>
-						</div>
-						<div id="detective" style="display:none" class="list">
-							<h1 style="text-align:center">Detective</h1>
-							<h2>In-Game Description:</h2>
-							<p>As a detective, you have two ways to do your job. One way is to work with Law Enforcement to solve crimes and bring people to justice. The other way is to be hired by someone outside of Law Enforcement to privately investigate a crime that the police have ignored.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Be hired by a government official or civilian to help with a case.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to a free sidearm for protection while on a case.</li>
-								<br>
-								<li>Has ability to handcuff and weapon check players, investigate evidence left by killed players, and follow trails of killers for a small distance to help collect evidence.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>Unlike a normal government official, a detective does not have to report crimes. Much like a lawyer, anything that your clients say to you, stays between you and that client.</li>
-								<br>
-								<li>You may charge any amount for your services as long as you tell your client the price before you are hired.</li>
-								<br>
-								<li>You must do what you're paid to do. Lying about info just to get money or for any other reason is not allowed.</li>
-							</ul>
-						</div>
-						<div id="mechanic" style="display:none" class="list">
-							<h1 style="text-align:center">Mechanic</h1>
-							<h2>In-Game Description:</h2>
-							<p>Mechanics have the ability to tow vehicles if they are broken down, crashed, or illegally parked. They can also rent out cars to other players and sell cars via the car dealer NPC.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Respond to players who call about a crashed or broken down vehicle.</li>
-								<br>
-								<li>Patrol the streets looking for illegally parked cars to tow away or fine.</li>
-								<br>
-								<li>Rent out vehicles to players.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to repair and tow cars and semi trucks as well as fine players for illegally parking.</li>
-								<br>
-								<li>Has access to the rental and sell menus of the car dealer NPC as well as the tow truck NPC.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>You can only charge up to $600 per tow/repair, and up to $300 for a parking fine.</li>
-								<br>
-								<li>It is recommended that you adjust your charges according to distance towed and what percentage of vehicle health you had to restore.</li>
-								<br>
-								<li>You are not required to tow/repair all vehicles that need it, but it is recommended that you respond to all calls to maximize profits.</li>
-							</ul>
-						</div>
-						<div id="newscameraman" style="display:none" class="list">
-							<h1 style="text-align:center">News Cameraman</h1>
-							<h2>In-Game Description:</h2>
-							<p>The news cameraman goes around the city broadcasting any events that go down. These events can be anything the cameraman can find, such as a simple opportunity to interview the mayor, or something major such as a shootout.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Walk around with your camera reporting events that may go down throughout the city.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to the news camera.</li>
-								<br>
-								<li>Has ability to make money off of news TVs.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>You can report on any event that may go down. Some events that may get people to watch your broadcasts would be mayor elections, police situations, city events, etc.</li>
-								<br>
-								<li>When you are not on the streets broadcasting, you could set up a news station and have more staff. This way you can have interviews and indoor news broadcasts, such as reporting a past event or the weather.</li>
-							</ul>
-						</div>
-						<div id="hitman" style="display:none" class="list">
-							<h1 style="text-align:center">Hitman</h1>
-							<h2>In-Game Description:</h2>
-							<p>As a hitman, you earn money by taking hits from other players. To request a hit to a hitman, type !placehit in chat. You can then enter the player you want dead and the price you are paying to the hitman. If the hitman has a hit that he is currently on the job for, other hits cannot be placed. You can also earn extra money as a hitman by acting as a bounty hunter for government officials and getting paid to capture wanted players. Please note that as a hitman, you must supply your own weapons.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Complete hits that other players order.</li>
-								<br>
-								<li>(Optional) Take bounties for government officials and capture wanted criminals.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to take hits via the hit menu.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>Be aware that you can be held responsible for killing players depending on the current laws.</li>
-								<br>
-								<li>If you notice that a hit is constantly being placed on the same person for no reason, ignore the hit requests.</li>
-							</ul>
-						</div>
-						<div id="banker" style="display:none" class="list">
-							<h1 style="text-align:center">Banker</h1>
-							<h2>In-Game Description</h2>
-							<p>As a banker, your job is to hand out loans and store money in deposit boxes to collect interest from other players. Loans must come from your personal wallet, so make sure you have a good amount of money saved up. If there is an emergency event (such as a hostage situation) that requires a few thousand dollars, you are permitted to extract money from the check machine in the back of the bank and cash the check in at the banker NPC. You are by default permitted to carry weapons around the bank and banker NPC for protection. If you see any illegal activity going on inside the bank, you are to report it to police.</p>
-							<br>
-							<h2>Duties</h2>
-							<ul>
-								<li>Protect the bank from robbers and report any illegal activity to police.</li>
-								<br>
-								<li>Provide emergency funds to the government via the check machine when necessary.</li>
-								<br>
-								<li>(Optional) Deposit money for players.</li>
-								<br>
-								<li>(Optional) Give out loans to players and have them pay you back later.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items</h2>
-							<ul>
-								<li>Has access to the check machine.</li>
-								<br>
-								<li>Has ability to open and conceal carry in the bank without permission and make money off of players' deposit boxes</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules & Tips</h2>
-							<ul>
-								<li>It is recommended that you take note of the loans you give out so you can ensure that you get paid back even when the server closes.</li>
-							</ul>
-						</div>
-						<div id="cook" style="display:none" class="list">
-							<h1 style="text-align:center">Cook</h1>
-							<h2>In-Game Description:</h2>
-							<p>As a cook, it is your responsibility to feed everyone in the city. You can spawn a microwave and sell the food you make: /buymicrowave</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Serve players food through either delivery, drive-thru, or walk-in restaurant.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has access to the food section, microwave, and fish cooking stove of the F4 menu as well as the pizza system.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>If you would like to hand menus out to your customers, there is an item in the F4 menu called "Small Sign". Spawning this will give you a clipboard and pressing your use key on it will allow you to edit, save, and dupe it.</li>
-								<br>
-								<li>You must charge everyone the same price for food. You cannot charge more or less to specific people or groups.</li>
-								<br>
-								<li>You cannot deny service to anyone unless a player has done something to negatively affect you or your business.</li>
-								<br>
-								<li>It is recommended that you have a microwave set outside when your restaurant is closed.</li>
-								<br>
-								<li>When fishing, keep in mind that you cannot sell your fish to the NPC. Instead, you must cook the fish and sell it to other players.</li>
-							</ul>
-						</div>
-						<div id="busdriver" style="display:none" class="list">
-							<h1 style="text-align:center">Bus Driver</h1>
-							<h2>In-Game Description:</h2>
-							<p>The bus driver's duty is just as the name suggests: to drive buses. To spawn your bus, go to the car dealer where you would spawn a normal civilian car. You may create a set of rules that your passengers must follow such as setting bus stop locations or having your passengers remain quiet while on the bus. If a passenger doesn't follow these rules, you have a right to deny them service and kick them off of your bus.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Drive your bus around and make a profit off of transporting people.</li>
-							</ul>
-							<br>
-							<h2>Special Job-Specific Items:</h2>
-							<ul>
-								<li>Has ability to spawn a bus at the civilian car dealer.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>You may only charge up to $200 for each passenger to ride your bus.</li>
-								<br>
-								<li>You cannot deny service to anyone unless they have done something to negatively affect you or they have broken one of your bus rules.</li>
-							</ul>
-						</div>
-						<div id="citizen" style="display:none" class="list">
-							<h1 style="text-align:center">Citizen</h1>
-							<h2>In-Game Description:</h2>
-							<p>The Citizen is the most basic level of society you can hold. You have no specific role in city life, but there are plenty of things to still do.</p>
-							<br>
-							<h2>Duties:</h2>
-							<ul>
-								<li>Citizens have no set duties since they are not as limited as other jobs, but to give players an idea of what civilians can do, here is a list: Mining ores for cash, mining iron for crafting, farming for cash, farming for health, money printing, making drugs for personal use, making drugs for cash, running a business such as a gun store, logging for cash, logging for crafting, robbing ATMs, robbing the police bank, robbing the government bank, mugging players for cash, fishing, kidnapping someone and demanding cash for their release, and delivering packages through the courier system.</li>
-							</ul>
-							<br>
-							<h2>Job-Specific Rules/Tips:</h2>
-							<ul>
-								<li>If you are planning to rob a store, you can demand up to $500, or any item that the store sells that is worth or adds up to $500.</li>
-							</ul>
-						</div>
-					</div>
-					<!-- <footer>
-						<script>
-							const date = "12-6-20"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer> -->
+			</div>
+			<div class="pageright">
+				<div id="mayor" class="list">
+					<h1 style="text-align:center">Mayor</h1>
+					<h2>In-Game Description:</h2>
+					<p>The Mayor of the city creates laws and sets taxes to govern the city. If you are the mayor you may create and accept warrants. Type /wanted [name]  to warrant a player. Type /jailpos to set the Jail Position. Type /lockdown initiate a lockdown of the city. Everyone must be inside during a lockdown. The cops patrol the area. /unlockdown to end a lockdown.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Set taxes and laws for your city.</li>
+						<br>
+						<li>Act as a judge in a court session, or make a law enforcement official judge if you are one of the defendants.</li>
+						<br>
+						<li>Complete events to improve the city's economy.</li>
+						<br>
+						<li>Control government jobs such as the police force and emergency response.</li>
+						<br>
+						<li>Occasionally host events such as a building contest or a lottery to improve relations with your citizens.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to set taxes and laws that players have to play by, control government jobs, control the citys economy, buy perks to improve law enforcement, and fire government and law enforcement officials through the F6 menu.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>If a riot does take place, it is recommended that you place the city into a lockdown. Once the lockdown has started, any civilian who isn't going back to their home should be arrested by patrolling law enforcement. To start a lockdown, type "/lockdown" in chat. To end a lockdown, type "/unlockdown".</li>
+						<br>
+						<li>As Mayor, you have say on what laws the city has to follow, but if you choose certain laws that a lot of people don't like, they may protest or riot.</li>
+						<br>
+						<li>As Mayor, you can only use weapons in self defense and not to enforce laws.</li>
+						<br>
+						<li>It is recommended that you don't make unlawful decisions. A corrupt mayor could mean a dead mayor, and if you break your own laws, the IA Agent has the right to fire you and anyone who is working for you if they have the evidence to do so.</li>
+						<br>
+						<li>It is recommended that you don't make unfair laws. This could lead to a bad economy and angry citizens. When you are elected, it is recommended that you call all government officials and citizens to the city hall for a meeting on laws.</li>
+						<br>
+						<li>Setting taxes is probably the most important thing you will do as mayor. To set taxes for certain kinds of jobs, press F2. You can then purchase perks that will improve the economy and set taxes to improve funding for the perks.</li>
+						<br>
+						<li>There will always be someone in the city who hates your guts to no end, so security is a top priority. It is recommended that you travel in your limo and be accompanied by bodyguards to ensure 24/7 protection.</li>
+					</ul>
+				</div>
+				<div id="mayorsbodyguard" style="display:none" class="list">
+					<h1 style="text-align:center">Mayor's Bodyguard</h1>
+					<h2>In-Game Description:</h2>
+					<p>As the mayor's bodyguard your highest priority will always be the mayor. If he asks for your help, you are required to help. You are equipped with an assault rifle and a sidearm to always ensure that the mayor has the best protection.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Protect the mayor at all times.</li>
+						<br>
+						<li>Follow any orders you may receive from the mayor.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to an AR-15 assault rifle and FiveSeven pistol by default and grenades, assault rifles, shotguns, and sidearms if the weapon perks are activated by the mayor.</li>
+						<br>
+						<li>Has ability to weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>Bodyguards can also help out with law enforcement related things such as a drug bust or a firefight, but you must get permission from the mayor before doing so.</li>
+						<br>
+						<li>Setting up a safe house for the mayor is highly recommended.</li>
+						<br>
+						<li>During court sessions, the mayor is usually the judge. As the mayor's bodyguard, it is recommended that you stand guard inside the courtroom near the mayor for security.</li>
+						<br>
+						<li>You may have higher authority than the Police Chief, but this does not mean you can command him or any other law enforcement officials.</li>
+						<br>
+						<li>You can deny orders from the chief, but not the mayor. Denying orders from the mayor will result in you possibly getting fired. If the mayor tells you to do something that may be illegal or against server rules, talk it over with him or an admin to get it sorted out.</li>
+					</ul>
+				</div>
+				<div id="iaagent" style="display:none" class="list">
+					<h1 style="text-align:center">IA Agent</h1>
+					<h2>In-Game Description:</h2>
+					<p>As an internal affairs agent, it is your responsibility to ensure that all government and law enforcement officials are following the laws they enforce, and are not being corrupt. If you do find corruption within the government, your duty is to fire or arrest the law breakers. Specifically, corruption not only includes government officials breaking their own laws, but it also includes the mayor killing or arresting multiple people for no apparent reason. You are equipped with a sidearm for protection just incase things go south.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Investigate government and law enforcement officials for corruption if you suspect it.</li>
+						<br>
+						<li>Protect the mayor is there aren't any bodyguards or police officers to do so.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to a free Glock pistol and unmarked government vehicles.</li>
+						<br>
+						<li>Has ability to weapon check players, arrest government and law enforcement officials, and hold a public vote to fire the mayor.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>Don't arrest civilians for breaking the law, your job is to investigate law breakers within the city government.</li>
+						<br>
+						<li>Only arrest officials when you have solid evidence that they are corrupt.</li>
+					</ul>
+				</div>
+				<div id="policechief" style="display:none" class="list">
+					<h1 style="text-align:center">Police Chief</h1>
+					<h2>In-Game Description:</h2>
+					<p>As Police Chief, it is your responsibility to command, control, and take care of your Officers.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Command Police Officers, SWAT Commander, Undercover Officers.</li>
+						<br>
+						<li>Assist your officers with jobs.</li>
+						<br>
+						<li>Protect the mayor if no bodyguards are available.</li>
+						<br>
+						<li>Enforce all set laws.</li>
+						<br>
+						<li>Help out players throughout the city if needed.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to command some units of the police force, weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
+						<br>
+						<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
+						<br>
+						<li>Has access to a Desert Eagle, MP5, speed radar, spike strips, and battering ram by default.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules:</h2>
+					<ul>
+						<li>You may only tell the SWAT Commander what to do, you cannot individually command SWAT units unless there is no active SWAT Commander to do so.</li>
+						<br>
+						<li>You on the other hand get your orders from the mayor, who will usually tell you to enforce the new laws he has put down. Much like the bodyguards, you cannot deny orders from the mayor, but if you think an order is unlawful, talk it over with him.</li>
+					</ul>
+				</div>
+				<div id="policeofficer" style="display:none" class="list">
+					<h1 style="text-align:center">Police Officer</h1>
+					<h2>In-Game Description:</h2>
+					<p>The Police Officer may be the lowest ranking job with law enforcement, but it is undoubtedly the most important. As a Police Officer, your job is to patrol the streets, respond to emergencies, and look out for any suspicious activity.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Enforce all set laws.</li>
+						<br>
+						<li>Help out players throughout the city if needed.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
+						<br>
+						<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
+						<br>
+						<li>Has access to a Desert Eagle, MP5, speed radar, spike strips, and battering ram by default.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules:</h2>
+					<ul>
+						<li>A Police Officer's main duty is to follow orders from the police chief. If there is no police chief available, command will either go to SWAT or the mayor, depending on which is available first. If neither of those jobs are available to command, each individual officer will have to take all matters into their own hands.</li>
+					</ul>
+				</div>
+				<div id="undercoverofficer" style="display:none" class="list">
+					<h1 style="text-align:center">Undercover Officer</h1>
+					<h2>In-Game Description:</h2>
+					<p>As an undercover agent, your job is the same as the Police Officer, but steakouts and undercover work is added. This job is very important if you have a suspected criminal but don't have enough evidence to make an arrest.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Go on steakouts to try and catch a law breaker.</li>
+						<br>
+						<li>Pretend to become a criminal so you can help your fellow officers make a bust.</li>
+						<br>
+						<li>Patrol the streets if you are not on any other jobs.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>                
+						<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
+						<br>
+						<li>Has access to a P99, handheld speed radar, spike strips, and disguise kit by default.</li>
+						<br>
+						<li>Has ability to weapon check players and spawn government vehicles.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>Much like the police officer, you also get your orders from the police chief, so if you need something to do, ask the chief.</li>
+						<br>
+						<li>You are permitted to pull over anyone if you have a reason to, but that isn't your top priority. Your top priority is to make arrests while concealing your identity as a cop.</li>
+					</ul>
+				</div>
+				<div id="swatcommander" style="display:none" class="list">
+					<h1 style="text-align:center">SWAT Commander</h1>
+					<h2>In-Game Description:</h2>
+					<p>As a SWAT Commander, you are responsible for commanding other SWAT units. You are required to take orders from the mayor and police chief. You are not required to take orders from federal agents. Aside from rank, the Commander differs from
+						the regular SWAT units by not having grenades, having a shield, and having extra armor.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Command other SWAT officers.</li>
+						<br>
+						<li>Respond to highly dangerous situations that officers can't deal with alone, such as drug busts or bank robberies.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
+						<br>
+						<li>Has access to an AR-15, Desert Eagle, SWAT shield, battering ram, and police leash by default.</li>
+						<br>
+						<li>Has ability to command other SWAT units, weapon check players, and spawn government vehicles.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>You cannot pull over or fine people as SWAT. If you see a law breaker, report it to officers. If there are no officers available, only then are you permitted to take actions into your own hands.</li>
+					</ul>
+				</div>
+				<div id="swat" style="display:none" class="list">
+					<h1 style="text-align:center">SWAT</h1>
+					<h2>In-Game Description:</h2>
+					<p>As SWAT, you are to respond to situations that may involve explosives, high powered weapons, or a lot of people. You are to go on duty when an Officer calls in for assistance, or when you are told to by your commander.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Respond to highly dangerous situations that officers can't deal with alone, such as drug busts or bank robberies.</li>
+						<br>
+						<li>Take orders from the SWAT Commander. If there isn't one available, take orders from the police chief.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
+						<br>
+						<li>Has access to an AR-15, Desert Eagle, flashbangs, battering ram, and police leash by default.</li>
+						<br>
+						<li>Has ability to weapon check players and spawn government vehicles.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>You cannot pull over or fine people as SWAT. If you see a law breaker, report it to officers. If there are no officers available, only then are you permitted to take actions into your own hands.</li>
+					</ul>
+				</div>
+				<div id="ercommander" style="display:none" class="list">
+					<h1 style="text-align:center">ER Commander</h1>
+					<h2>In-Game Description:</h2>
+					<p>As the emergency responder commander, your job is to command your team of emergency responders. You dont typically go and respond to emergencies, unless it is a major one and your team needs you. You spend most of your time inspecting unsafe fire hazards and talking with the mayor.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Command emergency responders.</li>
+						<br>
+						<li>Fight fires and respond to medical emergencies yourself if needed.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to command other emergency responders, spawn fire trucks and ambulances, and heal and revive players.</li>
+						<br>
+						<li>Has access to the fire extinguisher and fire hose for fire-related emergencies and narcan for drug-related emergencies.</li>
+					</ul>
+				</div>
+				<div id="emergencyresponder" style="display:none" class="list">
+					<h1 style="text-align:center">Emergency Responder</h1>
+					<h2>In-Game Description:</h2>
+					<p>As an emergency responder, your job is to respond to emergency calls concerning fires and medical emergencies. You are permitted to use either the fire truck or the ambulance for your duties.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Extinguish fires using your equipment.</li>
+						<br>
+						<li>Respond to medical emergencies.</li>
+						<br>
+						<li>Take orders from your commander.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to spawn fire trucks and ambulances as well as heal and revive players.</li>
+						<br>
+						<li>Has access to the fire extinguisher and fire hose for fire-related emergencies and narcan for drug-related emergencies.</li>
+					</ul>
+				</div>
+				<div id="detective" style="display:none" class="list">
+					<h1 style="text-align:center">Detective</h1>
+					<h2>In-Game Description:</h2>
+					<p>As a detective, you have two ways to do your job. One way is to work with Law Enforcement to solve crimes and bring people to justice. The other way is to be hired by someone outside of Law Enforcement to privately investigate a crime that the police have ignored.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Be hired by a government official or civilian to help with a case.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to a free sidearm for protection while on a case.</li>
+						<br>
+						<li>Has ability to handcuff and weapon check players, investigate evidence left by killed players, and follow trails of killers for a small distance to help collect evidence.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>Unlike a normal government official, a detective does not have to report crimes. Much like a lawyer, anything that your clients say to you, stays between you and that client.</li>
+						<br>
+						<li>You may charge any amount for your services as long as you tell your client the price before you are hired.</li>
+						<br>
+						<li>You must do what you're paid to do. Lying about info just to get money or for any other reason is not allowed.</li>
+					</ul>
+				</div>
+				<div id="mechanic" style="display:none" class="list">
+					<h1 style="text-align:center">Mechanic</h1>
+					<h2>In-Game Description:</h2>
+					<p>Mechanics have the ability to tow vehicles if they are broken down, crashed, or illegally parked. They can also rent out cars to other players and sell cars via the car dealer NPC.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Respond to players who call about a crashed or broken down vehicle.</li>
+						<br>
+						<li>Patrol the streets looking for illegally parked cars to tow away or fine.</li>
+						<br>
+						<li>Rent out vehicles to players.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to repair and tow cars and semi trucks as well as fine players for illegally parking.</li>
+						<br>
+						<li>Has access to the rental and sell menus of the car dealer NPC as well as the tow truck NPC.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>You can only charge up to $600 per tow/repair, and up to $300 for a parking fine.</li>
+						<br>
+						<li>It is recommended that you adjust your charges according to distance towed and what percentage of vehicle health you had to restore.</li>
+						<br>
+						<li>You are not required to tow/repair all vehicles that need it, but it is recommended that you respond to all calls to maximize profits.</li>
+					</ul>
+				</div>
+				<div id="newscameraman" style="display:none" class="list">
+					<h1 style="text-align:center">News Cameraman</h1>
+					<h2>In-Game Description:</h2>
+					<p>The news cameraman goes around the city broadcasting any events that go down. These events can be anything the cameraman can find, such as a simple opportunity to interview the mayor, or something major such as a shootout.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Walk around with your camera reporting events that may go down throughout the city.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to the news camera.</li>
+						<br>
+						<li>Has ability to make money off of news TVs.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>You can report on any event that may go down. Some events that may get people to watch your broadcasts would be mayor elections, police situations, city events, etc.</li>
+						<br>
+						<li>When you are not on the streets broadcasting, you could set up a news station and have more staff. This way you can have interviews and indoor news broadcasts, such as reporting a past event or the weather.</li>
+					</ul>
+				</div>
+				<div id="hitman" style="display:none" class="list">
+					<h1 style="text-align:center">Hitman</h1>
+					<h2>In-Game Description:</h2>
+					<p>As a hitman, you earn money by taking hits from other players. To request a hit to a hitman, type !placehit in chat. You can then enter the player you want dead and the price you are paying to the hitman. If the hitman has a hit that he is currently on the job for, other hits cannot be placed. You can also earn extra money as a hitman by acting as a bounty hunter for government officials and getting paid to capture wanted players. Please note that as a hitman, you must supply your own weapons.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Complete hits that other players order.</li>
+						<br>
+						<li>(Optional) Take bounties for government officials and capture wanted criminals.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to take hits via the hit menu.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>Be aware that you can be held responsible for killing players depending on the current laws.</li>
+						<br>
+						<li>If you notice that a hit is constantly being placed on the same person for no reason, ignore the hit requests.</li>
+					</ul>
+				</div>
+				<div id="banker" style="display:none" class="list">
+					<h1 style="text-align:center">Banker</h1>
+					<h2>In-Game Description</h2>
+					<p>As a banker, your job is to hand out loans and store money in deposit boxes to collect interest from other players. Loans must come from your personal wallet, so make sure you have a good amount of money saved up. If there is an emergency event (such as a hostage situation) that requires a few thousand dollars, you are permitted to extract money from the check machine in the back of the bank and cash the check in at the banker NPC. You are by default permitted to carry weapons around the bank and banker NPC for protection. If you see any illegal activity going on inside the bank, you are to report it to police.</p>
+					<br>
+					<h2>Duties</h2>
+					<ul>
+						<li>Protect the bank from robbers and report any illegal activity to police.</li>
+						<br>
+						<li>Provide emergency funds to the government via the check machine when necessary.</li>
+						<br>
+						<li>(Optional) Deposit money for players.</li>
+						<br>
+						<li>(Optional) Give out loans to players and have them pay you back later.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items</h2>
+					<ul>
+						<li>Has access to the check machine.</li>
+						<br>
+						<li>Has ability to open and conceal carry in the bank without permission and make money off of players' deposit boxes</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules & Tips</h2>
+					<ul>
+						<li>It is recommended that you take note of the loans you give out so you can ensure that you get paid back even when the server closes.</li>
+					</ul>
+				</div>
+				<div id="cook" style="display:none" class="list">
+					<h1 style="text-align:center">Cook</h1>
+					<h2>In-Game Description:</h2>
+					<p>As a cook, it is your responsibility to feed everyone in the city. You can spawn a microwave and sell the food you make: /buymicrowave</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Serve players food through either delivery, drive-thru, or walk-in restaurant.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has access to the food section, microwave, and fish cooking stove of the F4 menu as well as the pizza system.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>If you would like to hand menus out to your customers, there is an item in the F4 menu called "Small Sign". Spawning this will give you a clipboard and pressing your use key on it will allow you to edit, save, and dupe it.</li>
+						<br>
+						<li>You must charge everyone the same price for food. You cannot charge more or less to specific people or groups.</li>
+						<br>
+						<li>You cannot deny service to anyone unless a player has done something to negatively affect you or your business.</li>
+						<br>
+						<li>It is recommended that you have a microwave set outside when your restaurant is closed.</li>
+						<br>
+						<li>When fishing, keep in mind that you cannot sell your fish to the NPC. Instead, you must cook the fish and sell it to other players.</li>
+					</ul>
+				</div>
+				<div id="busdriver" style="display:none" class="list">
+					<h1 style="text-align:center">Bus Driver</h1>
+					<h2>In-Game Description:</h2>
+					<p>The bus driver's duty is just as the name suggests: to drive buses. To spawn your bus, go to the car dealer where you would spawn a normal civilian car. You may create a set of rules that your passengers must follow such as setting bus stop locations or having your passengers remain quiet while on the bus. If a passenger doesn't follow these rules, you have a right to deny them service and kick them off of your bus.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Drive your bus around and make a profit off of transporting people.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>Has ability to spawn a bus at the civilian car dealer.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>You may only charge up to $200 for each passenger to ride your bus.</li>
+						<br>
+						<li>You cannot deny service to anyone unless they have done something to negatively affect you or they have broken one of your bus rules.</li>
+					</ul>
+				</div>
+				<div id="citizen" style="display:none" class="list">
+					<h1 style="text-align:center">Citizen</h1>
+					<h2>In-Game Description:</h2>
+					<p>The Citizen is the most basic level of society you can hold. You have no specific role in city life, but there are plenty of things to still do.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Citizens have no set duties since they are not as limited as other jobs, but to give players an idea of what civilians can do, here is a list: Mining ores for cash, mining iron for crafting, farming for cash, farming for health, money printing, making drugs for personal use, making drugs for cash, running a business such as a gun store, logging for cash, logging for crafting, robbing ATMs, robbing the police bank, robbing the government bank, mugging players for cash, fishing, kidnapping someone and demanding cash for their release, and delivering packages through the courier system.</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>If you are planning to rob a store, you can demand up to $500, or any item that the store sells that is worth or adds up to $500.</li>
+					</ul>
 				</div>
 			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
-	<script src="../js/jobs.js"></script>
 </html>

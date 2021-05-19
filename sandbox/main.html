@@ -5,58 +5,49 @@
         <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
     </head>
     <body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-				</div>
-				<div class="title">
-					<img src="https://lambdagaming.github.io/graphics/title.png">
-				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-					<h2>Sandbox General Rules</h2>
-					<p><u>Note: To see the specific rules regarding the server's basewars event, click <a href="https://lambdagaming.github.io/sandbox/base_wars_rules.html">here.</a></u></p>
-					<div class="list">
-						<ol>
-							<li>Along with these rules, be sure to read the community-wide rules which can be found by clicking <a href="https://lambdagaming.github.io/community_rules.html">here.</a></li>
-							<br>
-							<li>Don't build in the middle of high traffic areas. Examples of high traffic areas: Roads, footpaths, train tracks, spawn, any other areas that are regularly accessed by players and aren't regularly used for bases.</li>
-							<br>
-							<li>Don't abuse buildmode. Example of abuse: noclipping to get into someone's base and killing them, or walking into an enemy base with god mode on to see the layout of the base without risk of dying.</li>
-							<br>
-							<li>Don't damage vehicles until they are in-use so players have a fair chance to fight back.</li>
-						</ol>
-					</div>
-					<footer>
-						<script>
-							const date = "3-31-21"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
 				</div>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">Sandbox</h1>
+		<h2 class="headertitle2">General Rules</h2>
+		<div class="main">
+			<p>Note: To see the specific rules regarding the server's basewars event, click <a href="https://lambdagaming.github.io/sandbox/base_wars_rules.html">here.</a></p>
+			<div class="list">
+				<ol>
+					<li>Along with these rules, be sure to read the community-wide rules which can be found by clicking <a href="https://lambdagaming.github.io/community_rules.html">here.</a></li>
+					<br>
+					<li>Don't build in the middle of high traffic areas. Examples of high traffic areas: Roads, footpaths, train tracks, spawn, any other areas that are regularly accessed by players and aren't regularly used for bases.</li>
+					<br>
+					<li>Don't abuse buildmode. Example of abuse: noclipping to get into someone's base and killing them, or walking into an enemy base with god mode on to see the layout of the base without risk of dying.</li>
+					<br>
+					<li>Don't damage vehicles until they are in-use so players have a fair chance to fight back.</li>
+				</ol>
+			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>

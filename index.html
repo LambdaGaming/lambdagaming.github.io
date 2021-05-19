@@ -5,128 +5,119 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
+		<script src="js/navbar.js"></script>
+		<script>
+			const updated = "5-17-21"
+		</script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="background">
-				<div class="top_left">
-					<img src="graphics/lambda_srcds_2018.png" height=160 width=160>
-				</div>
-				<div class="title">
-					<img src="graphics/title.png">
-				</div>
-				<div class="article">
-					<div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-					<br>
-					<h1>About Us:</h1>
-					<p>We are a small gaming community mainly composed of a group of friends who used to play on a bunch of different Garry's Mod servers and came together to form this community. We occasionally host our own game servers, most of which are for Garry's Mod and Minecraft. We do not run our servers 24/7. Below is a list of all of our servers. Please note that all servers have the potential to be password locked for testing or private sessions without an announcement.</a></p>
-					<br>
-					<br>
-					<h1>Major Servers:</h1>
-					<p>These servers are opened and updated more than the others.</p>
-					<div class="list">
-						<ul>
-							<li>Garry's Mod CityRP (Plays like the default DarkRP gamemode but more advanced and takes place in a modern city environment. Rules are similar to those seen on Lawless RP servers.)</li>
-							<br>
-							<li>Garry's Mod Half-Life Universe RP (This is our custom gamemode based on the major events of the full Half-Life storyline.)</li>
-							<br>
-							<li>Garry's Mod Sandbox (Server from an old community, contains addons from other servers put together in a sandbox environment with dozens of maps.)</li>
-							<br>
-							<li>Garry's Mod Various Gamemodes Server (This server currently hosts the following gamemodes: Cops and Runners, Flood, Homicide, Jazztronauts, Prop Hunt, Pirate Ship Wars Remix, Pirates Vs Boners, Dropzone, Sledbuild, Stop it Slender, TTT, Trash Compactor, and Zombie Survival. )</li>
-						</ul>
-					</div>
-					<h1>Minor Servers:</h1>
-					<p>These servers aren't opened or updated very often but we still keep them so we have them ready when we do want to play on them.</p>
-					<div class="list">
-						<ul>
-							<li>Reign of Kings</li>
-							<br>
-							<li>Half-Life Deathmatch: Source</li>
-							<br>
-							<li>Half-Life 2 Deathmatch</li>
-							<br>
-							<li>Team Fortress 2</li>
-							<br>
-							<li>Half-Life Deathmatch (Includes extra maps.)</li>
-							<br>
-							<li>Ricochet (Includes extra maps and runs on the <a href="https://github.com/LambdaGaming/RicochetDefinitiveEdition">Ricochet Definitive Edition</a> mod.)</li>
-							<br>
-							<li>Team Fortress Classic</li>
-							<br>
-							<li>Counter-Strike 1.6</li>
-							<br>
-							<li>Half-Life: Opposing Force Deathmatch</li>
-							<br>
-							<li>Insurgency (Currently only hosting default maps.)</li>
-						</ul>
-					</div>
-					<h1>Private Servers:</h1>
-					<p>Only moderators and admins are allowed to join these servers most of the time. Community members and friends of mods/admins may be allowed to join under certain circumstances.</p>
-					<div class="list">
-						<ul>
-							<li>Minecraft Vanilla (Always runs the most up-to-date version of the game, not including snapshots.)</li>
-							<br>
-							<li>Minecraft Modded (Normal survival with basic rules, runs with around 50 mods on version 1.12.2.)</li>
-							<br>
-							<li>Minecraft Modded Unbalanced (Normal survival with little rules. Runs with around 60 OP mods that were rejected from the other servers. Runs on version 1.12.2. Only runs on beefy PCs!)</li>
-							<br>
-							<li>Minecraft Modded Unbalanced 2 (Same as Unbalanced but with different mods and more straight-forward rules. Runs on version 1.12.2.)</li>
-							<br>
-							<li>Minecraft Modded Earth (Runs the 1:1 scale Earth mod along with a few other mods. Players are allowed to use creative mode and teleport to build their bases but if they want to go to war with another player they can't use any of those features.)</li>
-							<br>
-							<li>Minecraft Modded RLCraft (Runs the most recent version of the RLCraft modpack. Not recommended for people with low amounts of patience.)</li>
-							<br>
-							<li>SCP: Secret Laboratory (Frequently updated with different mods.)</li>
-							<br>
-							<li>Broke Protocol: Online City RPG</li>
-							<br>
-							<li>Sven Co-Op</li>
-							<br>
-							<li>Killing Floor 2</li>
-							<br>
-							<li>Synergy (Currently hosting HL2, EP1, and EP2.)</li>
-							<br>
-							<li>BeamMP (Frequently updated with different mods.)</li>
-						</ul>
-					</div>
-					<h1>Planned Servers:</h1>
-					<p>These servers are in development and are not complete. They are usually restricted to superadmins and play testers only.</p>
-					<div class="list">
-						<ul>
-							<li>S&Box Half-Life Universe RP 2 (Details aren't planned out yet but the main goal is to remake our current HLU RP Gmod server in S&Box while improving things now that the limits of Gmod aren't an issue.)</li>
-							<br>
-							<li>S&Box CityRP 2 (Same deal as HLU RP 2 but with CityRP. Work on this will start once HLU RP 2 is near completion since it's expected that S&Box will have more Half-Life content on the workshop than anything else early on.)</li>
-							<br>
-							<li>S&Box Free For All (Revival of one of our old Gmod servers that basically let people roleplay in a sandbox environment with few restrictions and simple mechanics.)</li>
-						</ul>
-					</div>
-					<footer>
-						<script>
-							const date = "3-27-21" //Putting the date here so I can quickly scroll down and change it instead of scrolling down then over
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
 				</div>
 			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">Lambda Gaming</h1>
+		<h2 class="headertitle2">Welcome!</h2>
+		<div class="main">
+			<h1>About Us:</h1>
+			<p>We are a small gaming community mainly composed of a group of friends who used to play on a bunch of different Garry's Mod servers and came together to form this community. We occasionally host our own game servers, most of which are for Garry's Mod and Minecraft. We do not run our servers 24/7. Below is a list of all of our servers. Please note that all servers have the potential to be password locked for testing or private sessions without an announcement.</a></p>
+			<br>
+			<br>
+			<h1>Major Servers:</h1>
+			<p>These servers are opened and updated more than the others.</p>
+			<div class="list">
+				<ul>
+					<li>Garry's Mod CityRP (Plays like the default DarkRP gamemode but more advanced and takes place in a modern city environment. Rules are similar to those seen on Lawless RP servers.)</li>
+					<br>
+					<li>Garry's Mod Half-Life Universe RP (This is our custom gamemode based on the major events of the full Half-Life storyline.)</li>
+					<br>
+					<li>Garry's Mod Sandbox (Server from an old community, contains addons from other servers put together in a sandbox environment with dozens of maps.)</li>
+					<br>
+					<li>Garry's Mod Various Gamemodes Server (This server currently hosts the following gamemodes: Cops and Runners, Flood, Homicide, Jazztronauts, Prop Hunt, Pirate Ship Wars Remix, Pirates Vs Boners, Dropzone, Sledbuild, Stop it Slender, TTT, Trash Compactor, and Zombie Survival. )</li>
+				</ul>
+			</div>
+			<h1>Minor Servers:</h1>
+			<p>These servers aren't opened or updated very often but we still keep them so we have them ready when we do want to play on them.</p>
+			<div class="list">
+				<ul>
+					<li>Reign of Kings</li>
+					<br>
+					<li>Half-Life Deathmatch: Source</li>
+					<br>
+					<li>Half-Life 2 Deathmatch</li>
+					<br>
+					<li>Team Fortress 2</li>
+					<br>
+					<li>Half-Life Deathmatch (Includes extra maps.)</li>
+					<br>
+					<li>Ricochet (Includes extra maps and runs on the <a href="https://github.com/LambdaGaming/RicochetDefinitiveEdition">Ricochet Definitive Edition</a> mod.)</li>
+					<br>
+					<li>Team Fortress Classic</li>
+					<br>
+					<li>Counter-Strike 1.6</li>
+					<br>
+					<li>Half-Life: Opposing Force Deathmatch</li>
+					<br>
+					<li>Insurgency (Currently only hosting default maps.)</li>
+				</ul>
+			</div>
+			<h1>Private Servers:</h1>
+			<p>Only moderators and admins are allowed to join these servers most of the time. Community members and friends of mods/admins may be allowed to join under certain circumstances.</p>
+			<div class="list">
+				<ul>
+					<li>Minecraft Vanilla (Always runs the most up-to-date version of the game, not including snapshots.)</li>
+					<br>
+					<li>Minecraft Modded (Normal survival with basic rules, runs with around 50 mods on version 1.12.2.)</li>
+					<br>
+					<li>Minecraft Modded Unbalanced (Normal survival with little rules. Runs with around 60 OP mods that were rejected from the other servers. Runs on version 1.12.2. Only runs on beefy PCs!)</li>
+					<br>
+					<li>Minecraft Modded Unbalanced 2 (Same as Unbalanced but with different mods and more straight-forward rules. Runs on version 1.12.2.)</li>
+					<br>
+					<li>Minecraft Modded Earth (Runs the 1:1 scale Earth mod along with a few other mods. Players are allowed to use creative mode and teleport to build their bases but if they want to go to war with another player they can't use any of those features.)</li>
+					<br>
+					<li>Minecraft Modded RLCraft (Runs the most recent version of the RLCraft modpack. Not recommended for people with low amounts of patience.)</li>
+					<br>
+					<li>SCP: Secret Laboratory (Frequently updated with different mods.)</li>
+					<br>
+					<li>Broke Protocol: Online City RPG</li>
+					<br>
+					<li>Sven Co-Op</li>
+					<br>
+					<li>Killing Floor 2</li>
+					<br>
+					<li>Synergy (Currently hosting HL2, EP1, and EP2.)</li>
+					<br>
+					<li>BeamMP (Frequently updated with different mods.)</li>
+				</ul>
+			</div>
+			<h1>Planned Servers:</h1>
+			<p>These servers are in development and are not complete. They are usually restricted to superadmins and play testers only.</p>
+			<div class="list">
+				<ul>
+					<li>S&Box Half-Life Universe RP 2 (Details aren't planned out yet but the main goal is to remake our current HLU RP Gmod server in S&Box while improving things now that the limits of Gmod aren't an issue.)</li>
+					<br>
+					<li>S&Box CityRP 2 (Same deal as HLU RP 2 but with CityRP. Work on this will start once HLU RP 2 is near completion since it's expected that S&Box will have more Half-Life content on the workshop than anything else early on.)</li>
+					<br>
+					<li>S&Box Free For All (Revival of one of our old Gmod servers that basically let people roleplay in a sandbox environment with few restrictions and simple mechanics.)</li>
+				</ul>
+			</div>
 		</div>
+		<footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>

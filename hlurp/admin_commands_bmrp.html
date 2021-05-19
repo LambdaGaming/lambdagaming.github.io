@@ -2,86 +2,77 @@
 <html>
     <head>
         <title>BMRP: Facility Administrator Chat Commands - Lambda Gaming</title>
-        <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
-		<link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+		<link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
     </head>
     <body>
-        <div class="container">
-            <div class="background">
-                <div class="top_left">
-                    <img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-                </div>
-                <div class="title">
-                    <img src="https://lambdagaming.github.io/graphics/title.png">
-                </div>
-                <div class="article">
-                    <div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-                    <h1>BMRP: Facility Administrator Chat Commands</h1>
-                    <div class="list">
-                        <p><b>"!alarm"</b> Remotely activates the facility alarm system.</p>
+				</div>
+			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">Half-Life Universe RP</h1>
+		<h2 class="headertitle2">BMRP Facility Administrator Chat Commands</h2>
+		<div class="main">
+			<div class="list">
+				<p><b>"!alarm"</b> Remotely activates the facility alarm system.</p>
 
-                        <p><b>"/admindamage"</b> Used to call service personnel to a certain sector for damage control.</p>
-                        
-                        <p><b>"/adminevacuate"</b> Used to tell all personnel in sector D to evacuate.</p>
-                        
-                        <p><b>"/adminreport"</b> Used to tell personnel to bring reports to the admin.</p>
-                        
-                        <p><b>"/reportviolation"</b> Used to tell all personnel to look out for any security violations.</p>
-                        
-                        <p><b>"/scientistevacuate"</b> Used to tell all science personnel to evacuate sector C.</p>
-                        
-                        <p><b>"/securityreport"</b> Used to tell security personnel to report to sector D.</p>
-                        
-                        <p><b>"/biohazard"</b> Used to announce that there is a biohazard somewhere in the facility.</p>
-                        
-                        <p><b>"/servicereport"</b> Used to tell service personnel to report somewhere.</p>
-                        
-                        <p><b>"/hallaccess"</b> Used to announce that the maintenance door to Sector C is unlocked.</p>
-                        
-                        <p><b>"/reportams"</b> Used to tell all personnel to report to the AMS.</p>
-                        
-                        <p><b>"/mendown"</b> Used when players are killed.</p>
-                        
-                        <p><b>"/checkelevator"</b> Used to tell service personnel to inspect a broken elevator.</p>
-                        
-                        <p><b>"/tramworking"</b> Used to announce that the trams are running on time.</p>
-                        
-                        <p><b>"/badenergy"</b> Used to announce that there are high energy fields in sector D.</p>
-                        
-                        <p><b>"/detonations"</b> Used to announce that explosions were detected.</p>
-                        
-                        <p><b>"/failelevator"</b> Used to announce to not use the Sector C elevator.</p>
-                        
-                        <p><b>"/aliens"</b> Used to announce alien life was detected in sector C.</p>
-					</div>
-					<footer>
-						<script>
-							const date = "3-19-20"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
-                </div>
-            </div>
-        </div>
+				<p><b>"/admindamage"</b> Used to call service personnel to a certain sector for damage control.</p>
+				
+				<p><b>"/adminevacuate"</b> Used to tell all personnel in sector D to evacuate.</p>
+				
+				<p><b>"/adminreport"</b> Used to tell personnel to bring reports to the admin.</p>
+				
+				<p><b>"/reportviolation"</b> Used to tell all personnel to look out for any security violations.</p>
+				
+				<p><b>"/scientistevacuate"</b> Used to tell all science personnel to evacuate sector C.</p>
+				
+				<p><b>"/securityreport"</b> Used to tell security personnel to report to sector D.</p>
+				
+				<p><b>"/biohazard"</b> Used to announce that there is a biohazard somewhere in the facility.</p>
+				
+				<p><b>"/servicereport"</b> Used to tell service personnel to report somewhere.</p>
+				
+				<p><b>"/hallaccess"</b> Used to announce that the maintenance door to Sector C is unlocked.</p>
+				
+				<p><b>"/reportams"</b> Used to tell all personnel to report to the AMS.</p>
+				
+				<p><b>"/mendown"</b> Used when players are killed.</p>
+				
+				<p><b>"/checkelevator"</b> Used to tell service personnel to inspect a broken elevator.</p>
+				
+				<p><b>"/tramworking"</b> Used to announce that the trams are running on time.</p>
+				
+				<p><b>"/badenergy"</b> Used to announce that there are high energy fields in sector D.</p>
+				
+				<p><b>"/detonations"</b> Used to announce that explosions were detected.</p>
+				
+				<p><b>"/failelevator"</b> Used to announce to not use the Sector C elevator.</p>
+				
+				<p><b>"/aliens"</b> Used to announce alien life was detected in sector C.</p>
+			</div>
+		</div>
+        <footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>

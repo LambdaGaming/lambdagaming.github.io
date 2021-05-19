@@ -2,84 +2,75 @@
 <html>
     <head>
         <title>City 17 RP: Earth's Administrator Chat Commands - Lambda Gaming</title>
-        <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
-		<link rel="stylesheet" href="../../css/style.css">
-        <link rel="stylesheet" href="../../css/menu.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+		<link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/menu.css">
+		<script src="../js/navbar.js"></script>
+		<script>
+			const updated = "5-19-21"
+		</script>
     </head>
     <body>
-        <div class="container">
-            <div class="background">
-                <div class="top_left">
-                    <img src="https://lambdagaming.github.io/graphics/lambda_srcds_2018.png" height=160 width=160>
-                </div>
-                <div class="title">
-                    <img src="https://lambdagaming.github.io/graphics/title.png">
-                </div>
-                <div class="article">
-                    <div class="main_links">
-						<div class="navbar">
-							<a href="https://lambdagaming.github.io/index.html">Home</a>
-							<div class="dropdown">
-								<button class="dropbtn">Server Rules & Guidelines</button>
-								<div class="dropdown-content">
-									<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-									<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-									<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
-									<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
-									<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
-								</div>
-							</div>
-							<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
-							<a href="https://lambdagaming.github.io/events.html">Server Screenshots</a>
-							<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-							<a href="https://discord.gg/9RGdUS2">Discord</a>
-						</div>
+		<nav id="navbar">
+			<div id="menu" class="menu">
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
+				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Server Rules & Guidelines</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
+						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
+						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://lambdagaming.github.io/sandbox/main.html">Sandbox</a>
+						<a href="https://lambdagaming.github.io/various/main.html">Various Gamemodes</a>
 					</div>
-					<hr>
-                    <h1>City 17 RP: Earth's Administrator Chat Commands</h1>
-                    <div class="list">
-                        <p><b>"/person"</b> Attention please: unidentified person of interest - confirm your civil status with local protection team immediately.</p>
-                                    
-                        <p><b>"/anticiv"</b> Protection team alert: evidence of anti-civil activity in this community: code assemble, clamp, contain.</p>
-                                    
-                        <p><b>"/evadeciv"</b> Attention please: Evasion behavior consistent with mal-compliant defendant. Ground Protection Team: alert, code: isolate, expose, administer.</p>
-                                    
-                        <p><b>"/civreport"</b> Citizen reminder: inaction is conspiracy. Report counter-behavior to a Civil Protection team immediately.</p>
-                                    
-                        <p><b>"/position"</b> Attention please: All citizens in local residential block, assume your inspection positions.</p>
-                                    
-                        <p><b>"/failure"</b> Attention ground units. Mission failure will result in permanent offworld assignment. Code reminder: sacrifice, coagulate, clamp.</p>
-                                    
-                        <p><b>"/capitalmal"</b> Individual, you are charged with capital malcompliance. Anti-citizen status approved.</p>
-                                    
-                        <p><b>"/socifive"</b> Individual, you are now charged with Socio-Endangerment, level 5. Cease evasion immediately, receive your verdict.</p>
-                                    
-                        <p><b>"/violation"</b> Individual, you are convicted of multi-anti-civil violations. Implicit citizenship revoked, status: malignant</p>
-                                    
-                        <p><b>"/unrest"</b> Alert: Community Ground Protection units: Local unrest structure detected. Assemble, administer, pacify.</p>
-                                    
-                        <p><b>"/evasion"</b> Attention Protection Team: status evasion in progress in this community. Respond, isolate, inquire.</p>
-                                    
-                        <p><b>"/block"</b> Attention occupants: your block is now charged with permissive inactive coercion. 5 ration units deducted.</p>
-                                    
-                        <p><b>"/socione"</b> Individual: you are charged with Socio-endangerment, level 1. Protection Units: prosecution code: duty, sword, midnight.</p>
-                                    
-                        <p><b>"/check"</b> Citizen notice: priority identification check in progress. Please assemble in your designated inspection positions.</p>
-                                    
-                        <p><b>"/miscount"</b> Attention residents: miscount detected in your block. Cooperation with your Civil Protection team permits full ration reward.</p>
-                                    
-                        <p><b>"/relocation"</b> Citizen notice: Failure to cooperate will result in permanent off-world relocation.</p>
-                                    
-                        <p><b>"/exogen"</b> Alert. Nonstandard Exogen activity detected. Execute containment procedure and report.</p>
-					</div>
-					<footer>
-						<script>
-							const date = "11-27-19"
-						</script>
-						<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( date )</script>.</p>
-					</footer>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_srcds_2020_circle.png"></a>
+		</nav>
+		<h1 class="headertitle">Half-Life Universe RP</h1>
+		<h2 class="headertitle2">City 17 RP Earth's Administrator Chat Commands</h2>
+		<div class="main">
+			<div class="list">
+				<p><b>"/person"</b> Attention please: unidentified person of interest - confirm your civil status with local protection team immediately.</p>
+							
+				<p><b>"/anticiv"</b> Protection team alert: evidence of anti-civil activity in this community: code assemble, clamp, contain.</p>
+							
+				<p><b>"/evadeciv"</b> Attention please: Evasion behavior consistent with mal-compliant defendant. Ground Protection Team: alert, code: isolate, expose, administer.</p>
+							
+				<p><b>"/civreport"</b> Citizen reminder: inaction is conspiracy. Report counter-behavior to a Civil Protection team immediately.</p>
+							
+				<p><b>"/position"</b> Attention please: All citizens in local residential block, assume your inspection positions.</p>
+							
+				<p><b>"/failure"</b> Attention ground units. Mission failure will result in permanent offworld assignment. Code reminder: sacrifice, coagulate, clamp.</p>
+							
+				<p><b>"/capitalmal"</b> Individual, you are charged with capital malcompliance. Anti-citizen status approved.</p>
+							
+				<p><b>"/socifive"</b> Individual, you are now charged with Socio-Endangerment, level 5. Cease evasion immediately, receive your verdict.</p>
+							
+				<p><b>"/violation"</b> Individual, you are convicted of multi-anti-civil violations. Implicit citizenship revoked, status: malignant</p>
+							
+				<p><b>"/unrest"</b> Alert: Community Ground Protection units: Local unrest structure detected. Assemble, administer, pacify.</p>
+							
+				<p><b>"/evasion"</b> Attention Protection Team: status evasion in progress in this community. Respond, isolate, inquire.</p>
+							
+				<p><b>"/block"</b> Attention occupants: your block is now charged with permissive inactive coercion. 5 ration units deducted.</p>
+							
+				<p><b>"/socione"</b> Individual: you are charged with Socio-endangerment, level 1. Protection Units: prosecution code: duty, sword, midnight.</p>
+							
+				<p><b>"/check"</b> Citizen notice: priority identification check in progress. Please assemble in your designated inspection positions.</p>
+							
+				<p><b>"/miscount"</b> Attention residents: miscount detected in your block. Cooperation with your Civil Protection team permits full ration reward.</p>
+							
+				<p><b>"/relocation"</b> Citizen notice: Failure to cooperate will result in permanent off-world relocation.</p>
+							
+				<p><b>"/exogen"</b> Alert. Nonstandard Exogen activity detected. Execute containment procedure and report.</p>
+			</div>
+		</div>
+        <footer>
+			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+		</footer>
 	</body>
 </html>
