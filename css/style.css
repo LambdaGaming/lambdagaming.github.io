@@ -148,7 +148,7 @@ footer p {
 	display: inline-grid;
 	grid-template-columns: repeat(auto-fit, 49%);
 	column-gap:2%;
-	row-gap:0.25%;
+	row-gap:30px;
 	margin: 0;
 	padding: 0;
 }
