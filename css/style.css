@@ -1,7 +1,7 @@
 body {
 	background-color:#000011;
 	position:relative;
-	min-height:100%;
+	min-height: 100vh;
 	top:0px;
 	color:white;
 	margin:0;

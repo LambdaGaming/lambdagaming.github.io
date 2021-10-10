@@ -7,20 +7,20 @@ window.onscroll = () => {
 	{
 		nav.className = ""
 		dropdown.style.backgroundColor = "black"
-		navid.style.height = "10%"
+		navid.style.height = "108px"
 		menu.style.top = "27%"
 	}
 	else
 	{
 		nav.className = "scroll"
 		dropdown.style.backgroundColor = "#000011"
-		navid.style.height = "5%"
+		navid.style.height = "47px"
 		menu.style.top = "0%"
 	}
 }
 
 function ChangeLogoVisibility() {
-	if ( window.innerWidth <= screen.width * 0.60 )
+	if ( window.innerWidth <= screen.width * 0.65 )
 	{
 		const img = document.getElementById( "logo" )
 		img.style.display = "none"
