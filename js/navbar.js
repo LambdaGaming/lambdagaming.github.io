@@ -18,3 +18,19 @@ window.onscroll = () => {
 		menu.style.top = "0%"
 	}
 }
+
+function ChangeLogoVisibility() {
+	if ( window.innerWidth <= screen.width * 0.60 )
+	{
+		const img = document.getElementById( "logo" )
+		img.style.display = "none"
+	}
+	else
+	{
+		const img = document.getElementById( "logo" )
+		img.style.display = "inline"
+	}
+}
+
+window.onload = ChangeLogoVisibility
+window.onresize = ChangeLogoVisibility
