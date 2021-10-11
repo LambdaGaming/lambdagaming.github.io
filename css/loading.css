@@ -23,6 +23,7 @@
 
 body{
 	padding-top:5%;
+	min-height: 100%;
 }
 
 img.logo{
