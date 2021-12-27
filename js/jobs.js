@@ -7,6 +7,8 @@ function HideAllJobs() {
 
 function ChangeJob( id ) {
 	const job = document.getElementById( id )
+	const main = document.getElementById( "main" )
 	HideAllJobs()
 	job.style.display = "inline"
+	main.scrollIntoView()
 }
