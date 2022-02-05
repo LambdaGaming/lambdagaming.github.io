@@ -7,8 +7,13 @@
 		<link rel="stylesheet" href="../css/menu.css">
 		<script src="../js/navbar.js"></script>
 		<script>
-			const updated = "10-10-21"
+			const updated = "2-5-22"
 		</script>
+		<style>
+			h2, h3 {
+				margin-bottom: -20px;
+			}
+		</style>
     </head>
     <body>
 		<nav id="navbar">
@@ -33,75 +38,65 @@
 		<h1 class="headertitle">CityRP</h1>
 		<h2 class="headertitle2">Chat Commands</h2>
 		<div class="main">
-			<p>The following is a list of chat commands and their functions for the CityRP server. Angled brackets { } in a command means it's a required argument. Square brackets [ ] in a command means it's an optional argument. If you are viewing this from in-game, a list of chat commands for DarkRP can be found on the left.</p>
+			<p>The following is a list of chat commands and their functions for the CityRP server. Angled brackets { } in a command means it's a required argument. Square brackets [ ] in a command means it's an optional argument. If you are viewing this from in-game, a list of chat commands for the DarkRP gamemode specifically can be found on the left.</p>
 			<div class="list">
 				<hr>
-				<h2>!fixeco</h2>
-				<p>Mayor only. Adds 30 eco points at the cost of $300 from the mayor's funds.</p>
+				<h2>URL Commands</h2>
+				<p>These commands will open URLs for various community and server-related sites. You will be prompted before the URLs open in your Steam overlay.</p>
+				<h3>!addons</h3>
+				<p>Opens the page to the server addon collection.</p>
+				<h3>!group</h3>
+				<p>Opens the page to the Lambda Gaming Steam group.</p>
+				<h3>!rules</h3>
+				<p>Opens the CityRP Rules and Guidelines page. This page is also accessible from the F1 menu if you are using the x86-64 beta branch.</p>
 				<hr>
 
-				<h2>!fireoff</h2>
+				<h2>Gameplay Commands</h2>
+				<p>These commands are intended to be used during normal gameplay.</p>
+				<h3>!alert</h3>
+				<p>Alerts all police and emergency responders to your location. Requires that you have life alert, which can be purchased at the NPC shop.</p>
+				<h3>!alertcheck</h3>
+				<p>Tells you whether or not you have life alert equipped.</p>
+				<h3>!showid</h3>
+				<p>Prints in chat your real name, fake name, occupation, and government relationship.</p>
+				<h3>!currentevent</h3>
+				<p> Prints the current event in chat. Prints N/A if there is currently no event active.</p>
+				<h3>!placehit</h3>
+				<p>Opens the hitman menu where players can place a hit on someone they don't like. Note that placing a hit costs a certain amount of money depending on what you enter.</p>
+				<h3>!undercover</h3>
+				<p>Changes your job to Undercover Officer without notifying the rest of the server. It also changes your job name to Citizen to prevent your cover from being blown on the scoreboard.</p>
+				<hr>
+
+				<h2>Mayor Commands</h2>
+				<p>Only the mayor can use these commands.</p>
+				<h3>!fixeco</h3>
+				<p>Adds 30 eco points at the cost of $300 from the mayor funds. Will not work if there is less than $300 in the mayor funds.</p>
+				<hr>
+
+				<h2>IA Agent Commands</h2>
+				<p>Only the IA Agent can use these commands.</p>
+				<h3>!firemayor</h3>
+				<p>Starts a vote to fire the mayor. 75% of players must vote in favor for it to pass. Intended to be used if the mayor is doing a terrible job and the citizens want him removed from office peacefully.</p>
+				<hr>
+
+				<h2>Bus Driver Commands</h2>
+				<p>Only bus drivers can use these commands.</p>
+				<h3>!busstop</h3>
+				<p>Used during the bus passenger random event when the bus driver is in range of the destination to let the passenger know they can get off.</p>
+				<hr>
+
+				<h2>Admin Commands</h2>
+				<p>Only server admins can use these commands.</p>
+				<h3>!fireoff</h3>
 				<p>Admin only. Extinguishes all of the fires currently burning on the map.</p>
-				<hr>
-
-				<h2>!addons</h2>
-				<p>Available to all players. Opens the page to the addon collection in your Steam overlay.</p>
-				<hr>
-
-				<h2>!group</h2>
-				<p>Available to all players. Opens the page to the Lambda Gaming Steam group in your Steam overlay.</p>
-				<hr>
-
-				<h2>!rules</h2>
-				<p>Available to all players. Opens the CityRP Rules and Guidelines page on this website in your Steam overlay.</p>
-				<hr>
-
-				<h2>!alert</h2>
-				<p>Available to all players. Alerts all police and emergency responders to your location. Requires that you have life alert, which can be purchased at the NPC shop.</p>
-				<hr>
-
-				<h2>!alertcheck</h2>
-				<p>Available to all players. Tells the player whether or not they have life alert equipped.</p>
-				<hr>
-
-				<h2>!showid</h2>
-				<p>Available to all players. Prints in chat the real name, fake name, occupation, and government relationship of the calling player.</p>
-				<hr>
-
-				<h2>!firemayor</h2>
-				<p>IA Agent only. Starts a vote to fire the mayor. 75% of players must vote in favor for it to pass.</p>
-				<hr>
-
-				<h2>!currentevent</h2>
-				<p>Available to all players. Prints the current event in chat. Prints N/A if there is currently no event active.</p>
-				<hr>
-
-				<h2>!noclip [target]</h2>
+				<h3>!noclip [target]</h3>
 				<p>Admin only. Allows players to fly through solid objects. Leaving the target argument blank will enable noclip on the calling player.</p>
-				<hr>
-
-				<h2>!god [target]</h2>
+				<h3>!god [target]</h3>
 				<p>Admin only. Prevents the target player from being damaged. Leaving the target argument blank will enable god mode on the calling player.</p>
-				<hr>
-
-				<h2>!hp {target} {health}</h2>
+				<h3>!hp {target} {health}</h3>
 				<p>Admin only. Gives the target player the specified number of health. Use '^' as the target to give health to yourself, and use '*' as the target to give everyone health.</p>
-				<hr>
-
-				<h2>!freeze [target]</h2>
+				<h3>!freeze [target]</h3>
 				<p>Admin only. Freezes the target player in place so they cant move or use weapons. Leaving the target argument blank will freeze the calling player.</p>
-				<hr>
-
-				<h2>!placehit</h2>
-				<p>Available to all players. Opens the hitman menu where players can request a hit on anyone.</p>
-				<hr>
-
-				<h2>!undercover</h2>
-				<p>Available to all players. Changes the calling players job to Undercover Officer without notifying the rest of the server about the change. It also changes the calling players job name to Citizen to prevent cover from being blown on the scoreboard.</p>
-				<hr>
-
-				<h2>!busstop</h2>
-				<p>Bus driver only. Used during the bus passenger random event when the bus driver is in range of the destination to let the passenger know they can get off.</p>
 			</div>
 		</div>
 		<footer>
