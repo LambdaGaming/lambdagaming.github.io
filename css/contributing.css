@@ -1,0 +1,21 @@
+body {
+	background-color:#000011;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+li {
+	margin-left:0%;
+	margin-top:1%;
+}
+
+hr {
+	color:#FF5900;
+}
+
+.content {
+	background-color:black;
+	padding:10px;
+}
