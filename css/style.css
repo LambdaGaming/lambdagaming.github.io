@@ -4,7 +4,7 @@ body {
 	min-height: 100vh;
 	top:0px;
 	color:white;
-	margin:0;
+	margin:118px 0 0 0;
 }
 
 div.main {
@@ -27,13 +27,12 @@ div.list {
 
 .headertitle {
 	font-size:74px;
-	margin-top:10%;
-	margin-bottom:0;
+	margin:0 0 10px 0;
 	text-align:center;
 }
 
 .headertitle2 {
-	margin-top:0;
+	margin:0 0 10px 0;
 	font-size:56px;
 	text-align:center;
 }
