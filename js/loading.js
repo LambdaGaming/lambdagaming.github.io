@@ -1,6 +1,12 @@
 function WriteImage() {
-	var images = []
 	var id = ""
+	var images = []
+	var data
+	fetch( "../data/screenshots.json" )
+		.then( response => response.json() )
+		.then( json => {
+			data = json.data
+		} )
 
 	switch ( imageid ) {
 		case 1:
@@ -17,9 +23,9 @@ function WriteImage() {
 			break
 	}
 
-	for ( i = 0; i < data.length; i++ ) {
-		if ( data[i].id == id ) {
-			images.push( data[i].src )
+	for ( const pic of data ) {
+		if ( pic.id == id ) {
+			images.push( pic.src )
 		}
 	}
 
