@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="../css/menu.css">
 		<script src="../js/navbar.js"></script>
 		<script>
-			const updated = "5-27-22"
+			const updated = "7-4-22"
 		</script>
 		<script src="../js/jobs.js"></script>
     </head>
@@ -48,6 +48,8 @@
 					<br><br>
 					<a href="" onclick="ChangeJob( 'governmentman' ); return false">Government Man</a>
 					<br><br>
+					<a href="" onclick="ChangeJob( 'cremator' ); return false">Cremator</a>
+					<br><br>
 					<a href="" onclick="ChangeJob( 'metrocop' ); return false">Metrocop</a>
 					<br><br>
 					<a href="" onclick="ChangeJob( 'overwatchsoldier' ); return false">Overwatch Soldier</a>
@@ -62,7 +64,7 @@
 			<div class="pageright">
 				<div id="loyalcitizen" class="list">
 					<h1 style="text-align:center">Loyal Citizen</h1>
-					<h2>In-Game Description:</h2>
+					<h2>Description:</h2>
 					<p>Loyal citizens are people who survived the Seven Hour War, and were relocated to City 17 to be forced into a form of slavery. Every loyal citizens top priority is to do what the Combine tells them to do. Local citizens are, as you might expect, loyal to the Combine and will do what they are told, so they are not permitted to craft weapons and fight the Combine.</p>
 					<br>
 					<h2>Duties:</h2>
@@ -76,43 +78,38 @@
 						<li>Help the Combine by mining crafting materials for them.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
-					<ul>
-						<li>None</li>
-					</ul>
-					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
 						<li>You are not permitted to kill as this job unless it is self defense.</li>
 						<br>
-						<li>Don't enter places you know you aren't allowed to enter, or else you may be killed or arrested.</li>
+						<li>(Tip) You can help improve your relationship with the Combine by doing work for them, reporting any suspicious behavior, and staying away from restricted areas.</li>
 					</ul>
 				</div>
 				<div id="refugee" style="display:none" class="list">
 					<h1 style="text-align:center">Refugee</h1>
-					<h2>In-Game Description:</h2>
+					<h2>Description:</h2>
 					<p>Refugees are civilians of City 17 who have decided to fight against the combine. They typically create bases in areas of the city that are inaccessible to normal citizens to avoid detection.</p>
 					<br>
 					<h2>Duties:</h2>
 					<ul>
-						<li>Fight against the Combine.</li>
+						<li>Help build up an effective resistance against the Combine while remaining undetected.</li>
 					</ul>
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>None</li>
+						<li>(Entity) Rebel crafting table</li>
 					</ul>
 					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
 						<li>Don't kill other refugees or rebels unless they are betraying the rebellion.</li>
 						<br>
-						<li>Don't kill civilians unless you know they are helping the combine fight you in some way.</li>
+						<li>Don't kill civilians unless you know they are helping the Combine fight you in some way.</li>
 					</ul>
 				</div>
 				<div id="resistanceleader" style="display:none" class="list">
 					<h1 style="text-align:center">Resistance Leader</h1>
-					<h2>In-Game Description:</h2>
+					<h2>Description:</h2>
 					<p>The resistance leader is in charge of commanding the rebel force. It is their duty to recruit any refugees who are looking to fight the combine. It is recommended that you say hidden indoors and underground. Since you are one of the highest ranking members of the resistance, you cannot afford to get yourself captured and forced by the combine to give out resistance intel.</p>
 					<br>
 					<h2>Duties:</h2>
@@ -124,21 +121,19 @@
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has access to a SMG for defending refugees as well as a disguise kit.</li>
+						<li>(Weapon) SMG</li>
 						<br>
-						<li>Has ability to command refugees.</li>
+						<li>(Weapon) Disguise kit</li>
 					</ul>
 					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
-						<li>It's highly recommended that you stay out of sight of the combine to avoid being captured. If you do have to go outside though, make sure you are secured by plenty of refugees or at least have a disguise on.</li>
-						<br>
-						<li>To combine jobs: you cannot kill a disguised resistance leader dealer unless he/she has a rebel or leader playermodel. (Examples of leader models: Eli, Alyx, Mossman, Barney, Odessa)</li>
+						<li>(Tip) It's highly recommended that you stay out of sight to avoid being captured. If you do have to go outside though, make sure you are secured by plenty of refugees or at least have a disguise on.</li>
 					</ul>
 				</div>
 				<div id="scientist" style="display:none" class="list">
 					<h1 style="text-align:center">Scientist</h1>
-					<h2>In-Game Description:</h2>
+					<h2>Description:</h2>
 					<p>As a scientist, you spawn inside the jails of the citadel. Your task is to follow any orders the Combine gives you and help them research advanced weapons and units through the science locker. If and when the rebels free you from the Combine, your task is then to help the rebels get to the top of the citadel to activate the detonation codes.</p>
 					<br>
 					<h2>Duties:</h2>
@@ -150,21 +145,21 @@
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has access to the Combine science locker.</li>
+						<li>Access to the Combine science locker.</li>
 						<br>
-						<li>Has ability to activate the citadel detonation codes.</li>
+						<li>Ability to activate the citadel detonation codes.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules:</h2>
+					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
-						<li>You must follow all orders from the Combine. Failure to do so may lead to them killing you, giving the resistance less of a chance of victory.</li>
+						<li>(Tip) While captured, you should follow all orders from the Combine. Failure to do so may lead to them killing you, giving the resistance less of a chance of victory.</li>
 						<br>
-						<li>It's recommended that you have a rebel escort up to the detonation codes to avoid dying before they can be activated.</li>
+						<li>(Tip) Once freed, you should have a rebel escort up to the detonation codes to avoid dying before they can be activated.</li>
 					</ul>
 				</div>
 				<div id="vortigaunt" style="display:none" class="list">
 					<h1 style="text-align:center">Vortigaunt</h1>
-					<h2>In-Game Description:</h2>
+					<h2>Description:</h2>
 					<p>The vortigaunt is an alien species that has been enslaved by the Combine alongside humanity. Vorts are able to shoot fatal amounts of electricity from their hands and are very strong, allowing them to do things faster and easier compared to humans. By default, Vorts are under the rule of the Combine, but can be put under rebel command if given the opportunity.</p>
 					<br>
 					<h2>Duties:</h2>
@@ -174,10 +169,12 @@
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has ability to shoot lightning as well as mine rocks faster than humans.</li>
+						<li>(Weapon) Vortigaunt beam</li>
+						<br>
+						<li>Ability to mine faster than humans.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules:</h2>
+					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
 						<li>You must follow all orders from whoever is commanding you. By default, it's going to be the Combine.</li>
 						<br>
@@ -186,7 +183,7 @@
 				</div>
 				<div id="governmentman" style="display:none" class="list">
 					<h1 style="text-align:center">Government Man</h1>
-					<h2>In-Game Description:</h2>
+					<h2>Description:</h2>
 					<p>The Government Man for City 17 RP works like a spy. He can choose a side (combine or rebels) and help them by giving them advantages such as hidden base locations and attack plans. The Government Man can take two sides at once if he pleases. Players can turn on the Government Man if they have reason to believe he is a spy for the enemy, but they must have solid evidence before killing.</p>
 					<br>
 					<h2>Duties:</h2>
@@ -196,167 +193,167 @@
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has access to entire map under certain circumstances.</li>
-						<br>
-						<li>Has ability to teleport back and forth between two points.</li>
+						<li>(Weapon) Teleporter that allows for returning back to a saved position.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules:</h2>
+					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
-						<li>If you decide to help out both sides, try not to give away too much info about each side; it might result in you being killed for spying.</li>
+						<li>(Tip) If you decide to help out both sides, try not to give away too much info about each side; it might result in you being killed for spying.</li>
+					</ul>
+				</div>
+				<div id="cremator" style="display:none" class="list">
+					<h1 style="text-align:center">Cremator</h1>
+					<h2>Description:</h2>
+					<p>The cremator, much like the HECU in BMRP, are to only be used in the most extreme circumstances that Combine forces cannot handle alone. Cremators are equipped with flamethrowers, a very effective tool especially against the undead.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Assist other units where needed.</li>
 						<br>
-						<li>Do not abuse the teleportation system in any way.</li>
+						<li>Contain any and all outbreaks.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>(Weapon) Flamethrower</li>
+					</ul>
+					<br>
+					<h2>Job-Specific Rules/Tips:</h2>
+					<ul>
+						<li>(Tip) This is a special job that needs to be researched by a scientist in order to unlock.</li>
 					</ul>
 				</div>
 				<div id="metrocop" style="display:none" class="list">
 					<h1 style="text-align:center">Metrocop</h1>
-					<h2>In-Game Description:</h2>
-					<p>Civil Protection is essentially the Combine's thought police in all urban areas on Earth, including City 17. Part of the Combine Overwatch, CPs are ordinary human volunteers who have "willingly" joined the Combine, either for more privileges, such as additional food, better living conditions, an increase in authority and status over others, or out of genuine sympathy and identification with the Combine's aims. As such, they are not bio-mechanically modified in any way, unlike the two other Overwatch units.</p>
+					<h2>Description:</h2>
+					<p>Civil protection units are unmodified humans who have decided to join the ranks of the Combine. They mainly patrol apartment blocks and low-security checkpoints, and they take orders from all other Combine units.</p>
 					<br>
 					<h2>Duties:</h2>
 					<ul>
 						<li>Keep the city safe from any threats.</li>
 						<br>
-						<li>Patrol certain sectors of the city.</li>
+						<li>Follow orders from all other Combine roles.</li>
 						<br>
 						<li>Set up checkpoints in high traffic areas so citizens have to show an ID before passing through.</li>
 					</ul>
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has access to sidearms and SMGs.</li>
+						<li>(Weapon) Pistol</li>
 						<br>
-						<li>Has ability to setup checkpoints as well as patrol wherever they please, unless otherwise assigned a specific sector by the Earth Admin.</li>
+						<li>(Weapon) Stunstick</li>
 					</ul>
 					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
-						<li>Don't discharge your weapons unless it is REALLY necessary.</li>
-						<br>
-						<li>You can prop block for checkpoints, but you still need to let players through if you know they live in that certain sector. Don't think it's ok to not let someone through.</li>
-						<br>
-						<li>Ask permission from either the overwatch commander or a server admin before setting up a non-permanent checkpoint. This is only in place so players don't set up checkpoints in areas that shouldn't have one.</li>
-						<br>
-						<li>You are not allowed to patrol in areas that you know players like to hide out. Doing so would be considered metagaming and could result in a temporary job ban. This includes checking out the hidden rebel base and the sewers because you think rebels are hiding there. In other words, you need solid evidence that rebels are currently hiding there before you move in to raid.</li>
+						<li>You can prop block for checkpoints, but you still need to let players through if you know they live in that certain sector.</li>
 					</ul>
 				</div>
 				<div id="overwatchsoldier" style="display:none" class="list">
 					<h1 style="text-align:center">Overwatch Soldier</h1>
-					<h2>In-Game Description:</h2>
-					<p>Overwatch Soldiers are the basic trans-human infantry units of the Combine Overwatch, composing the backbone of the Combine's military presence on Earth. In contrast to Civil Protection, whose duties are to enforce order within suppressed population centers, soldiers of the Overwatch are tasked with more hazardous actions requiring skill and tact: from patrolling the treacherous borders of Combine-controlled territory to raiding Resistance-held strongholds.</p>
+					<h2>Description:</h2>
+					<p>Overwatch soldiers are the lowest level of trans-human units. Unlike civil protection, overwatch soldiers take on a more militaristic role and see much more action, but also longer periods of inactivity. When raiding rebel bases, these units are typically on the front lines.</p>
 					<br>
 					<h2>Duties:</h2>
 					<ul>
-						<li>Guard the citadel walls and any other possible entrances to the citadel.</li>
+						<li>Follow orders from overwatch elites and earth's administrator.</li>
 						<br>
-						<li>Help raid known rebel bases.</li>
-						<br>
-						<li>Assist metrocops in firefights.</li>
+						<li>Help raid known rebel bases and assist civil protection in firefights.</li>
 					</ul>
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has ability to be in the front line with metrocops when fighting rebels.</li>
+						<li>(Weapon) SMG</li>
 						<br>
-						<li>Has access to the Combine SMG and grenades as well as access to certain parts of the citadel.</li>
-					</ul>
-					<br>
-					<h2>Job-Specific Rules/Jobs:</h2>
-					<ul>
-						<li>Don't go to restricted parts of the citadel without permission from Earth's Administrator.</li>
-						<br>
-						<li>Your duty is not to patrol, so do not go patrolling with metrocops.</li>
-					</ul>
-				</div>
-				<div id="overwatchguard" style="display:none" class="list">
-					<h1 style="text-align:center">Overwatch Guard</h1>
-					<h2>In-Game Description:</h2>
-					<p>The Overwatch Guard is in charge of guarding and maintaining the Citadel and any other places that may have a major Overwatch presence. Guards can also use Combine sniper rifles and stand guard on top of a building.</p>
-					<br>
-					<h2>Duties:</h2>
-					<ul>
-						<li>Protect restricted areas mainly in the citadel.</li>
-						<br>
-						<li>Report any suspicious activity that goes on to Earth's Administrator.</li>
-					</ul>
-					<br>
-					<h2>Special Job-Specific Items:</h2>
-					<ul>
-						<li>Has access to the Combine sniper rifle and certain areas of the citadel.</li>
+						<li>(Weapon) Grenade</li>
 					</ul>
 					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
-						<li>Don't go to restricted parts of the citadel without permission from Earth's Administrator.</li>
+						<li>Your duty is not to patrol, so do not go patrolling with civil protection.</li>
 					</ul>
+				</div>
+				<div id="overwatchguard" style="display:none" class="list">
+					<h1 style="text-align:center">Overwatch Guard</h1>
+					<h2>Description:</h2>
+					<p>Overwatch Guards are in charge of defending and restricting access to the Citadel and any other places that may need to have a constant Combine presence.</p>
+					<br>
+					<h2>Duties:</h2>
+					<ul>
+						<li>Follow orders from overwatch elites and earth's administrator.</li>
+						<br>
+						<li>Protect all restricted areas that are under Combine control, but mainly the citadel.</li>
+						<br>
+						<li>Act as a field medic if necessary.</li>
+					</ul>
+					<br>
+					<h2>Special Job-Specific Items:</h2>
+					<ul>
+						<li>(Weapon) Sniper rifle</li>
+						<br>
+						<li>(Weapon) Binoculars</li>
+						<br>
+						<li>(Weapon) Medkit</li>
+					</ul>
+					<br>
 				</div>
 				<div id="overwatchelite" style="display:none" class="list">
 					<h1 style="text-align:center">Overwatch Elite</h1>
-					<h2>In-Game Description:</h2>
-					<p>Elites are tougher, achieve better accuracy with their weapons, and inflict more overall damage than regular soldiers do. They typically carry Overwatch Standard Issue Pulse Rifles, and are able to use the weapon's secondary fire Energy Ball.
-						They use this advantage without hesitation and with deadly accuracy. Elites also may be picked to protect the Earth's Admin's office.</p>
+					<h2>Description:</h2>
+					<p>The Overwatch elite, as the name implies, is the most elite unit of the trans-human army. Their humanity has been completely stripped away and what remains is a ruthless killing machine. These units are designed to be frontline soldiers in the worst environments imaginable.</p>
 					<br>
 					<h2>Duties:</h2>
 					<ul>
 						<li>Assist Overwatch Soldiers in firefights if needed.</li>
 						<br>
-						<li>Protect Earth's Administrator's office if he requests it.</li>
+						<li>Protect the Earth Admin's office if he requests it.</li>
 					</ul>
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has access to weapon shipments and restricted areas of the citadel.</li>
+						<li>(Weapon) AR2</li>
 						<br>
-						<li>Has ability to set up official Combine bases/hideouts for easy access to possible rebel activity.</li>
+						<li>(Entity) Various low-quantity weapon shipments</li>
 					</ul>
 					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
 						<li>You are permitted to take the role of the Earth Admin if there is currently no Earth Admin present and there are 5 or less players on the server.</li>
 						<br>
-						<li>ONLY discharge your weapons if you see a threat. The only exception is target practice in the citadel prison.</li>
-						<br>
-						<li>Don't go to restricted parts of the citadel without permission from Earth's Administrator.</li>
-						<br>
 						<li>Patrolling is not your job. Only go into the streets if you are ordered to.</li>
 						<br>
-						<li>Only set up Combine bases/hideouts close to areas that you know have rebel activity.</li>
-						<br>
-						<li>Only use your weapon shipments at official Combine bases, nowhere else.</li>
+						<li>(Tip) Only setup your weapon shipments in highly secured areas to prevent them from falling into rebel hands.</li>
 					</ul>
 				</div>
 				<div id="earthadmin" style="display:none" class="list">
 					<h1 style="text-align:center">Earth's Administrator</h1>
 					<p style="text-align:center"><u><a href="https://lambdagaming.github.io/hlurp/commands.html">Note: For a list of commands that go along with this job, click here.</a></u></p>
-					<h2>In-Game Descripton:</h2>
-					<p>Earth's Administrator is the former head of Black Mesa, and later named Earth's Admin under the Combine. From his headquarters on Earth in the Citadel of City 17, he is humanity's representative within the Combine.</p>
+					<h2>Descripton:</h2>
+					<p>Earth's Administrator is the former head of Black Mesa, and later named Earth's Admin under the Combine. He lives at the top of the citadel and commands all human and trans-human units of the Combine.</p>
 					<br>
 					<h2>Duties:</h2>
 					<ul>
-						<li>Keep City 17 in order and regularly have meetings with Combine forces.</li>
+						<li>Keep City 17 in order and command all Combine units.</li>
 						<br>
-						<li>Make city-wide alert announcements if necessary.</li>
+						<li>Make city-wide announcements to gain loyalty and inform citizens of important things.</li>
 					</ul>
-					<br>
-					<h2>In the Event of an Emergency:</h2>
-					<p>If something happens and action need to be taken, there are 3 things you can do as Earth's Administrator. You can either 1) Call a judgment waiver, 2) Call an autonomous waiver, or 3) Call a city lockdown.</p>
 					<br>
 					<h2>Special Job-Specific Items:</h2>
 					<ul>
-						<li>Has access to entire city, including Combine bases.</li>
+						<li>(Weapon) Announcement tool</li>
 						<br>
-						<li>Has ability to control the entire Combine force as well as spawn weapon shipments.</li>
+						<li>(Entity) Various high-quantity weapon shipments.</li>
 					</ul>
 					<br>
 					<h2>Job-Specific Rules/Tips:</h2>
 					<ul>
-						<li>Do not leave the citadel without an escort.</li>
-						<br>
-						<li>Only use your weapon shipments in certain areas of the Citadel.</li>
-						<br>
 						<li>You cannot use weapons for self defense if there are 4 or more combine units on the server.</li>
 						<br>
 						<li>You can only deploy soldiers, guards, and elites if the situation calls for any of them. For example, don't send out elites to patrol early in the game and rebels have even shown activity yet, and don't send out soldiers to raid an apartment for a small violation. Use metrocops to patrol and raid until the rebels have started to become an effective resistance.</li>
+						<br>
+						<li>(Tip) Do not leave the citadel without an escort to avoid being captured or killed.</li>
+						<br>
+						<li>(Tip) Only setup your weapon shipments in highly secured areas to prevent them from falling into rebel hands.</li>
 					</ul>
 				</div>
 			</div>
