@@ -1,3 +1,9 @@
+window.addEventListener( "load", function() {
+	if ( window.location.hash ) {
+		ChangeJob( window.location.hash.substring( 1 ) )
+	}
+} )
+
 function HideAllJobs() {
 	var elements = document.getElementsByClassName( "list" )
 	for ( var i=0; i < elements.length; i++ ) {
