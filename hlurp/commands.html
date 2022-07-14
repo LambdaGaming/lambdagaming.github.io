@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../css/menu.css">
 		<script src="../js/navbar.js"></script>
 		<script>
-			const updated = "5-27-22"
+			const updated = "7-14-22"
 		</script>
     </head>
     <body>
@@ -31,61 +31,86 @@
 			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_circle.png"></a>
 		</nav>
 		<h1 class="headertitle">Half-Life Universe RP</h1>
-		<h2 class="headertitle2">Chat Commands</h2>
+		<h2 class="headertitle2">Chat Commands & Keybindings</h2>
 		<div class="main">
 			<div class="list">
-				<h1>Facility Administrator</h1>
-				<p><b>"!alarm"</b> Remotely activates the facility alarm system.</p>
-				<p><b>"!announce"</b> Initializer for vox commands. Does nothing on its own. Below is a list of available vox announcements that can be used as arguments.</p>
+				<h1>Keybindings</h1>
+				<p><b>F1</b> - BMRP only. Opens the event menu for the Government Man and the task menu for the Facility Administrator.</p>
+				<p><b>F2</b> - Opens the door management menu. You must be looking at a door that is close to you and ownable for the menu to open.</p>
+				<p><b>F3</b> - Opens the buy menu.</p>
+				<p><b>F4</b> - Opens the job selection menu.</p>
+				<br>
+				<h1>Global Chat Commands</h1>
+				<p><b>/showid</b> - BMRP only. Displays your name and profession in chat. Useful for identifying yourself at a security checkpoint.</p>
+				<p><b>/y [message]</b> - Yell your message. Functions the same as normal text chat except the range is increased.</p>
+				<p><b>/w [message]</b> - Whisper your message. Functions the same as normal text chat except the range is decreased.</p>
+				<p><b>/me [action]</b> - Used in RP situations to perform an action that may not be possible in-game, such as kicking someone in the nuts.</p>
+				<p><b>/ooc [message]</b> - Global chat that can be seen by everyone on the server, no matter how far away from you they are. Not typically used for RP purposes.</p>
+				<p><b>// [message]</b> - Alternative to /ooc that is faster to type.</p>
+				<p><b>/advert [message]</b> - Similar to /ooc but is used for RP purposes.</p>
+				<p><b>/drop</b> - Drops the current weapon you are holding onto the ground. Default weapons such as the physgun, pocket, keys, etc. cannot be dropped.</p>
+				<p><b>/setr [channel]</b> - Sets your radio to the specified channel. All players have their radios tuned to channel 42.0 by default.</p>
+				<p><b>/r [message]</b> - Broadcasts your message on the currently set radio channel. Useful for communicating with someone without having to meet in-person, but keep in mind that anyone can tune to the channel you're using.</p>
+				<p><b>!addons</b> - Opens a link to the server's addon collection in your Steam overlay.</p>
+				<p><b>!group</b> - Opens a link to the Lambda Gaming Steam group in your Steam overlay.</p>
+				<p><b>!rules</b> - Opens a link to the main HLU RP page on this website in your Steam overlay.</p>
+				<p><b>!discord</b> - Prints the link to the Lambda Gaming Discord in your chat.</p>
+				<br>
+				<h1>Job-Specific Chat Commands</h1>
+				<h2>Facility Administrator</h2>
+				<p><b>!alarm</b> - Remotely toggles the facility alarm system.</p>
+				<p><b>!announce [announcement]</b> - Initializer for vox commands. Does nothing on its own. Below is a list of available announcements that can be used as arguments.</p>
 				<ul>
-					<li><b>damage</b> "Any damage control team to Sector C immediately."</li>
-					<li><b>evacuate</b> "Administration personnel evacuate Sector D immediately."</li>
-					<li><b>report</b> "Attention. Any Sector C science personnel please report status."</li>
-					<li><b>reportviolation</b> "Attention. Report any security violation to administration sub level one."</li>
-					<li><b>scientistevacuate</b> "Attention. Any Sector C science personnel evacuate area immediately."</li>
-					<li><b>security</b> "Attention. Security personnel to Sector D."</li>
-					<li><b>biohazard</b> "Biohazard warning in Sector B and C."</li>
-					<li><b>inspection</b> "Inspection team to radioactive materials handling bay."</li>
-					<li><b>hallaccess</b> "Maintenance area access granted."</li>
-					<li><b>reportams</b> "Sector C science personnel report to anomalous materials test lab."</li>
-					<li><b>mendown</b> "Security officer reports men down in Sector C."</li>
-					<li><b>checkelevator</b> "Service team check elevator one Sector C."</li>
-					<li><b>tram</b> "Transportation control reports all systems on time."</li>
-					<li><b>energy</b> "Warning. Anomalous energy field detected in administration center."</li>
-					<li><b>detonations</b> "Warning. High energy detonation detected in materials lab."</li>
-					<li><b>elevator</b> "Warning. Sector C elevator failure do not use."</li>
-					<li><b>aliens</b> "Warning. Unauthorized biological forms detected in Sector C."</li>
+					<li><b>damage</b> - "Any damage control team to Sector C immediately."</li>
+					<li><b>evacuate</b> - "Administration personnel evacuate Sector D immediately."</li>
+					<li><b>report</b> - "Attention. Any Sector C science personnel please report status."</li>
+					<li><b>reportviolation</b> - "Attention. Report any security violation to administration sub level one."</li>
+					<li><b>scientistevacuate</b> - "Attention. Any Sector C science personnel evacuate area immediately."</li>
+					<li><b>security</b> - "Attention. Security personnel to Sector D."</li>
+					<li><b>biohazard</b> - "Biohazard warning in Sector B and C."</li>
+					<li><b>inspection</b> - "Inspection team to radioactive materials handling bay."</li>
+					<li><b>hallaccess</b> - "Maintenance area access granted."</li>
+					<li><b>reportams</b> - "Sector C science personnel report to anomalous materials test lab."</li>
+					<li><b>mendown</b> - "Security officer reports men down in Sector C."</li>
+					<li><b>checkelevator</b> - "Service team check elevator one Sector C."</li>
+					<li><b>tram</b> - "Transportation control reports all systems on time."</li>
+					<li><b>energy</b> - "Warning. Anomalous energy field detected in administration center."</li>
+					<li><b>detonations</b> - "Warning. High energy detonation detected in materials lab."</li>
+					<li><b>elevator</b> - "Warning. Sector C elevator failure do not use."</li>
+					<li><b>aliens</b> - "Warning. Unauthorized biological forms detected in Sector C."</li>
 				</ul>
-				<h1>HECU Captain</h1>
-				<p><b>"!announce"</b> Initializer for vox commands. Does nothing on its own. Below is a list of available vox announcements that can be used as arguments.</p>
+				<br>
+				<h2>HECU Captain</h2>
+				<p><b>!announce [announcement]</b> - Initializer for vox commands. Does nothing on its own. Below is a list of available announcements that can be used as arguments.</p>
 				<ul>
-					<li><b>command</b> "Attention. This announcement system now under military command."</li>
-					<li><b>kos</b> "Alert. Military personnel, you are authorized to shoot the renegade on sight."</li>
-					<li><b>security</b> "Attention. All security personnel wanted for immediate questioning."</li>
-					<li><b>science</b> "Attention. All science personnel report topside for immediate questioning."</li>
-					<li><b>force</b> "Military personnel, prosecute delta alpha bravo with extreme force."</li>
-					<li><b>backup</b> "Search and destroy force reports backup required, engaged with extreme resistance."</li>
+					<li><b>command</b> - "Attention. This announcement system now under military command."</li>
+					<li><b>kos</b> - "Alert. Military personnel, you are authorized to shoot the renegade on sight."</li>
+					<li><b>security</b> - "Attention. All security personnel wanted for immediate questioning."</li>
+					<li><b>science</b> - "Attention. All science personnel report topside for immediate questioning."</li>
+					<li><b>force</b> - "Military personnel, prosecute delta alpha bravo with extreme force."</li>
+					<li><b>backup</b> - "Search and destroy force reports backup required, engaged with extreme resistance."</li>
 				</ul>
-				<h1>Earth's Administrator</h1>
-				<p><b>"!announce"</b> Initializer for overwatch commands. Does nothing on its own. Below is a list of available vox announcements that can be used as arguments.</p>
+				<br>
+				<h2>Earth's Administrator</h2>
+				<p><b>!announce [announcement]</b> - Initializer for overwatch commands. Does nothing on its own. Below is a list of available announcements that can be used as arguments.</p>
 				<ul>
-					<li><b>"person"</b> "Attention please: unidentified person of interest - confirm your civil status with local protection team immediately."</li>
-					<li><b>"anticiv"</b> "Protection team alert: evidence of anti-civil activity in this community: code assemble, clamp, contain."</li>
-					<li><b>"evadeciv"</b> "Attention please: Evasion behavior consistent with mal-compliant defendant. Ground Protection Team: alert, code: isolate, expose, administer."</li>
-					<li><b>"civreport"</b> "Citizen reminder: inaction is conspiracy. Report counter-behavior to a Civil Protection team immediately."</li>
-					<li><b>"position"</b> "Attention please: All citizens in local residential block, assume your inspection positions."</li>
-					<li><b>"failure"</b> "Attention ground units. Mission failure will result in permanent offworld assignment. Code reminder: sacrifice, coagulate, clamp."</li>
-					<li><b>"capitalmal"</b> "Individual, you are charged with capital malcompliance. Anti-citizen status approved."</li>
-					<li><b>"socifive"</b> "Individual, you are now charged with Socio-Endangerment, level 5. Cease evasion immediately, receive your verdict."</li>
-					<li><b>"violation"</b> "Individual, you are convicted of multi-anti-civil violations. Implicit citizenship revoked, status: malignant."</li>
-					<li><b>"unrest"</b> "Alert: Community Ground Protection units: Local unrest structure detected. Assemble, administer, pacify."</li>
-					<li><b>"evasion"</b> "Attention Protection Team: status evasion in progress in this community. Respond, isolate, inquire."</li>
-					<li><b>"block"</b> "Attention occupants: your block is now charged with permissive inactive coercion. 5 ration units deducted."</li>
-					<li><b>"socione"</b> "Individual: you are charged with Socio-endangerment, level 1. Protection Units: prosecution code: duty, sword, midnight."</li>
-					<li><b>"check"</b> "Citizen notice: priority identification check in progress. Please assemble in your designated inspection positions."</li>
-					<li><b>"miscount"</b> "Attention residents: miscount detected in your block. Cooperation with your Civil Protection team permits full ration reward."</li>
-					<li><b>"relocation"</b> "Citizen notice: Failure to cooperate will result in permanent off-world relocation."</li>
-					<li><b>"exogen"</b> "Alert. Nonstandard Exogen activity detected. Execute containment procedure and report."</li>
+					<li><b>person</b> - "Attention please: unidentified person of interest - confirm your civil status with local protection team immediately."</li>
+					<li><b>anticiv</b> - "Protection team alert: evidence of anti-civil activity in this community: code assemble, clamp, contain."</li>
+					<li><b>evadeciv</b> - "Attention please: Evasion behavior consistent with mal-compliant defendant. Ground Protection Team: alert, code: isolate, expose, administer."</li>
+					<li><b>civreport</b> - "Citizen reminder: inaction is conspiracy. Report counter-behavior to a Civil Protection team immediately."</li>
+					<li><b>position</b> - "Attention please: All citizens in local residential block, assume your inspection positions."</li>
+					<li><b>failure</b> - "Attention ground units. Mission failure will result in permanent offworld assignment. Code reminder: sacrifice, coagulate, clamp."</li>
+					<li><b>capitalmal</b> - "Individual, you are charged with capital malcompliance. Anti-citizen status approved."</li>
+					<li><b>socifive</b> - "Individual, you are now charged with Socio-Endangerment, level 5. Cease evasion immediately, receive your verdict."</li>
+					<li><b>violation</b> - "Individual, you are convicted of multi-anti-civil violations. Implicit citizenship revoked, status: malignant."</li>
+					<li><b>unrest</b> - "Alert: Community Ground Protection units: Local unrest structure detected. Assemble, administer, pacify."</li>
+					<li><b>evasion</b> - "Attention Protection Team: status evasion in progress in this community. Respond, isolate, inquire."</li>
+					<li><b>block</b> - "Attention occupants: your block is now charged with permissive inactive coercion. 5 ration units deducted."</li>
+					<li><b>socione</b> - "Individual: you are charged with Socio-endangerment, level 1. Protection Units: prosecution code: duty, sword, midnight."</li>
+					<li><b>check</b> - "Citizen notice: priority identification check in progress. Please assemble in your designated inspection positions."</li>
+					<li><b>miscount</b> - "Attention residents: miscount detected in your block. Cooperation with your Civil Protection team permits full ration reward."</li>
+					<li><b>relocation</b> - "Citizen notice: Failure to cooperate will result in permanent off-world relocation."</li>
+					<li><b>exogen</b> - "Alert. Nonstandard Exogen activity detected. Execute containment procedure and report."</li>
 				</ul>
 			</div>
 		</div>
