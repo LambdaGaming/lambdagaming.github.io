@@ -176,25 +176,28 @@ footer p {
 }
 
 .mainlogo {
+	width:100%;
+	height:100%;
+}
+
+.logocontainer {
 	float:left;
+	height:100%;
 	width:15%;
-	height:15%;
-	margin-top:9%;
 }
 
 .vertical {
 	border-left:3px solid #FF5900;
 	position:absolute;
+	margin-left:10px;
 }
 
 .vertical.cityrp {
 	height:550px;
-	margin-left:-35px;
 }
 
 .vertical.hlurp {
-	height:450px;
-	margin-left:10px;
+	height:300px;
 }
 
 .variouslist {
