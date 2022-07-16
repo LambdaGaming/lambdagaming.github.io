@@ -1,0 +1,645 @@
+{
+	"data":[
+		{
+			"name":"Accessory Vendor",
+			"desc":"Used to buy, sell, and equip various cosmetics that other players can see.",
+			"location":"Usually at the front desk of a clothing store."
+		},
+		{
+			"name":"ATM",
+			"desc":"Used to deposit and withdraw money, as well as taking out loans. A loan cannot be taken out if you currently have one that is not paid off.",
+			"location":"Usually in the main lobby of the city bank."
+		},
+		{
+			"name":"Banker",
+			"desc":"Used to cash-in checks and money bags. To use, press your use key on a check or money bag that is in range of the NPC.",
+			"location":"Usually standing along a road on the opposite side of the map from the bank."
+		},
+		{
+			"name":"Car Dealer",
+			"desc":"Used to buy, sell, and store vehicles. When selling a vehicle, you will receive 75% of what you bought it for. Spawning a new vehicle will remove and store your old one, so be aware of the rules surrounding that.",
+			"location":"Front desk of the car dealership."
+		},
+		{
+			"name":"Courier",
+			"desc":"Offers delivery jobs to players in exchange for cash. Packages need to be delivered to the specified player for the job to be completed. Packages can be stolen from players and sold for a higher price at the banker NPC.",
+			"location":"Usually standing near frequently used buildings such as gas stations, motels, and garages."
+		},
+		{
+			"name":"Contraband Dealer",
+			"desc":"Sells a variety of items that are illegal by default such as weed plants and money printers. The mayor can decide for each item whether or not it should remain illegal.",
+			"location":"Usually at the end of alleys located in between buildings."
+		},
+		{
+			"name":"Drug Dealer",
+			"desc":"Used to sell weed, meth, and cocaine. To sell your drugs, press your use key on a drug that is in range of the NPC. Government and police jobs have to wait 30 seconds before the money is dropped.",
+			"location":"Usually in an alley or along an outskirts road, away from popular areas."
+		},
+		{
+			"name":"Dumpster",
+			"desc":"Used to find items. Normal items have a 40% chance of spawning, and can range from simple fish bait to a crafting blueprint. Rare items have a 1% chance of spawning, and include drugs and weapons. Once a dumpster is searched, a 2 minute cooldown will be in effect before it can be searched again.",
+			"location":"Parking lots of popular buildings such as stores, gas stations, car dealerships, and hospitals."
+		},
+		{
+			"name":"Farmer",
+			"desc":"Used to sell farm food from crates. The amount of money you get depends on the types of food and their amounts.",
+			"location":"Usually in grassy areas of the main city such as parks or gardens."
+		},
+		{
+			"name":"Firefighter",
+			"desc":"Used by emergency responders to spawn fire trucks.",
+			"location":"Front desk or main lobby of the fire station."
+		},
+		{
+			"name":"Fisherman",
+			"desc":"Used to purchase fishing equipment such as bait, rods, and cages. Once you have caught some fish, you can go back and sell them for a profit.",
+			"location":"Usually on a dock near a large body of water."
+		},
+		{
+			"name":"Gas Pumps",
+			"desc":"Used as a faster but more expensive alternative to fuel cans. Pumping cas costs $300 (plus sales tax, if any) for civilians and is free to police and government jobs.",
+			"location":"All gas stations."
+		},
+		{
+			"name":"Government Bank Vault",
+			"desc":"Large vault that can hold up to $20,000. To rob, press your use key on the money pallet and money bags will spawn in front of you. The police will automatically be alerted to the robbery as soon as it starts. You can keep robbing until the amount reaches zero. After you are done robbing, you must take the bags to the banker NPC to get the cash.",
+			"location":"Inside the vault of the city bank."
+		},
+		{
+			"name":"Healer",
+			"desc":"Sells items to replenish health and armor.",
+			"location":"Front desk of the hospital."
+		},
+		{
+			"name":"Iron Refiner",
+			"desc":"Used to refine craftable items back into iron. To use, touch a craftable item with the refiner and the refining process will begin. Refining time varies depending on how much the item is worth. The refiner can only process one item at a time.",
+			"location":"Usually in industrial areas of the main city."
+		},
+		{
+			"name":"Item Bank",
+			"desc":"Storage unit that acts as a static, extended version of the player's inventory.",
+			"location":"Main lobby of the city bank, usually near the ATMs."
+		},
+		{
+			"name":"Jailbreaker",
+			"desc":"Used by criminals who have been arrested to break out of jail. To use, someone must first break you out of your cell. You can then press your use key on the jailbreaker to initiate a timer that will free you once it ends. Note that the police will be notified when the timer starts.",
+			"location":"Near the front desk of the police station."
+		},
+		{
+			"name":"Mayors Secretary",
+			"desc":"Used to enter the mayor elections. Elections will start once at least two players have entered. Elections will not start if there is already a mayor in office.",
+			"location":"Front desk of city hall."
+		},
+		{
+			"name":"Paramedic",
+			"desc":"Used by emergency responders to spawn emergency medical vehicles.",
+			"location":"Front desk of the hospital."
+		},
+		{
+			"name":"Police Bank Vault",
+			"desc":"Smaller vault that can hold up to $5,000. To rob, press your use key on the money pile and wait for the timer to finish. The police will be alerted to the robbery as soon as it starts. Leaving the area before the timer ends will cause the robbery to fail.",
+			"location":"Usually in an empty room in a secure area of the police station."
+		},
+		{
+			"name":"Police Secretary",
+			"desc":"Used by law enforcement and government officials to spawn police cars, SWAT trucks, and the mayor's limo.",
+			"location":"Front desk of the police station."
+		},
+		{
+			"name":"Purifier",
+			"desc":"Used to purify weed and cocaine into their marketable variants. To use, touch consumable weed or raw cocaine with the purifier. Each weed will take 45 seconds to purify, and each raw cocaine will take 10 minutes. You can stop the cocaine purifying process early to get a better purity by pressing your use key on the purifier. Once the drug is done purifying, it will spawn next to the purifier.",
+			"location":"Along main roads, usually in the outskirts away from the city."
+		},
+		{
+			"name":"Rock and Tree Grinders",
+			"desc":"Accepts cartloads of logs or ores. To use, fill a cart with ores or logs and take it to the appropriate grinder. Grinding time and cash earned depends on the amount of logs and the type of ores that are being processed.",
+			"location":"Usually in grassy areas along main roads."
+		},
+		{
+			"name":"Supermarket",
+			"desc":"Sells a wide variety of items such as low-grade weapons, vehicle repair tools, and media players. The supermarket only sells items that are legal by default, although some items that are sold can be used illegally.Items sold here are affected by sales tax set by the mayor.",
+			"location":"Stores located in popular areas of the city and/or outskirts."
+		},
+		{
+			"name":"Smuggle Seller",
+			"desc":"Used to buy illegal items to be shipped to the smuggle buyer. Items that can be smuggled vary in price, but the more expensive the item is, the higher the reward and risk.",
+			"location":"Usually in a parking lot in the main city."
+		},
+		{
+			"name":"Smuggle Buyer",
+			"desc":"Used to sell illegal items that were bought from the smuggle seller. To use, press your use key on the NPC with the your truck nearby. You will then receive payment for the smuggle and the truck will be removed.",
+			"location":"Usually in outskirts as far away from the main city as possible."
+		},
+		{
+			"name":"Soda Machine",
+			"desc":"Vending machine that deposits sodas, which restore a small amount of health. Each soda costs $30.",
+			"location":"Near the entrance of popular buildings such as city hall, PD, and the bank."
+		},
+		{
+			"name":"Tower",
+			"desc":"Used by the mechanic to spawn tow trucks.",
+			"location":"Front desk of the garage or repair shop."
+		},
+		{
+			"name":"Trucker",
+			"desc":"Used to rent trucks and trailers for transporting items. Purchasing a truck or trailer will spawn it in the nearest parking lot.",
+			"location":"Usually in the main city near large parking lots."
+		},
+		{
+			"name":"Speed Radar",
+			"desc":"Tracks the speed of a vehicle. To place it, aim close to the ground and left click. To remove it, walk up to it and right click. The fastest speed the radar has detected will be displayed on the radar itself, but it will send a notification to the officer who owns it whenever a speeder passes by.",
+			"user":"All police jobs except undercover officer"
+		},
+		{
+			"name":"Handheld Speed Radar",
+			"desc":"Handheld and more concealed version of the speed radar. Left click while looking at a moving vehicle to get a speed reading.",
+			"user":"Undercover officer"
+		},
+		{
+			"name":"Police Handcuffs",
+			"desc":"Restrains a player to prevent them from using weapons or running away. To cuff a player, left click. To uncuff a player, press your use key on them.",
+			"user":"All police jobs except SWAT"
+		},
+		{
+			"name":"Police Leash",
+			"desc":"Similar to the police handcuffs but allows the detaining officer to drag the cuffed player along with them. Press reload while looking at a cuffed player to attach the leash.",
+			"user":"SWAT"
+		},
+		{
+			"name":"Police Badge",
+			"desc":"Shiny badge to show the public that you are a real cop.",
+			"user":"All police jobs",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Spike Strip",
+			"desc":"Stops a vehicle by popping its tires. Vehicles with popped tires won't stop immediately after running over the strip. They will continue to move for a few seconds before slowing down enough to be stopped by another force. Spike strips that are left on the ground for 10 minutes will be removed and given back to the officer who placed it.",
+			"user":"All police jobs except undercover officer"
+		},
+		{
+			"name":"Taser",
+			"desc":"Non-lethal weapon that delivers a high-voltage shock to its target, preventing them from moving temporarily. Takes 3 seconds to charge up before firing.",
+			"user":"All police jobs",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Handheld Metal Detector",
+			"desc":"Scans for any weapons that the target player may have on them. If weapons are detected, the device will beep and display what weapons were found in the user's chat. Unlike the large walk-through metal detector, this will not detect explosives or weapons in a players inventory.",
+			"user":"All police jobs",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Battering Ram",
+			"desc":"Breaks down doors owned by players with active search warrants. Right click to hold it up into position and left click in front of the target door to force it open.",
+			"user":"All police jobs except undercover officer"
+		},
+		{
+			"name":"Arrest/Unarrest Sticks",
+			"desc":"The arrest stick teleports a player to jail after they have been cuffed. Users can select how long the arrestee is in jail for by left clicking on them. The unarrest stick releases a person from jail early and teleports them back to spawn.",
+			"user":"Police Chief, Police Officer, Undercover Officer, IA Agent"
+		},
+		{
+			"name":"Confiscation Tool",
+			"desc":"Takes weapons and non-default tools from a player. Once a player's items have been confiscated, you can either return them later or destroy them. While you are holding a player's items, you cannot confiscate from another player.",
+			"user":"All police jobs"
+		},
+		{
+			"name":"Car Bomb Checker",
+			"desc":"Scans for and defuses car bombs. Left click to scan the target vehicle for car bombs, and right click to defuse and remove the bomb if it exists.",
+			"user":"All police jobs except undercover officer and mayor's bodyguard"
+		},
+		{
+			"name":"Car Bomb Protection",
+			"desc":"Prevents players from planting car bombs on the target vehicle. To apply to a vehicle, touch the item with the vehicle. If the vehicle is respawned, its car bomb protection status will be removed.",
+			"user":"Mechanic"
+		},
+		{
+			"name":"Vehicle Management Tool",
+			"desc":"Tool with handy functions to make locked vehicles easier to tow. Left click to release the brakes on the target vehicle, and right click to rotate the vehicle 180 degrees.",
+			"user":"Mechanic"
+		},
+		{
+			"name":"Repair Tool",
+			"desc":"Fixes broken vehicles. Left click to gradually repair the target vehicle, and right click to repair the target vehicle's tires.",
+			"user":"Mechanic"
+		},
+		{
+			"name":"Tow Equipment",
+			"desc":"Attaches the tow truck to a vehicle that needs towed. To use, back your tow truck up to the very front of the target vehicle and left click while looking at the back of the tow truck.",
+			"user":"Mechanic"
+		},
+		{
+			"name":"Fuel Can",
+			"desc":"Fills up a vehicle with fuel. To use, walk up to a vehicle and left click. The can holds an infinite amount of fuel and does not need refilled.",
+			"user":"Mechanic"
+		},
+		{
+			"name":"Check Machine",
+			"desc":"Spawns checks that can be cashed in at the banker NPC. Only to be used in emergency situations where the money can't come from the city funds or the mayor's personal wallet.",
+			"location":"City bank, usually behind the front desk."
+		},
+		{
+			"name":"Bagged Deposit Box Money",
+			"desc":"Bag of money that was stolen from a player's deposit box. To cash one in, press your use key on the bag near the banker NPC.",
+			"other":"Robbing a deposit box"
+		},
+		{
+			"name":"Deposit Boxes",
+			"desc":"Stores money for players that accumulate interest over time. Both the banker and the owner of the deposit box will receive money from the interest. If the banker disconnects or changes jobs while money is still in the deposit boxes, that money will be automatically returned to its owner.",
+			"location":"City bank, usually in a secure room near the vault."
+		},
+		{
+			"name":"Deposit Box COmputer",
+			"desc":"Displays details about a player's deposit box such as the original deposited amount and the current amount.",
+			"location":"City bank, usually on a counter or desk near the deposit boxes."
+		},
+		{
+			"name":"Bronze Money Printer",
+			"desc":"Lowest quality money printer out of the five. Prints $50 every 3 minutes.",
+			"other":"Dumpster diving"
+		},
+		{
+			"name":"Cable Tie",
+			"desc":"Flimsy version of the police handcuffs. While not as strong, these have the ability to gag and blind players to prevent them from seeing or using voice chat.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Car Evictor",
+			"desc":"Kicks the driver out of a vehicle and unlocks the vehicle's door.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Chloride",
+			"desc":"One of the required ingredients for making meth. Goes into a meth pot.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Coca Plant",
+			"desc":"Comes in consumable and marketable variants. Outputs raw cocaine after spending a certain amount of time under a heat lamp. The amount of time required to grow depends on the variant of the plant.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Consumable-Grade Weed/Meth",
+			"desc":"Consumable-grade drugs cannot be sold but give you boosts such as increased health or armor. Taking too much can result in an overdose, which can lead to negative effects such as low health and slower walk speed.",
+			"other":"Cooking or growing with various equipment and ingredients"
+		},
+		{
+			"name":"Contraband Package",
+			"desc":"Similar to the courier package, except it contains an unknown illegal item. Once you buy it, you will get a message saying what NPC to deliver the package to. Once the package is near the target NPC, press your use key on it to deliver it and get a tier 2 blueprint as a reward. Packages can be stolen by pressing your use key on a package that doesn't belong to you.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Diamond Money Printer",
+			"desc":"Prints $350 every minute.",
+			"other":"Robbing the police bank (30% chance)"
+		},
+		{
+			"name":"Disguise Kit",
+			"desc":"Changes the user's playermodel to the selected job's playermodel. To use, left click and press the number associated with the job you want to disguise as. Note that if you take damage while disguised, the disguise will be removed and you will freeze in place for a few seconds.",
+			"user":"Undercover Officer",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Flashbang",
+			"desc":"Type of grenade that temporarily blinds players that look in the direction of the explosion.",
+			"user":"SWAT Officer",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Gas Can",
+			"desc":"Used to pour gas on the ground. To use, hold left click and move in the direction you want the stream to go. To ignite the gas, stand near the pour gas and right click.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Gold Money Printer",
+			"desc":"Cannot be put in your inventory. Prints $250 every minute.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Hacking Station",
+			"desc":"Used to hack and view stats of all currently active drones. To hack, press your use key on the console and type 'hack'. You will be asked to enter a password. Once you enter the password, it will list the ID of all available drones. See the drones rewrite addon for more information.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Heat Lamp",
+			"desc":"Provides heat to coca plants so they can grow. Has a 20% chance of catching fire every 5 minutes while turned on. Requires propane to work.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Leash",
+			"desc":"Variant of the cable tie that allows players to drag constrained players with them. Press reload while looking at the target player to toggle the leash.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Market-Grade Weed/Meth",
+			"desc":"Drugs that can be sold to the drug NPC but not consumed.",
+			"other":"Cooking or growing with various equipment and ingredients"
+		},
+		{
+			"name":"Meth Stove",
+			"desc":"Cooks meth inside meth pots that have the proper ingredients in them. Requires propane to work.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Meth Pot",
+			"desc":"Holds the ingredients used to cook meth. Place on a meth stove to start the cooking process once the required ingredients are inside. Press your use key on the pot to harvest the batch once its done cooking. Comes in consumable and marketable variants.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Molotov",
+			"desc":"Throwable glass bottle that starts a fire wherever it lands.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Platinum Money Printer",
+			"desc":"Prints $425 per minute.",
+			"other":"Robbing a deposit box (30% chance)"
+		},
+		{
+			"name":"Raw Cocaine",
+			"desc":"Raw form of cocaine that is output by a coca plant. Insert it into the purifier to turn it into pure cocaine.",
+			"other":"Growing from coca plant"
+		},
+		{
+			"name":"Silver Money Printer",
+			"desc":"Prints $150 every 2 minutes.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Smoke Grenade",
+			"desc":"Emits a cloud of smoke where it lands, making visibility very low.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Sodium",
+			"desc":"One of the required ingredients for making meth. Goes into a meth pot.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Weed Plant",
+			"desc":"Grows consumable-grade weed. Once the plant has fully grown, press your use key on it to harvest the weed and restart the growing cycle.",
+			"shop":"Contraband Dealer"
+		},
+		{
+			"name":"Seed",
+			"desc":"Many different seeds can be purchased and planted in dirt. Once a plant has grown food, you can harvest the food to eat and restore health, or to sell for a profit at the farmer NPC.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Shipping Crate",
+			"desc":"Transports grown crops to the farmer NPC to sell. To use, place the crate next to the farmer NPC and press your use key on the crate to empty it and receive a profit.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Defibrillator",
+			"desc":"Revives dead players that haven't respawned yet. To use, press your primary fire multiple times while near a players corpse.",
+			"user":"Emergency Responders"
+		},
+		{
+			"name":"Fire Extinguisher",
+			"desc":"Puts out fires by spraying a foam-like substance. Can be used an unlimited amount of times.",
+			"user":"Emergency Responders",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Med Kit",
+			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are healed near an ambulance.",
+			"user":"Emergency Responders"
+		},
+		{
+			"name":"Narcan",
+			"desc":"Cures any negative effects a player has from overdosing on drugs.",
+			"user":"Emergency Responders"
+		},
+		{
+			"name":"News Camera",
+			"desc":"Broadcasts a live feed of what you're looking at to news TVs. You can edit the ticker that appears at the bottom of the screen by right clicking.",
+			"user":"News Cameraman"
+		},
+		{
+			"name":"News TV",
+			"desc":"Displays a live feed of the news cameraman's camera.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Axe",
+			"desc":"Chops down trees.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Iron Rock",
+			"desc":"Yields iron that can be used in crafting when mined. Has a blue health bar.",
+			"location":"Scattered around the map, mostly outside of the city."
+		},
+		{
+			"name":"Ore Rock",
+			"desc":"Yields ores that can be collected in a cart and then processed and sold at the rock grinder. Has a red health bar.",
+			"location":"Scattered around the map, mostly in the city."
+		},
+		{
+			"name":"Log Cart",
+			"desc":"Holds up to 20 logs obtained from cutting down trees.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Ore Cart",
+			"desc":"Holds up to 20 ores obtained from mining ore rocks.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Pickaxe",
+			"desc":"Mines ore rocks and iron rocks.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Tree",
+			"desc":"Yields logs that can be used in crafting or sold for a profit. Their leaves are always red/orange to help distinguish them from map trees.",
+			"location":"Scattered around the map, mostly in wooded areas."
+		},
+		{
+			"name":"Car Bomb",
+			"desc":"Special type of explosive used specifically on vehicles. Detonates when a player enters the driver seat.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Frag Grenade",
+			"desc":"Throwable explosive that deals a great amount of damage for anyone nearby by launching fragments of it's metal shell outward.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Lockpick",
+			"desc":"Used to silent break into locked buildings and vehicles. To use, walk up to a door or vehicle, left click, and wait for the picking to finish. Looking away from the target door will reset the lockpicking.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Nano Drone",
+			"desc":"Small drone that is near impossible to detect without a hacking station. Does not emit a sound but also does not display as many stats as the spy drone.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Premium Lockpick",
+			"desc":"Same as the normal lockpick except the lockpicking time is cut in half, it creates no sound, and it does not set off car alarms.",
+			"other":"Crafting"
+		},
+		{
+			"name":"RPG",
+			"desc":"Rocket explosive that comes with 3 rockets. Once all 3 rockets have been fired, the RPG will remove itself.",
+			"other":"Crafting"
+		},
+		{
+			"name":"SLAM Remote Explosive",
+			"desc":"Explosive that can be detonated remotely from anywhere on the map. It can also be placed on walls and used as a tripmine.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Spider Drone",
+			"desc":"Has all of the abilities of the spy drone but it crawls instead of flies. It can also scale walls and walk on ceilings.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Timed C4",
+			"desc":"Plastic explosive with a timer that does large amounts of damage. Timer can range from 0 seconds to 10 minutes.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Toy Turtle",
+			"desc":"Hops around like a toy. Can be configured to play a different sound at a different speed by pressing your use key on it.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Wrench",
+			"desc":"Crafting ingredient used in advanced weapon recipes.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Crafting Blueprint",
+			"desc":"Crafting item for certain recipes. Comes in 3 tiers, which each tier containing better weapons. All blueprints get 3 uses before they are removed.",
+			"other":"Dumpster diving, buying at supermarket, completing events, and robbing banks."
+		},
+		{
+			"name":"Small Sign/Blue Book",
+			"desc":"Clipboard/book that allows you to edit and save text. You can transport this in your inventory, though it will not safe the text when the server closes. If you want to save the text, dupe the item.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Tip Jar",
+			"desc":"Used to give money to a person without being physically near them.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"30% Vehicle Health",
+			"desc":"Repairs a damaged vehicle by 30% of its max HP. To use, touch the kit with a damaged vehicle.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Business Sign",
+			"desc":"Simple sign that displays the text 'Open' or 'Closed'. Press your use key on it to change its status.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Camera Drone",
+			"desc":"Simple drone with a camera attached to it.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Crowbar",
+			"desc":"Can be used as a weapon or a tool for prying open ATMs.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Crafting Table",
+			"desc":"Used to craft other items such as weapons and tools with ingredients and blueprints.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Fuel Can",
+			"desc":"Fills up 75% of a vehicle's fuel tank. To use, touch it with a vehicle that needs fuel.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Large Metal Detector",
+			"desc":"Walk-through metal detector that can detect everything the handheld version can, as well as explosives and weapons in a players inventory. Requires a player to setup but not operate.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Life Alert",
+			"desc":"Alerts police and EMS to your location when you type !alert in chat if you have it equipped. Press your use key on it to equip it.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Media Player TV",
+			"desc":"Plays videos and music through a number of different websites including YouTube, Twitch, and Soundcloud. Press your use key to turn it on and hold C while looking at it to add media.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Ore Smelter",
+			"desc":"Smelts ores into precious metals. Smelting time depends on the ore that is being smelted. Only one ore can be smelted at a time.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Propane Canister",
+			"desc":"Contains propane for fueling the meth stove and heat lamp. To use, touch the canister with the stove or lamp and they will become welded to each other and ready to use. If needed, you can press your use key on the canister to detach it.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Slot Machine",
+			"desc":"Casino game that has a chance of rewarding a large payout. Each spin will deduct $100 and can reward anywhere from $5 to $20,000.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Spy Drone",
+			"desc":"Similar to the camera drone but can detect entities.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Alcohol Case",
+			"desc":"What the keg spawns when it's done brewing an alcoholic drink. Each case contains 6 bottles that can be consumed to restore up to 40 hunger.",
+			"other":"Brewing a drink with the keg."
+		},
+		{
+			"name":"Cooked Fish",
+			"desc":"Output of the cooking stove. Can be eaten to restore 50 HP and 20 hunger.",
+			"other":"Cooking a fish on the cooking stove."
+		},
+		{
+			"name":"Cooking Stove",
+			"desc":"Cooks fish you catch as a cook. To use, press your use key on it after catching some fish. A pot will appear to indicate that your fish are cooking. The fish will appear on the stove once they are done.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Keg",
+			"desc":"Creates alcoholic drinks using fruit and letting it brew for 100 seconds.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Keg Fruits",
+			"desc":"Various fruits that can be placed in a keg to create specific drinks.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Microwave",
+			"desc":"Quickly prepares a meal that restores full hunger. Yields a small profit for the cook.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Pizza Fridge",
+			"desc":"Sells ingredients for making pizza. Dough is the pizza base, and everything else is a topping.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"Pizza Oven",
+			"desc":"Cooks completed pizzas. Automatically starts once a pizza is placed inside, and will make noise when the pizza is done.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"One-Time-Use Health Kit",
+			"desc":"Fully restores a players health, then removes itself.",
+			"shop":"Healer"
+		},
+		{
+			"name":"One-Time-Use Armor Kit",
+			"desc":"Fully restores a players armor, then removes itself.",
+			"shop":"Healer"
+		}
+	]
+}
