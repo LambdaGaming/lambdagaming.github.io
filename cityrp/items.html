@@ -10,7 +10,7 @@
     </head>
 	<script>
 		const updated = "7-16-22"
-		LoadItems()
+		LoadItems( "../data/items_cityrp.json" )
 	</script>
     <body>
 		<nav id="navbar">
@@ -39,7 +39,7 @@
 				<input id="search" type="text" onkeyup="DisplaySearchResults()" placeholder="Search for an item...">
 			</div>
 			<hr>
-			<div id="list" class="list"><script>setTimeout( DisplaySearchResults, 100 )</script></div>
+			<div id="list" class="list"><script>setTimeout( DisplaySearchResults, 350 )</script></div>
 		</div>
 		<footer>
 			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>

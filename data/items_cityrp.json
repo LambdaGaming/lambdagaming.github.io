@@ -640,6 +640,39 @@
 			"name":"One-Time-Use Armor Kit",
 			"desc":"Fully restores a players armor, then removes itself.",
 			"shop":"Healer"
+		},
+		{
+			"name":"Ammo Locker",
+			"desc":"Supplies ammo for any gun. To use, press your use key on the locker and wait for the ammo to spawn on the ground. You will be charged a certain amount depending on the ammo type. Shotgun ammo is only obtainable by police jobs; civilians will need to craft it or steal it from the locker using a crowbar.",
+			"location":"Supermarkets and secure areas of the police station."
+		},
+		{
+			"name":"Pot Hole",
+			"desc":"Part of the roadwork event. Spawns in the road and has a chance of popping tires when a vehicle runs over it. It can be removed by a mechanic with a pickaxe."
+		},
+		{
+			"name":"Evidence",
+			"desc":"Package that spawns near a player's corpse if there is a detective currently on the server. Detectives can investigate them to learn the name of the victim and the killer.0"
+		},
+		{
+			"name":"Fish Bait",
+			"desc":"Lures fish to your rod. Each bait has 5 uses.",
+			"shop":"Fisherman"
+		},
+		{
+			"name":"Fishing Rod",
+			"desc":"Used to catch fish. Press reload to adjust your throwing strength and left click to cast your line. Once you start seeing splashes around your hook, right click to reel in what you caught.",
+			"shop":"Fisherman"
+		},
+		{
+			"name":"Fish Finder",
+			"desc":"Detects fish at different depths. Useful for seeing if the body of water you're fishing in is deep enough to contain rare fish. To use, hold it out while moving around a body of water.",
+			"shop":"Fisherman"
+		},
+		{
+			"name":"Fishing Pot",
+			"desc":"Automatically catches fish and stores them over time. It floats near the surface, so only common fish can be caught in it. To deploy it or harvest the fish inside, press your use key on it.",
+			"shop":"Fisherman"
 		}
 	]
 }

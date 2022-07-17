@@ -1,6 +1,6 @@
 var ItemList = []
-function LoadItems() {
-	fetch( "../data/items_cityrp.json" ).then( response => response.json() ).then( json => {
+function LoadItems( file ) {
+	fetch( file ).then( response => response.json() ).then( json => {
 		SaveJSON( json )
 	} )
 }
