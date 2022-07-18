@@ -47,7 +47,7 @@
 		},
 		{
 			"name":"Firefighter",
-			"desc":"Used by emergency responders to spawn fire trucks.",
+			"desc":"Used by emergency responders to spawn fire trucks and ambulances.",
 			"location":"Front desk or main lobby of the fire station."
 		},
 		{
@@ -89,11 +89,6 @@
 			"name":"Mayors Secretary",
 			"desc":"Used to enter the mayor elections. Elections will start once at least two players have entered. Elections will not start if there is already a mayor in office.",
 			"location":"Front desk of city hall."
-		},
-		{
-			"name":"Paramedic",
-			"desc":"Used by emergency responders to spawn emergency medical vehicles.",
-			"location":"Front desk of the hospital."
 		},
 		{
 			"name":"Police Bank Vault",
