@@ -1,0 +1,380 @@
+{
+	"data":[
+		{
+			"name":"Sleeping Bag",
+			"desc":"Acts as a mobile respawn point. Owned sleeping bags are colored the same as its owner, and unowned sleeping bags are colored gray. To own a sleeping bag, simply press your use key on an unowned one. You will then respawn on that sleeping bag as long as it exists.",
+			"rp":"Outland RP"
+		},
+		{
+			"name":"Lockpick",
+			"desc":"Used to silently break into locked buildings. To use, walk up to a door, left click, and wait for the picking to finish. Looking away from the target door will reset your progress.",
+			"rp":"City 17 RP & Outland RP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Med Kit",
+			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are healed near an ambulance. Right click to heal yourself.",
+			"rp":"All RPs",
+			"user":"Medic, Overwatch Guard, Rebel Medic"
+		},
+		{
+			"name":"Booby Traps",
+			"desc":"Various makeshift traps that get triggered by proximity or tripwire. To deploy a trap, press your use key on it.",
+			"rp":"City 17 RP & Outland RP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Broom",
+			"desc":"Clears decals such as blood spatter and bullet holes from any surface. Some surfaces may be harder to clean than others depending on how many decals are already on it.",
+			"rp":"BMRP",
+			"user":"Service Official"
+		},
+		{
+			"name":"Rebel Crafting Table",
+			"desc":"Crafting table that supplies weapons, tools, traps, and ammo for refugees and rebels.",
+			"rp":"City 17 RP & Outland RP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Biochemist Crafting Table",
+			"desc":"Crafting table that allows biochemists to create biological weapons and alien life forms.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Weapon Engineer Crafting Table",
+			"desc":"Crafting table that allows weapon engineers to create normal, prototype, and unusual weapons.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Combine Crafting Table",
+			"desc":"Crafting table that allows Combine units and scientists to craft science locker keys and defensive items including turrets.",
+			"rp":"City 17 RP & Outland RP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Vending Machines",
+			"desc":"Various types of vending machines that dispense food and drinks, which replenish HP. On BMRP, vending machines have a limited supply and need to be restocked by a service official after being used a certain amount of times. On City 17 RP, the food dispenser may be restricted by the Combine until they decide to allow for ration intakes.",
+			"rp":"BMRP & City 17 RP",
+			"location":"Commonly traveled areas such as tram stations or lobbies of public buildings."
+		},
+		{
+			"name":"Disguise Kit",
+			"desc":"Changes the user's playermodel to the selected job's playermodel. To use, left click and press the number associated with the job you want to disguise as. Note that if you take damage while disguised, the disguise will be removed and you will freeze in place for a few seconds.",
+			"rp":"City 17 RP & Outland RP",
+			"user":"Resistance Leader"
+		},
+		{
+			"name":"HECU Weapon Crate",
+			"desc":"Supplies military-grade weapons to HECU Marines at no cost. Only to be used when HECU units are in the facility and need to supply themselves to stop a threat.",
+			"rp":"BMRP",
+			"location":"Restricted and secured areas of the facility that are accessible to HECU jobs."
+		},
+		{
+			"name":"Combine Vehicle Shop",
+			"desc":"Supplies Combine vehicles such as hunter choppers and gunships to all Combine jobs.",
+			"rp":"Outland RP",
+			"location":"Usually near Combine bases or airports with enough room for the vehicles to spawn and take off."
+		},
+		{
+			"name":"Rebel Item Shop",
+			"desc":"Supplies JMod items such as turrets and radios to all rebel jobs.",
+			"rp":"Outland RP",
+			"location":"Usually in a storage room within the rebel base."
+		},
+		{
+			"name":"Radioactive Material Container",
+			"desc":"Stores radioactive materials to prevent them from damaging players. To insert a material, touch it with the container. To take one out, press your use key on the container.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Rebel Rocket",
+			"desc":"Rocket that sends the codes to close the Combine portal into a satellite in space. To start the launch procedure, press the button with the green light near the launch controls as a resistance leader. The launch can be aborted by Combine units if they manage to breach the base's defenses.",
+			"rp":"Outland RP",
+			"location":"Rocket silo of the rebel base."
+		},
+		{
+			"name":"Thermonuclear Device",
+			"desc":"Nuke that gets set off by the HECU Captain at the end of the cascade event. Needs taken to the nuke key to be set off. Changes the RP to City 17 RP after the explosion happens.",
+			"rp":"BMRP",
+			"shop":"HECU Weapon Crate"
+		},
+		{
+			"name":"Detonation Console",
+			"desc":"Activated by a scientist to detonate the citadel and change the RP to Outland RP.",
+			"rp":"City 17 RP",
+			"location":"Usually at the top of the citadel, in the earth admin's office."
+		},
+		{
+			"name":"High-Energy Crystal Fragment",
+			"desc":"Modified Xen crystal that has been broken up, causing it to become unstable. Has more destructive effects when used with various lab equipment, but can be used in crafting rare items.",
+			"rp":"BMRP",
+			"other":"Experimenting with harvested crystals."
+		},
+		{
+			"name":"Harvested Crystal",
+			"desc":"Crystal that has been mined from Xen. Can be used in crafting.",
+			"rp":"BMRP",
+			"other":"Mining a Xen crystal. (40% chance)"
+		},
+		{
+			"name":"Iron Bar",
+			"desc":"A simple bar of iron. Can be used in crafting.",
+			"rp":"City 17 RP & Outland RP",
+			"other":"Mining piles of rubble and rocks."
+		},
+		{
+			"name":"Xen Crystal",
+			"desc":"Minable crystal that has a 60% chance of dropping xen iron, and a 40% chance of dropping a harvested crystal.",
+			"rp":"BMRP",
+			"location":"Scattered around Xen."
+		},
+		{
+			"name":"Rubble Pile",
+			"desc":"Minable pile of rubble that yields iron. Has a red health bar.",
+			"rp":"City 17 RP",
+			"location":"Near rocks or other piles of rubble around the city."
+		},
+		{
+			"name":"Iron Rock",
+			"desc":"Yields iron that can be used in crafting when mined. Has a blue health bar.",
+			"rp":"Outland RP",
+			"location":"Scatter around the map near other rocks and inside caves or mines."
+		},
+		{
+			"name":"Tree",
+			"desc":"Yields logs that can be used in crafting. Their leaves are always red/orange to help distinguish them from map trees.",
+			"rp":"Outland RP",
+			"location":"Scattered around the map, usually in wooded areas."
+		},
+		{
+			"name":"Xen Tree",
+			"desc":"Minable organism that has a 90% chance of dropping organic matter, and a 10% chance of dropping rare organic matter.",
+			"rp":"BMRP",
+			"location":"Scattered around Xen, usually near other plant life."
+		},
+		{
+			"name":"Wood",
+			"desc":"Piece of wood used in crafting.",
+			"rp":"Outland RP",
+			"other":"Cutting down trees."
+		},
+		{
+			"name":"Wrench",
+			"desc":"Crafting ingredient used in recipes of more advanced weapons and tools.",
+			"rp":"City 17 RP & Outland RP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Radioactive Crystal",
+			"desc":"Xen crystal that has been modified to give off high amounts of radiation.",
+			"rp":"BMRP",
+			"other":"Experimenting with harvested crystals."
+		},
+		{
+			"name":"Lost Crystal",
+			"desc":"Part of the lost crystal event. Spawns in a random location on the map and requires a survey member to interact with it for it to be removed and the event to end.",
+			"rp":"BMRP"
+		},
+		{
+			"name":"Generator",
+			"desc":"Part of the power outage event. Requires a service official to interact with it to end the event.",
+			"rp":"BMRP",
+			"location":"Usually inside maintenance areas that are only accessible by the service official."
+		},
+		{
+			"name":"Portal Console",
+			"desc":"Part of the broken portal event. Requires a service official to hit it with a pipe wrench to end the event.",
+			"rp":"BMRP",
+			"location":"Usually near the rest of the controls for the Xen portal."
+		},
+		{
+			"name":"Server",
+			"desc":"Part of the broken server event. Requires a technician to interact with it to end the event.",
+			"rp":"BMRP",
+			"location":"Usually in popular areas of the facility, surrounded by other computers and tech stuff."
+		},
+		{
+			"name":"Ammo Locker",
+			"desc":"Supplies all jobs with ammo for almost any weapon at no charge.",
+			"rp":"All RPs",
+			"location":"Usually in secure areas of the facility or citadel such as gun ranges or jails."
+		},
+		{
+			"name":"Weapon Shipment",
+			"desc":"Box that holds 5-10 weapons of a single type depending on what job is spawning it. To take a weapon, press your use key on the box. Once all weapons are taken, the shipment will remove itself.",
+			"rp":"All RPs",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Iron Generator",
+			"desc":"Spawns a random amount of iron when interacted with. Has a 5 minute cooldown once used. Can be permanently destroyed if enough damage is dealt to it.",
+			"rp":"City 17 RP & Outland RP",
+			"location":"Usually in rarely traveled areas such as abandoned buildings, mines, or sewers."
+		},
+		{
+			"name":"Bunsen Burner",
+			"desc":"Common lab equipment that emits a controlled flame. Used for heating things.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Chemical Container",
+			"desc":"Lab equipment that holds chemicals. Used to perform chemical reactions with things.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Electric Generator",
+			"desc":"Portable gas generator that outputs electricity. Used to power or electrify things.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"High-Powered Laser Emitter",
+			"desc":"Emits a high-powered laser that can do serious damage if handled improperly, but is a very useful tool if used safely.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Liquid Nitrogen Capsule",
+			"desc":"Contains liquid nitrogen, a commonly used element for freezing things.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Nuclear Reactor",
+			"desc":"Small experimental nuclear reactor used for radiation research.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Science Locker Key",
+			"desc":"Unlocks something in the science locker such as a special job or weapon. To use, touch with the science locker.",
+			"rp":"City 17 RP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Nuke Key",
+			"desc":"Console that allows a nearby nuclear device to be set off.",
+			"rp":"BMRP",
+			"location":"Usually deep within the facility in rarely traveled areas such as storage sectors."
+		},
+		{
+			"name":"Organic Matter",
+			"desc":"Petri dish that contains samples of organic matter. Used in crafting.",
+			"rp":"BMRP",
+			"other":"Mining a Xen tree."
+		},
+		{
+			"name":"Cooked Organic Matter",
+			"desc":"Organic matter than has been heated enough to be edible.",
+			"rp":"BMRP",
+			"other":"Experimenting with organic matter."
+		},
+		{
+			"name":"Radioactive Organic Matter",
+			"desc":"Organic matter that emits low amounts of radiation. Used in crafting.",
+			"rp":"BMRP",
+			"other":"Experimenting with organic matter."
+		},
+		{
+			"name":"Rare Organic Matter",
+			"desc":"Organic matter with rare genomes and strange properties.",
+			"rp":"BMRP",
+			"other":"Mining a Xen tree. (10% chance)"
+		},
+		{
+			"name":"Outland Crate/Log/Generator",
+			"desc":"Items that could contain the codes to shutdown the Combine portal. To search for the codes, press your use key on the item.",
+			"rp":"Outland RP",
+			"location":"Scattered around the outlands."
+		},
+		{
+			"name":"Item Cache",
+			"desc":"Cache that can supply players with turret ammo, turret batteries, food, or medical items. Resupplies itself with a random item 3 minutes after being looted.",
+			"rp":"Outland RP",
+			"location":"Scatted around the outlands."
+		},
+		{
+			"name":"Rebel Teleporter",
+			"desc":"Teleports players to restricted areas controlled by the Combine for easy infiltration. Has a 7 second windup time.",
+			"rp":"City 17 RP & Outland RP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Satellite Control Console",
+			"desc":"Used by the rebels to forcefully destroy the Combine portal. Requires the rebels to have the portal codes, which can be found in certain objects scattered around the map. Once the portal is destroyed, it will explode with such force that the outlands get reduced to a wasteland.",
+			"rp":"Outland RP",
+			"location":"Inside the Combine base, usually locked behind a secure door."
+		},
+		{
+			"name":"Science Locker",
+			"desc":"Used by the scientist to research things for the Combine. Requires a science locker key for each item researched.",
+			"rp":"City 17 RP",
+			"location":"Usually inside secure areas of the citadel such as gun ranges or jails."
+		},
+		{
+			"name":"Trash Compactor",
+			"desc":"Removes trash collected by a service official. Rewards service officials with a small amount of funds for keeping the facility clean.",
+			"rp":"BMRP",
+			"location":"Usually in large storage areas."
+		},
+		{
+			"name":"Trash",
+			"desc":"Unused materials that have been thrown away by a service official and can now be put in a trash compactor.",
+			"rp":"BMRP",
+			"other":"Using a trash bag on an unused crafting material."
+		},
+		{
+			"name":"Two-Way Rebel Teleporter",
+			"desc":"Similar to the regular rebel teleporter but needs to be linked with another two-way teleporter via the link tool. Once two teleporters are linked, players can teleport between the two.",
+			"rp":"City 17 RP & Outland RP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Vending Machine Resupply",
+			"desc":"Resupplies empty vending machines. To use, simply touch with an interactable vending machine.",
+			"rp":"BMRP",
+			"shop":"F3 Menu"
+		},
+		{
+			"name":"Xen Iron",
+			"desc":"Alien metal that can be used in crafting.",
+			"rp":"BMRP",
+			"other":"Mining a Xen crystal. (60% chance)"
+		},
+		{
+			"name":"Radioactive Xen Iron",
+			"desc":"Xen iron that emits low amounts of radiation. Used in crafting.",
+			"rp":"BMRP",
+			"other":"Experimenting with Xen iron."
+		},
+		{
+			"name":"Refined Xen Iron",
+			"desc":"Xen iron that has been refined to be more pure. Used in crafting rare items.",
+			"rp":"BMRP",
+			"other":"Experimenting with Xen iron."
+		},
+		{
+			"name":"Gman Teleporter",
+			"desc":"Allows players to teleport back to a saved point. Right click to save a point, and left click to teleport back to that saved point.",
+			"rp":"BMRP & City 17 RP",
+			"user":"Government Man"
+		},
+		{
+			"name":"Trash Bag",
+			"desc":"Used to throw away unused crafting materials. To use, left click while looking at a crafting material.",
+			"rp":"BMRP",
+			"user":"Service Official"
+		},
+		{
+			"name":"Two-Way Portal Pairing Tool",
+			"desc":"Links and unlinks 2 two-way rebel teleporters together. To link, left click on both teleporters. To unlink, right click on one of the teleporters.",
+			"rp":"City 17 RP & Outland RP",
+			"user":"Resistance Leader"
+		}
+	]
+}

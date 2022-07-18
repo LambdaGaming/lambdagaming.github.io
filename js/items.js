@@ -22,6 +22,11 @@ function DisplaySearchResults() {
 			desc.innerHTML = `Description: ${item.desc}`
 			div.append( title, desc )
 
+			if ( item.hasOwnProperty( "rp" ) ) {
+				var rp = document.createElement( "p" )
+				rp.innerHTML = `Available on: ${item.rp}`
+				div.append( rp )
+			}
 			if ( item.hasOwnProperty( "location" ) ) {
 				var location = document.createElement( "p" )
 				location.innerHTML = `Location: ${item.location}`

@@ -403,7 +403,7 @@
 		},
 		{
 			"name":"Med Kit",
-			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are healed near an ambulance.",
+			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are healed near an ambulance. Right click to heal yourself.",
 			"user":"Emergency Responders"
 		},
 		{
@@ -468,8 +468,9 @@
 		},
 		{
 			"name":"Lockpick",
-			"desc":"Used to silent break into locked buildings and vehicles. To use, walk up to a door or vehicle, left click, and wait for the picking to finish. Looking away from the target door will reset the lockpicking.",
-			"other":"Crafting"
+			"desc":"Used to silently break into locked buildings and vehicles. To use, walk up to a door or vehicle, left click, and wait for the picking to finish. Looking away from the object you're picking will reset your progress.",
+			"other":"Crafting",
+			"user":"Detective"
 		},
 		{
 			"name":"Nano Drone",
@@ -652,7 +653,7 @@
 		},
 		{
 			"name":"Evidence",
-			"desc":"Package that spawns near a player's corpse if there is a detective currently on the server. Detectives can investigate them to learn the name of the victim and the killer.0"
+			"desc":"Package that spawns near a player's corpse if there is a detective currently on the server. Detectives can investigate them to learn the name of the victim and the killer."
 		},
 		{
 			"name":"Fish Bait",
