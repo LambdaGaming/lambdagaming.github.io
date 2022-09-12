@@ -432,13 +432,8 @@
 			"location":"Scattered around the map, mostly in the city."
 		},
 		{
-			"name":"Log Cart",
-			"desc":"Holds up to 20 logs obtained from cutting down trees.",
-			"shop":"Supermarket"
-		},
-		{
-			"name":"Ore Cart",
-			"desc":"Holds up to 20 ores obtained from mining ore rocks.",
+			"name":"Mining Cart",
+			"desc":"Holds up to 20 logs or ores, can be put in a grinder or sawmill for a profit. Ores and logs cannot be placed in the same cart at once. The cart needs to be emptied for its item type to reset.",
 			"shop":"Supermarket"
 		},
 		{
