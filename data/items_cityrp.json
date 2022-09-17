@@ -47,7 +47,7 @@
 		},
 		{
 			"name":"Firefighter",
-			"desc":"Used by emergency responders to spawn fire trucks and ambulances.",
+			"desc":"Used by firefighters to spawn fire trucks and ambulances.",
 			"location":"Front desk or main lobby of the fire station."
 		},
 		{
@@ -388,23 +388,23 @@
 		{
 			"name":"Defibrillator",
 			"desc":"Revives dead players that haven't respawned yet. To use, press your primary fire multiple times while near a players corpse.",
-			"user":"Emergency Responders"
+			"user":"Firefighters"
 		},
 		{
 			"name":"Fire Extinguisher",
 			"desc":"Puts out fires by spraying a foam-like substance. Can be used an unlimited amount of times.",
-			"user":"Emergency Responders",
+			"user":"Firefighters",
 			"shop":"Supermarket"
 		},
 		{
 			"name":"Med Kit",
 			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are healed near an ambulance. Right click to heal yourself.",
-			"user":"Emergency Responders"
+			"user":"Firefighters"
 		},
 		{
 			"name":"Narcan",
 			"desc":"Cures any negative effects a player has from overdosing on drugs.",
-			"user":"Emergency Responders"
+			"user":"Firefighters"
 		},
 		{
 			"name":"News Camera",
