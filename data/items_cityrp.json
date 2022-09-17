@@ -71,8 +71,8 @@
 			"location":"Front desk of the hospital."
 		},
 		{
-			"name":"Iron Refiner",
-			"desc":"Used to refine craftable items back into iron. To use, touch a craftable item with the refiner and the refining process will begin. Refining time varies depending on how much the item is worth. The refiner can only process one item at a time.",
+			"name":"Smelter",
+			"desc":"Used to turn craftable items back into iron, and to smelt raw ores into precious materials to be used in crafting. Touch a compatible item with it to start the smelting process. Smelting time varies depending on how much the item is worth. Up to 3 items can be processed at once.",
 			"location":"Usually in industrial areas of the main city."
 		},
 		{
@@ -206,7 +206,7 @@
 		{
 			"name":"Car Bomb Protection",
 			"desc":"Prevents players from planting car bombs on the target vehicle. To apply to a vehicle, touch the item with the vehicle. If the vehicle is respawned, its car bomb protection status will be removed.",
-			"user":"Mechanic"
+			"shop":"F4 Menu"
 		},
 		{
 			"name":"Vehicle Management Tool",
@@ -560,11 +560,6 @@
 		{
 			"name":"Media Player TV",
 			"desc":"Plays videos and music through a number of different websites including YouTube, Twitch, and Soundcloud. Press your use key to turn it on and hold C while looking at it to add media.",
-			"shop":"Supermarket"
-		},
-		{
-			"name":"Ore Smelter",
-			"desc":"Smelts ores into precious metals. Smelting time depends on the ore that is being smelted. Only one ore can be smelted at a time.",
 			"shop":"Supermarket"
 		},
 		{
