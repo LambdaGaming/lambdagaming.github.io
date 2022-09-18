@@ -418,18 +418,14 @@
 		},
 		{
 			"name":"Axe",
-			"desc":"Chops down trees.",
-			"shop":"Supermarket"
+			"desc":"Chops down trees. Firefighters can also use it to force open doors.",
+			"shop":"Supermarket",
+			"user":"Firefighters"
 		},
 		{
-			"name":"Iron Rock",
-			"desc":"Yields iron that can be used in crafting when mined. Has a blue health bar.",
+			"name":"Rock",
+			"desc":"Mined with a pickaxe. Yields ores and/or iron depending on rarity. The rarer the rock is, the more iron it will yield. The max amount of iron a rock can produce is 15. Max amount of ores is 6.",
 			"location":"Scattered around the map, mostly outside of the city."
-		},
-		{
-			"name":"Ore Rock",
-			"desc":"Yields ores that can be collected in a cart and then processed and sold at the rock grinder. Has a red health bar.",
-			"location":"Scattered around the map, mostly in the city."
 		},
 		{
 			"name":"Mining Cart",
@@ -438,7 +434,7 @@
 		},
 		{
 			"name":"Pickaxe",
-			"desc":"Mines ore rocks and iron rocks.",
+			"desc":"Mines rocks.",
 			"shop":"Supermarket"
 		},
 		{
@@ -470,11 +466,6 @@
 		{
 			"name":"Premium Lockpick",
 			"desc":"Same as the normal lockpick except the lockpicking time is cut in half, it creates no sound, and it does not set off car alarms.",
-			"other":"Crafting"
-		},
-		{
-			"name":"RPG",
-			"desc":"Rocket explosive that comes with 3 rockets. Once all 3 rockets have been fired, the RPG will remove itself.",
 			"other":"Crafting"
 		},
 		{
@@ -659,6 +650,26 @@
 			"name":"Fishing Pot",
 			"desc":"Automatically catches fish and stores them over time. It floats near the surface, so only common fish can be caught in it. To deploy it or harvest the fish inside, press your use key on it.",
 			"shop":"Fisherman"
+		},
+		{
+			"name":"Fire Hose",
+			"desc":"Similar to the fire extinguisher but has a larger range, at the cost of needing to be near a fire truck or fire hose node to work.",
+			"user":"Firefighters"
+		},
+		{
+			"name":"Fire Hose Node",
+			"desc":"Extends the range of fire trucks so fire hoses can be used in hard to reach places such as an apartment building. They can be attached to a fire truck or another node. To use, press your use key on it and select an option from the menu.",
+			"shop":"F4 Menu"
+		},
+		{
+			"name":"SWAT Locker",
+			"desc":"Used by police officers to equip SWAT gear. While SWAT, you have a much slower walk speed and cannot use certain NPCs such as the supermarket and contraband dealer. The locker keeps your current gear safe when you use it so you won't lose any weapons.",
+			"location":"Secure areas of the police station."
+		},
+		{
+			"name":"Rock Scanner",
+			"desc":"Displays the contents of rocks without needing to mine it. To use, press your primary fire while looking at a nearby rock.",
+			"shop":"Supermarket"
 		}
 	]
 }
