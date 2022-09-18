@@ -153,7 +153,7 @@
 		{
 			"name":"Police Handcuffs",
 			"desc":"Restrains a player to prevent them from using weapons or running away. To cuff a player, left click. To uncuff a player, press your use key on them.",
-			"user":"All police jobs except SWAT"
+			"user":"All police jobs"
 		},
 		{
 			"name":"Police Leash",
@@ -297,7 +297,7 @@
 		{
 			"name":"Flashbang",
 			"desc":"Type of grenade that temporarily blinds players that look in the direction of the explosion.",
-			"user":"SWAT Officer",
+			"user":"SWAT",
 			"shop":"Contraband Dealer"
 		},
 		{
