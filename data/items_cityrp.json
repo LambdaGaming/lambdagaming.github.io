@@ -21,11 +21,6 @@
 			"location":"Front desk of the car dealership."
 		},
 		{
-			"name":"Courier",
-			"desc":"Offers delivery jobs to players in exchange for cash. Packages need to be delivered to the specified player for the job to be completed. Packages can be stolen from players and sold for a higher price at the banker NPC.",
-			"location":"Usually standing near frequently used buildings such as gas stations, motels, and garages."
-		},
-		{
 			"name":"Contraband Dealer",
 			"desc":"Sells a variety of items that are illegal by default such as weed plants and money printers. The mayor can decide for each item whether or not it should remain illegal.",
 			"location":"Usually at the end of alleys located in between buildings."
@@ -277,11 +272,6 @@
 			"name":"Consumable-Grade Weed/Meth",
 			"desc":"Consumable-grade drugs cannot be sold but give you boosts such as increased health or armor. Taking too much can result in an overdose, which can lead to negative effects such as low health and slower walk speed.",
 			"other":"Cooking or growing with various equipment and ingredients"
-		},
-		{
-			"name":"Contraband Package",
-			"desc":"Similar to the courier package, except it contains an unknown illegal item. Once you buy it, you will get a message saying what NPC to deliver the package to. Once the package is near the target NPC, press your use key on it to deliver it and get a tier 2 blueprint as a reward. Packages can be stolen by pressing your use key on a package that doesn't belong to you.",
-			"shop":"Contraband Dealer"
 		},
 		{
 			"name":"Diamond Money Printer",
@@ -670,6 +660,11 @@
 			"name":"Rock Scanner",
 			"desc":"Displays the contents of rocks without needing to mine it. To use, press your primary fire while looking at a nearby rock.",
 			"shop":"Supermarket"
+		},
+		{
+			"name":"Job Broker",
+			"desc":"Allows players to take jobs and start special events for a price. The reward for completing the job is always the price of the job plus 50%.",
+			"location":"Front desk of city hall."
 		}
 	]
 }
