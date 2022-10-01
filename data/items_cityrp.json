@@ -97,8 +97,8 @@
 		},
 		{
 			"name":"Purifier",
-			"desc":"Used to purify weed and cocaine into their marketable variants. To use, touch consumable weed or raw cocaine with the purifier. Each weed will take 45 seconds to purify, and each raw cocaine will take 10 minutes. You can stop the cocaine purifying process early to get a better purity by pressing your use key on the purifier. Once the drug is done purifying, it will spawn next to the purifier.",
-			"location":"Along main roads, usually in the outskirts away from the city."
+			"desc":"Purifies cocaine into a form that can be sold or consumed. To use, touch raw cocaine with the purifier. Each raw coke can take up to 10 minutes to purify, but you can stop the purifying process early to get a better purity by pressing your use key on the purifier. Once the coke is done purifying, it will spawn next to the purifier.",
+			"shop":"Contraband Dealer"
 		},
 		{
 			"name":"Rock and Tree Grinders",
@@ -129,11 +129,6 @@
 			"name":"Tower",
 			"desc":"Used by the mechanic to spawn tow trucks.",
 			"location":"Front desk of the garage or repair shop."
-		},
-		{
-			"name":"Trucker",
-			"desc":"Used to rent trucks and trailers for transporting items. Purchasing a truck or trailer will spawn it in the nearest parking lot.",
-			"location":"Usually in the main city near large parking lots."
 		},
 		{
 			"name":"Speed Radar",
@@ -190,7 +185,7 @@
 		},
 		{
 			"name":"Confiscation Tool",
-			"desc":"Takes weapons and non-default tools from a player. Once a player's items have been confiscated, you can either return them later or destroy them. While you are holding a player's items, you cannot confiscate from another player.",
+			"desc":"Allows user to view and take illegal weapons and tools from the target player's weapon slots. Confiscated items will be given to the user, or spawned next to them if the user already has the same item. Only works on handcuffed players.",
 			"user":"All police jobs"
 		},
 		{
@@ -265,12 +260,12 @@
 		},
 		{
 			"name":"Coca Plant",
-			"desc":"Comes in consumable and marketable variants. Outputs raw cocaine after spending a certain amount of time under a heat lamp. The amount of time required to grow depends on the variant of the plant.",
+			"desc":"Outputs raw cocaine after spending a certain amount of time under a heat lamp. Takes 20 minutes to grow.",
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Consumable-Grade Weed/Meth",
-			"desc":"Consumable-grade drugs cannot be sold but give you boosts such as increased health or armor. Taking too much can result in an overdose, which can lead to negative effects such as low health and slower walk speed.",
+			"name":"Weed/Meth/Pure Cocaine",
+			"desc":"Gives you boosts such as increased health or armor if consumed. Taking too much can result in an overdose, which can lead to negative effects such as low health and slower walk speed. These drugs can also be sold at the drug dealer. Prices vary depending on the type of drug.",
 			"other":"Cooking or growing with various equipment and ingredients"
 		},
 		{
@@ -316,18 +311,13 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Market-Grade Weed/Meth",
-			"desc":"Drugs that can be sold to the drug NPC but not consumed.",
-			"other":"Cooking or growing with various equipment and ingredients"
-		},
-		{
 			"name":"Meth Stove",
 			"desc":"Cooks meth inside meth pots that have the proper ingredients in them. Requires propane to work.",
 			"shop":"Contraband Dealer"
 		},
 		{
 			"name":"Meth Pot",
-			"desc":"Holds the ingredients used to cook meth. Place on a meth stove to start the cooking process once the required ingredients are inside. Press your use key on the pot to harvest the batch once its done cooking. Comes in consumable and marketable variants.",
+			"desc":"Holds the ingredients used to cook meth. Place on a meth stove to start the cooking process once the required ingredients are inside. Press your use key on the pot to harvest the batch once its done cooking.",
 			"shop":"Contraband Dealer"
 		},
 		{
@@ -362,7 +352,7 @@
 		},
 		{
 			"name":"Weed Plant",
-			"desc":"Grows consumable-grade weed. Once the plant has fully grown, press your use key on it to harvest the weed and restart the growing cycle.",
+			"desc":"Grows weed. Once the plant has fully grown, press your use key on it to harvest the weed and restart the growing cycle.",
 			"shop":"Contraband Dealer"
 		},
 		{
@@ -377,7 +367,7 @@
 		},
 		{
 			"name":"Defibrillator",
-			"desc":"Revives dead players that haven't respawned yet. To use, press your primary fire multiple times while near a players corpse.",
+			"desc":"Revives dead players that haven't respawned yet. To use, right click multiple times to charge it up, then left click on a players corpse to revive them.",
 			"user":"Firefighters"
 		},
 		{
@@ -434,7 +424,7 @@
 		},
 		{
 			"name":"Car Bomb",
-			"desc":"Special type of explosive used specifically on vehicles. Detonates when a player enters the driver seat.",
+			"desc":"Special type of explosive used specifically on vehicles. Detonation conditions can be changed by right clicking with the bomb equipped.",
 			"other":"Crafting"
 		},
 		{
