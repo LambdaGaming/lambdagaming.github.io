@@ -219,11 +219,6 @@
 			"user":"Mechanic"
 		},
 		{
-			"name":"Check Machine",
-			"desc":"Spawns checks that can be cashed in at the banker NPC. Only to be used in emergency situations where the money can't come from the city funds or the mayor's personal wallet.",
-			"location":"City bank, usually behind the front desk."
-		},
-		{
 			"name":"Bagged Deposit Box Money",
 			"desc":"Bag of money that was stolen from a player's deposit box. To cash one in, press your use key on the bag near the banker NPC.",
 			"other":"Robbing a deposit box"
@@ -234,7 +229,7 @@
 			"location":"City bank, usually in a secure room near the vault."
 		},
 		{
-			"name":"Deposit Box COmputer",
+			"name":"Deposit Box Computer",
 			"desc":"Displays details about a player's deposit box such as the original deposited amount and the current amount.",
 			"location":"City bank, usually on a counter or desk near the deposit boxes."
 		},
