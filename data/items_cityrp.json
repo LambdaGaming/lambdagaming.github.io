@@ -181,7 +181,7 @@
 		{
 			"name":"Arrest/Unarrest Sticks",
 			"desc":"The arrest stick teleports a player to jail after they have been cuffed. Users can select how long the arrestee is in jail for by left clicking on them. The unarrest stick releases a person from jail early and teleports them back to spawn.",
-			"user":"Police Chief, Police Officer, Undercover Officer, IA Agent"
+			"user":"Police Chief, Police Officer, Undercover Officer"
 		},
 		{
 			"name":"Confiscation Tool",
