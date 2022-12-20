@@ -103,7 +103,7 @@
 		},
 		{
 			"name":"Detonation Console",
-			"desc":"Activated by a scientist to detonate the citadel and change the RP to Outland RP.",
+			"desc":"Used to destroy the citadel and progress the server to Outland RP. Requires a detonation code decrypter to be inserted before it can be activated.",
 			"rp":"City 17 RP",
 			"location":"Usually at the top of the citadel, in the earth admin's office."
 		},
@@ -252,7 +252,7 @@
 		},
 		{
 			"name":"Science Locker Key",
-			"desc":"Unlocks something in the science locker such as a special job or weapon. To use, touch with the science locker.",
+			"desc":"Unlocks something in the science locker such as a special job or weapon. To use, touch with the science locker. Also used as an ingredient for crafting the detonation code decrypter.",
 			"rp":"City 17 RP",
 			"other":"Crafting"
 		},
@@ -375,6 +375,12 @@
 			"desc":"Links and unlinks 2 two-way rebel teleporters together. To link, left click on both teleporters. To unlink, right click on one of the teleporters.",
 			"rp":"City 17 RP & Outland RP",
 			"user":"Resistance Leader"
+		},
+		{
+			"name":"Detonation Code Decrypter",
+			"desc":"Piece of hardware used to decrypt the detonation console so that it can be activated. To use, touch the device with the detonation console.",
+			"rp":"City 17 RP",
+			"other":"Crafting"
 		}
 	]
 }
