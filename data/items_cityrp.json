@@ -52,7 +52,7 @@
 		},
 		{
 			"name":"Gas Pumps",
-			"desc":"Used as a faster but more expensive alternative to fuel cans. Pumping cas costs $300 (plus sales tax, if any) for civilians and is free to police and government jobs.",
+			"desc":"Used as a faster but more expensive alternative to fuel cans. Gas price depends on how empty your tank is, and how high the sales tax is. Law enforcement and government jobs can get free gas as long as the sales tax is under 50%.",
 			"location":"All gas stations."
 		},
 		{
@@ -67,7 +67,7 @@
 		},
 		{
 			"name":"Smelter",
-			"desc":"Used to turn craftable items back into iron, and to smelt raw ores into precious materials to be used in crafting. Touch a compatible item with it to start the smelting process. Smelting time varies depending on how much the item is worth. Up to 3 items can be processed at once.",
+			"desc":"Used to turn craftable items back into iron, and to smelt raw ores into precious materials to be used in crafting. Touch a compatible item with it to start the smelting process. Smelting time varies depending on how much the item is worth. Up to 3 items can be processed at once. You can also press your use key on the smelter to duplicate iron at the cost of $50 for each.",
 			"location":"Usually in industrial areas of the main city."
 		},
 		{
@@ -111,13 +111,8 @@
 			"location":"Stores located in popular areas of the city and/or outskirts."
 		},
 		{
-			"name":"Smuggle Seller",
-			"desc":"Used to buy illegal items to be shipped to the smuggle buyer. Items that can be smuggled vary in price, but the more expensive the item is, the higher the reward and risk.",
-			"location":"Usually in a parking lot in the main city."
-		},
-		{
-			"name":"Smuggle Buyer",
-			"desc":"Used to sell illegal items that were bought from the smuggle seller. To use, press your use key on the NPC with the your truck nearby. You will then receive payment for the smuggle and the truck will be removed.",
+			"name":"Smuggler",
+			"desc":"Used to sell smuggled items. To use, press your use key on the NPC with the your item nearby. You will then receive payment and the item will be removed.",
 			"location":"Usually in outskirts as far away from the main city as possible."
 		},
 		{
@@ -389,7 +384,7 @@
 		{
 			"name":"News TV",
 			"desc":"Displays a live feed of the news cameraman's camera.",
-			"shop":"F4 Menu"
+			"shop":"Supermarket"
 		},
 		{
 			"name":"Axe",
@@ -545,7 +540,7 @@
 		},
 		{
 			"name":"Alcohol Case",
-			"desc":"What the keg spawns when it's done brewing an alcoholic drink. Each case contains 6 bottles that can be consumed to restore up to 40 hunger.",
+			"desc":"What the keg spawns when it's done brewing an alcoholic drink. Each case contains up to 6 bottles that can be consumed to restore up to 40 hunger.",
 			"other":"Brewing a drink with the keg."
 		},
 		{
@@ -560,12 +555,7 @@
 		},
 		{
 			"name":"Keg",
-			"desc":"Creates alcoholic drinks using fruit and letting it brew for 100 seconds.",
-			"shop":"F4 Menu"
-		},
-		{
-			"name":"Keg Fruits",
-			"desc":"Various fruits that can be placed in a keg to create specific drinks.",
+			"desc":"Creates alcoholic drinks using farm foods. Accepts 1 food and outputs 1 case per brew. Each brew takes 100 seconds. The output drink and its effects are based on the input food.",
 			"shop":"F4 Menu"
 		},
 		{
@@ -650,6 +640,16 @@
 			"name":"Job Broker",
 			"desc":"Allows players to take jobs and start special events for a price. The reward for completing the job is always the price of the job plus 50%.",
 			"location":"Front desk of city hall."
+		},
+		{
+			"name":"Printer Paper",
+			"desc":"Paper used in money printers. Can also be manually written to and saved like a notebook.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Rock Decimator",
+			"desc":"Powerful gun that instantly mines rocks by destroying them. Has a small spin up time before firing. Can be used 3 times before it removes itself.",
+			"other":"Crafting or buying at supermarket."
 		}
 	]
 }
