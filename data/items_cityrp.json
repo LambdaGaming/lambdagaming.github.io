@@ -56,8 +56,8 @@
 			"location":"All gas stations."
 		},
 		{
-			"name":"Government Bank Vault",
-			"desc":"Large vault that can hold up to $20,000. To rob, press your use key on the money pallet and money bags will spawn in front of you. The police will automatically be alerted to the robbery as soon as it starts. You can keep robbing until the amount reaches zero. After you are done robbing, you must take the bags to the banker NPC to get the cash.",
+			"name":"Bank Vault",
+			"desc":"Contains all of the funds used by the city. Up to $20,000 can be robbed from the bank, though this will scale depending on how much is actually in the bank. The minimum amount that can be robbed is $4,000. A robbery cannot start without at least 2 cops, or 1 cop and 1 banker, being on the server. A robbery can end prematurely if the robber leaves the area or the server. When this happens, existing bags will not despawn and can still be cashed, but further bags will not spawn. A bag containing $4,000 will spawn every 2 minutes during a robbery, which means the maximum amount of time it can take to rob is 10 minutes. Stolen money bags can be cashed in by civilian jobs at the banker NPC. The bags can also be returned to the vault by cops and bankers.",
 			"location":"Inside the vault of the city bank."
 		},
 		{
@@ -84,11 +84,6 @@
 			"name":"Mayors Secretary",
 			"desc":"Used to enter the mayor elections. Elections will start once at least two players have entered. Elections will not start if there is already a mayor in office.",
 			"location":"Front desk of city hall."
-		},
-		{
-			"name":"Police Bank Vault",
-			"desc":"Smaller vault that can hold up to $5,000. To rob, press your use key on the money pile and wait for the timer to finish. The police will be alerted to the robbery as soon as it starts. Leaving the area before the timer ends will cause the robbery to fail.",
-			"location":"Usually in an empty room in a secure area of the police station."
 		},
 		{
 			"name":"Police Secretary",
@@ -261,7 +256,7 @@
 		{
 			"name":"Diamond Money Printer",
 			"desc":"Prints $350 every minute.",
-			"other":"Robbing the police bank (30% chance)"
+			"other":"Robbing the bank (30% chance)"
 		},
 		{
 			"name":"Disguise Kit",
