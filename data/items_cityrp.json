@@ -57,7 +57,7 @@
 		},
 		{
 			"name":"Bank Vault",
-			"desc":"Contains all of the funds used by the city. Up to $20,000 can be robbed from the bank, though this will scale depending on how much is actually in the bank. The minimum amount that can be robbed is $4,000. A robbery cannot start without at least 2 cops, or 1 cop and 1 banker, being on the server. A robbery can end prematurely if the robber leaves the area or the server. When this happens, existing bags will not despawn and can still be cashed, but further bags will not spawn. A bag containing $4,000 will spawn every 2 minutes during a robbery, which means the maximum amount of time it can take to rob is 10 minutes. Stolen money bags can be cashed in by civilian jobs at the banker NPC. The bags can also be returned to the vault by cops and bankers.",
+			"desc":"Contains all of the funds used by the city. Up to $20,000 can be robbed from the bank, though this will scale depending on how much is actually in the bank. The minimum amount that can be robbed is $4,000. A robbery cannot start without at least 2 cops, or 1 cop and 1 banker, being on the server. A robbery can end prematurely if the robber leaves the area or the server. When this happens, existing bags will not despawn and can still be cashed, but further bags will not spawn. A bag containing $4,000 will spawn every 2 minutes during a robbery under normal conditions, which means the maximum amount of time it can take to rob is 10 minutes. Stolen money bags can be cashed in by civilian jobs at the banker NPC. The bags can also be returned to the vault by cops and bankers.",
 			"location":"Inside the vault of the city bank."
 		},
 		{
@@ -645,6 +645,16 @@
 			"name":"Rock Decimator",
 			"desc":"Powerful gun that instantly mines rocks by destroying them. Has a small spin up time before firing. Can be used 3 times before it removes itself.",
 			"other":"Crafting or buying at supermarket."
+		},
+		{
+			"name":"Evidence Locker",
+			"desc":"Stores items that are considered illegal by default such as drug contraband, money printers, and weapons. Items are sent to the locker via the evidence wand. Anyone can access and retrieve items from the locker by pressing their use key on it.",
+			"location":"Secure areas of the police station."
+		},
+		{
+			"name":"Evidence Wand",
+			"desc":"Transfers items that police confiscate to the evidence locker for processing or safekeeping. To use, aim at a contraband item and press primary fire.",
+			"user":"All police jobs"
 		}
 	]
 }
