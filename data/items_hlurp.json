@@ -381,6 +381,24 @@
 			"desc":"Piece of hardware used to decrypt the detonation console so that it can be activated. To use, touch the device with the detonation console.",
 			"rp":"City 17 RP",
 			"other":"Crafting"
+		},
+		{
+			"name":"Zombie Serum",
+			"desc":"Bottle of serum created by the biochemist that turns players who consume it into zombies.",
+			"rp":"BMRP",
+			"other":"Crafting"
+		},
+		{
+			"name":"Escape Truck",
+			"desc":"Black Mesa research truck used to evacuate Black Mesa employees away from the facility. When a player evacuates, they will join the HECU.",
+			"rp":"BMRP",
+			"location":"Topside after the cascade starts."
+		},
+		{
+			"name":"Fire Extinguisher Case",
+			"desc":"Wall-mounted case that contains a fire extinguisher. When an extinguisher is taken out, another one cannot be taken from that case unless it is restocked by a service official.",
+			"rp":"BMRP",
+			"location":"At least one is mounted on the wall in every sector."
 		}
 	]
 }
