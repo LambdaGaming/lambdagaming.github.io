@@ -122,13 +122,8 @@
 		},
 		{
 			"name":"Speed Radar",
-			"desc":"Tracks the speed of a vehicle. To place it, aim close to the ground and left click. To remove it, walk up to it and right click. The fastest speed the radar has detected will be displayed on the radar itself, but it will send a notification to the officer who owns it whenever a speeder passes by.",
-			"user":"All police jobs except undercover officer"
-		},
-		{
-			"name":"Handheld Speed Radar",
-			"desc":"Handheld and more concealed version of the speed radar. Left click while looking at a moving vehicle to get a speed reading.",
-			"user":"Undercover officer"
+			"desc":"Tracks the speed of a vehicle. To place it, aim close to the ground and left click. To remove it, walk up to it and right click. The fastest speed the radar has detected will be displayed on the radar itself. When a speeder passes by, the officer will be notified of their name and what car they are driving.",
+			"user":"Police Chief and Police Officer"
 		},
 		{
 			"name":"Handcuffs/Shackles",
@@ -222,19 +217,14 @@
 			"location":"City bank, usually in a secure room near the vault."
 		},
 		{
-			"name":"Deposit Box Computer",
-			"desc":"Displays details about a player's deposit box such as the original deposited amount and the current amount. It also displays details about a player's loan information, and is used to initiate loans.",
+			"name":"Bank Computer",
+			"desc":"Displays details about a player's deposit box such as the original deposited amount and the current amount. It also displays details about a player's loan information, and is used to hand out loans.",
 			"location":"City bank, usually on a counter or desk near the deposit boxes."
 		},
 		{
 			"name":"Bronze Money Printer",
 			"desc":"Lowest quality money printer out of the five. Prints $50 every 3 minutes.",
 			"other":"Dumpster diving"
-		},
-		{
-			"name":"Car Evictor",
-			"desc":"Kicks the driver out of a vehicle and unlocks the vehicle's door. To use, walk up to a vehicle with someone in the driver's seat and hold left click.",
-			"shop":"Contraband Dealer"
 		},
 		{
 			"name":"Chloride",
