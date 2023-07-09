@@ -423,11 +423,6 @@
 			"other":"Crafting"
 		},
 		{
-			"name":"Spider Drone",
-			"desc":"Has all of the abilities of the spy drone but it crawls instead of flies. It can also scale walls and walk on ceilings.",
-			"other":"Crafting"
-		},
-		{
 			"name":"Timed C4",
 			"desc":"Plastic explosive with a timer that does large amounts of damage. Left click to plant the explosive where you're standing. Right click to change the timer settings. The timer can range from instantaneous to 10 minutes.",
 			"other":"Crafting"
@@ -509,7 +504,7 @@
 		},
 		{
 			"name":"Spy Drone",
-			"desc":"Similar to the camera drone but can detect entities.",
+			"desc":"Similar to the camera drone but can detect and provide details about entities.",
 			"shop":"Supermarket"
 		},
 		{
@@ -641,6 +636,26 @@
 			"name":"Evidence Wand",
 			"desc":"Transfers items that police confiscate to the evidence locker for processing or safekeeping. To use, aim at a contraband item and press primary fire.",
 			"user":"All police jobs"
+		},
+		{
+			"name":"Cargo Drone",
+			"desc":"Drone equipped with a winch to carry medium-sized objects. Note that just because an item is small enough to be carried by the drone, does not mean it is light enough.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Gun Drone",
+			"desc":"Large drone with two automatic guns mounted in the front.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Controllable Turret",
+			"desc":"Player-controlled automatic turret; does not move.",
+			"other":"Crafting"
+		},
+		{
+			"name":"PLOT-130",
+			"desc":"Large player-controlled mech that comes with a missile launcher and dual miniguns. A weapon to surpass the DarkRP shotgun.",
+			"other":"Crafting"
 		}
 	]
 }
