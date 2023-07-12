@@ -92,7 +92,7 @@
 		},
 		{
 			"name":"Purifier",
-			"desc":"Purifies cocaine into a form that can be sold or consumed. To use, touch raw cocaine with the purifier. Each raw coke can take up to 10 minutes to purify, but you can stop the purifying process early to get a better purity by pressing your use key on the purifier. Once the coke is done purifying, it will spawn next to the purifier.",
+			"desc":"Purifies cocaine into a form that can be sold or consumed. To use, touch raw cocaine with the purifier. Each raw coke can take up to 45 minutes to purify, but you can stop the purifying process early to get a better purity by pressing your use key on the purifier. The ideal purity takes exactly 30 minutes. Over-purifying the coke will make it extremely poor quality and nearly worthless. Once the coke is done purifying, it will spawn next to the purifier. The purifier also has a small chance of overheating and catching fire while running.",
 			"shop":"Contraband Dealer"
 		},
 		{
@@ -222,13 +222,8 @@
 			"location":"City bank, usually on a counter or desk near the deposit boxes."
 		},
 		{
-			"name":"Bronze Money Printer",
-			"desc":"Lowest quality money printer out of the five. Prints $50 every 3 minutes.",
-			"other":"Dumpster diving"
-		},
-		{
-			"name":"Chloride",
-			"desc":"One of the required ingredients for making meth. Goes into a meth pot.",
+			"name":"Money Printer",
+			"desc":"Produces counterfeit money that can be used like regular money without any risk of it being detected as counterfeit. There are several upgrades for money printers that improve their overall usefulness. The paper upgrade increases the max amount of paper a printer can hold. The sound upgrade reduces the volume of the sound that the printer produces. The cooling upgrade reduces the chance of the printer catching fire. The output upgrade increases the amount of money per minute that the printer produces. Some upgrades can be stacked for a greater effect. Holding the sprint key while pressing your use key on the printer will reveal more details about it.",
 			"shop":"Contraband Dealer"
 		},
 		{
@@ -240,11 +235,6 @@
 			"name":"Weed/Meth/Pure Cocaine",
 			"desc":"Gives you boosts such as increased health or armor if consumed. Taking too much can result in an overdose, which can lead to negative effects such as low health and slower walk speed. These drugs can also be sold at the drug dealer. Prices vary depending on the type of drug.",
 			"other":"Cooking or growing with various equipment and ingredients"
-		},
-		{
-			"name":"Diamond Money Printer",
-			"desc":"Prints $350 every minute.",
-			"other":"Robbing the bank (30% chance)"
 		},
 		{
 			"name":"Disguise Kit",
@@ -264,11 +254,6 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Gold Money Printer",
-			"desc":"Cannot be put in your inventory. Prints $250 every minute.",
-			"shop":"Contraband Dealer"
-		},
-		{
 			"name":"Hacking Station",
 			"desc":"Used to hack and view stats of all currently active drones. To hack, press your use key on the console and type 'hack'. You will be asked to enter a password. Once you enter the password, it will list the ID of all available drones. See the <a href='https://steamcommunity.com/sharedfiles/filedetails/?id=669642096'>drones rewrite addon</a> for more information.",
 			"shop":"Contraband Dealer"
@@ -285,7 +270,7 @@
 		},
 		{
 			"name":"Meth Pot",
-			"desc":"Holds the ingredients used to cook meth. Place on a meth stove to start the cooking process once the required ingredients are inside. Press your use key on the pot to harvest the batch once its done cooking.",
+			"desc":"Holds the ingredients used to cook meth and meth ingredients. Place on a meth stove to start the cooking process once the required ingredients are inside. Press your use key on the pot to harvest the final product once it's done cooking. Note that when cooking meth, chloride needs to be added first before sodium. Otherwise, the pot will explode.",
 			"shop":"Contraband Dealer"
 		},
 		{
@@ -294,19 +279,9 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Platinum Money Printer",
-			"desc":"Prints $425 per minute.",
-			"other":"Robbing a deposit box (30% chance)"
-		},
-		{
 			"name":"Raw Cocaine",
 			"desc":"Raw form of cocaine that is output by a coca plant. Insert it into the purifier to turn it into pure cocaine.",
 			"other":"Growing from coca plant"
-		},
-		{
-			"name":"Silver Money Printer",
-			"desc":"Prints $150 every 2 minutes.",
-			"shop":"Contraband Dealer"
 		},
 		{
 			"name":"Smoke Grenade",
@@ -314,9 +289,9 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Sodium",
-			"desc":"One of the required ingredients for making meth. Goes into a meth pot.",
-			"shop":"Contraband Dealer"
+			"name":"Chloride/Sodium",
+			"desc":"Required ingredients for making meth. Created by combining ingredients in a meth pot.",
+			"other":"Making in a meth pot"
 		},
 		{
 			"name":"Weed Plant",
@@ -656,6 +631,16 @@
 			"name":"PLOT-130",
 			"desc":"Large player-controlled mech that comes with a missile launcher and dual miniguns. A weapon to surpass the DarkRP shotgun.",
 			"other":"Crafting"
+		},
+		{
+			"name":"Experimental Steroids",
+			"desc":"Health item that regenerates a player's health by 3 HP every second, for 10 minutes, but has a small chance of having the opposite effect. Has a special effect if combined with weed.",
+			"shop":"Healer (Fire Chief only)"
+		},
+		{
+			"name":"DarkRP Shotgun",
+			"desc":"Benelli M3 Super 90 shotgun from Counter-Strike: Source that comes with the DarkRP gamemode by default. It is infamous throughout the community for being able to deal high amounts of damage from virtually any distance. It can only be obtained by receiving one from OP as a reward during special events. Uses standard shotgun ammo.",
+			"other":"Participating in special events"
 		}
 	]
 }
