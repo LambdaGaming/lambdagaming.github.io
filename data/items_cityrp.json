@@ -168,7 +168,7 @@
 		{
 			"name":"Arrest/Unarrest Sticks",
 			"desc":"The arrest stick teleports a player to jail after they have been cuffed. Users can select the type of sentence they want the arrestee to serve. A reduced sentence will send the player to jail for 5 minutes and automatically release them. The full sentence will send the player to jail indefinitely until they are manually released. The unarrest stick releases a player serving a reduced sentence early and teleports them back to spawn.",
-			"user":"All police jobs except mayor's bodyguard."
+			"user":"All police jobs"
 		},
 		{
 			"name":"Confiscation Tool",
@@ -178,7 +178,7 @@
 		{
 			"name":"Car Bomb Checker",
 			"desc":"Scans for and defuses car bombs. Left click to scan the target vehicle for car bombs, and right click to defuse and remove the bomb if it exists.",
-			"user":"All police jobs except undercover officer and mayor's bodyguard"
+			"user":"All police jobs except undercover officer"
 		},
 		{
 			"name":"Car Bomb Protection",
