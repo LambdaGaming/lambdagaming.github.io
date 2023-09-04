@@ -641,6 +641,16 @@
 			"name":"DarkRP Shotgun",
 			"desc":"Benelli M3 Super 90 shotgun from Counter-Strike: Source that comes with the DarkRP gamemode by default. It is infamous throughout the community for being able to deal high amounts of damage from virtually any distance. It can only be obtained by receiving one from OP as a reward during special events. Uses standard shotgun ammo.",
 			"other":"Participating in special events"
+		},
+		{
+			"name":"Police Scanner",
+			"desc":"Radio that picks up chatter from the police and government group text chat. It can pickup chatter from anywhere on the map, but has a limited listening range. It does not allow for transmitting.",
+			"other":"Crafting"
+		},
+		{
+			"name":"Electronic Component",
+			"desc":"Crafting material used in advanced recipes for electronic devices. Can only be obtained by robbing the evidence locker at the police station.",
+			"other":"Robbing the evidence locker"
 		}
 	]
 }
