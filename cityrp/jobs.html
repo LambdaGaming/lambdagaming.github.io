@@ -7,30 +7,36 @@
 		<link rel="stylesheet" href="../css/menu.css">
 		<script src="../js/navbar.js"></script>
 		<script>
-			const updated = "9-3-23"
+			const updated = "9-23-23"
 		</script>
 		<script src="../js/jobs.js"></script>
     </head>
     <body>
 		<nav id="navbar">
 			<div id="menu" class="menu">
-				<a href="https://discord.gg/9RGdUS2">Discord</a>
-				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
-				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
 				<div class="dropdown">
-					<button class="dropbtn">Server Rules & Guidelines</button>
+					<button class="dropbtn">Projects</button>
 					<div id="dropdown" class="dropdown-content">
-						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://github.com/lambdagaming">OPGman's Projects</a>
+						<p title="Working on a project and want to appear here? Let OP know!">Coming soon...</p>
 					</div>
 				</div>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Servers</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="cityrp/main.html">CityRP</a>
+						<a href="hlurp/main.html">Half-Life Universe RP</a>
+						<a href="minecraft/main.html">Minecraft</a>
+					</div>
+				</div>
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
 			</div>
 			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_circle.png"></a>
 		</nav>
-		<h1 class="headertitle">CityRP</h1>
-		<h2 class="headertitle2">Jobs</h2>
+		<h2 class="headertitle2">CityRP Jobs</h2>
+		<hr style="margin-left:15%; margin-right:15%">
 		<div id="main" class="main">
 			<div class="pageleft">
 				<div class="jobs">
@@ -56,6 +62,8 @@
 					<br><br>
 					<a href="" onclick="ChangeJob( 'banker' ); return false">Banker</a>
 					<br><br>
+					<a href="" onclick="ChangeJob( 'gundealer' ); return false">Gun Dealer</a>
+					<br><br>
 					<a href="" onclick="ChangeJob( 'cook' ); return false">Cook</a>
 					<br><br>
 					<a href="" onclick="ChangeJob( 'busdriver' ); return false">Bus Driver</a>
@@ -65,11 +73,11 @@
 			</div>
 			<div class="pageright">
 				<div id="mayor" class="list">
-					<h1 style="text-align:center">Mayor</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Mayor</h2>
+					<h3>In-Game Description:</h3>
 					<p>The Mayor is in charge of the whole city. He gets to decide on economic and legal issues, as well as pretty much anything else related to the city and its citizens.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Set taxes, laws, and perks for your city.</li>
 						<br>
@@ -82,12 +90,12 @@
 						<li>Occasionally host events such as a building contest or a lottery to improve relations with your citizens.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to set taxes and laws that players have to play by, control government jobs, control the citys economy, buy perks to improve law enforcement, and fire government and law enforcement officials through the F6 menu.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>(Tip) If a riot does take place, it is recommended that you place the city into a lockdown. Once the lockdown has started, any civilian who isn't going back to their home should be arrested by patrolling law enforcement. To start a lockdown, type "/lockdown" in chat. To end a lockdown, type "/unlockdown".</li>
 						<br>
@@ -101,11 +109,11 @@
 					</ul>
 				</div>
 				<div id="policechief" style="display:none" class="list">
-					<h1 style="text-align:center">Police Chief</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Police Chief</h2>
+					<h3>In-Game Description:</h3>
 					<p>The Police Chief is in charge of the entire police department. He gives orders to police officers and takes orders from the mayor.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Command Police Officers and Undercover Officers.</li>
 						<br>
@@ -118,7 +126,7 @@
 						<li>Help out players throughout the city as needed.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to command police officers, weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
 						<br>
@@ -128,11 +136,11 @@
 					</ul>
 				</div>
 				<div id="policeofficer" style="display:none" class="list">
-					<h1 style="text-align:center">Police Officer</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Police Officer</h2>
+					<h3>In-Game Description:</h3>
 					<p>The Police Officer is the base law enforcement job. They are responsible for patrolling the streets, responding to emergencies, and looking out for any suspicious activity. They take orders from the police chief or the mayor.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Follow orders from the police chief, or the mayor if there is no active police chief.</li>
 						<br>
@@ -141,7 +149,7 @@
 						<li>Help out players throughout the city as needed.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to weapon check players, spawn government vehicles, and handcuff and arrest players.</li>
 						<br>
@@ -151,11 +159,11 @@
 					</ul>
 				</div>
 				<div id="undercoverofficer" style="display:none" class="list">
-					<h1 style="text-align:center">Undercover Officer</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Undercover Officer</h2>
+					<h3>In-Game Description:</h3>
 					<p>Undercover officers are tasked with collecting data on criminals by pretending to be one. Collecting enough data and evidence could eventually lead to a raid and/or arrest.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Go on stakeouts to try and catch a law breaker.</li>
 						<br>
@@ -164,7 +172,7 @@
 						<li>Patrol the streets if you are not on any other jobs.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>                
 						<li>Has access to grenades, assault rifles, shotguns, and sidearms if the primary and secondary weapon perks are activated by the mayor.</li>
 						<br>
@@ -173,36 +181,36 @@
 						<li>Has ability to weapon check players and spawn government vehicles.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>(Tip) When selecting this job, other players will not be notified, and your job title in the scoreboard will be displayed as "Citizen". Use this to your advantage by tricking criminals into thinking you're one of them.</li>
 					</ul>
 				</div>
-				<div id="ercommander" style="display:none" class="list">
-					<h1 style="text-align:center">Fire Chief</h1>
-					<h2>In-Game Description:</h2>
+				<div id="firechief" style="display:none" class="list">
+					<h2 style="text-align:center">Fire Chief</h2>
+					<h3>In-Game Description:</h3>
 					<p>The Fire Chief is in charge of all other firefighters. They decide strategies such as the safest way to extinguish a fire, and blocking off areas to protect the public from dangers.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Command firefighters.</li>
 						<br>
 						<li>Fight fires and respond to medical emergencies.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to command other firefighters, spawn fire trucks and ambulances, and heal and revive players.</li>
 						<br>
 						<li>Has access to the fire extinguisher and fire hose for fire-related emergencies and narcan for drug-related emergencies.</li>
 					</ul>
 				</div>
-				<div id="emergencyresponder" style="display:none" class="list">
-					<h1 style="text-align:center">Firefighter</h1>
-					<h2>In-Game Description:</h2>
+				<div id="firefighter" style="display:none" class="list">
+					<h2 style="text-align:center">Firefighter</h2>
+					<h3>In-Game Description:</h3>
 					<p>Firefighters respond to emergency calls concerning fires and medical emergencies. They take orders from the fire chief.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Extinguish fires using your equipment.</li>
 						<br>
@@ -211,7 +219,7 @@
 						<li>Take orders from your commander.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to spawn fire trucks and ambulances as well as heal and revive players.</li>
 						<br>
@@ -219,23 +227,23 @@
 					</ul>
 				</div>
 				<div id="detective" style="display:none" class="list">
-					<h1 style="text-align:center">Detective</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Detective</h2>
+					<h3>In-Game Description:</h3>
 					<p>Detectives have two ways to do their job. One way is to work with Law Enforcement to solve crimes and bring people to justice. The other way is to be hired by someone outside of Law Enforcement to privately investigate a crime that the police have ignored.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Be hired by a government official or civilian to help with a case.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has access to a free sidearm for protection while on a case.</li>
 						<br>
 						<li>Has ability to handcuff and weapon check players, investigate evidence left by killed players, and follow trails of killers for a small distance to help collect evidence.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>You may charge any amount for your services as long as you tell your client the price before you are hired.</li>
 						<br>
@@ -243,11 +251,11 @@
 					</ul>
 				</div>
 				<div id="mechanic" style="display:none" class="list">
-					<h1 style="text-align:center">Mechanic</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Mechanic</h2>
+					<h3>In-Game Description:</h3>
 					<p>Mechanics have the ability to tow and repair vehicles that are broken down, crashed, or illegally parked. They can also rent out cars to other players and sell cars via the car dealer NPC.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Respond to players who call about a crashed or broken down vehicle.</li>
 						<br>
@@ -256,14 +264,14 @@
 						<li>Rent out vehicles to players.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to repair and tow cars and semi trucks as well as fine players for illegally parking.</li>
 						<br>
 						<li>Has access to the rental and sell menus of the car dealer NPC as well as the tow truck NPC.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>You can only charge up to $600 per tow/repair, and up to $300 for a parking fine.</li>
 						<br>
@@ -273,45 +281,45 @@
 					</ul>
 				</div>
 				<div id="newscameraman" style="display:none" class="list">
-					<h1 style="text-align:center">News Cameraman</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">News Cameraman</h2>
+					<h3>In-Game Description:</h3>
 					<p>The news cameraman goes around the city broadcasting any events that go down. These events can be anything the cameraman can find, such as a simple opportunity to interview the mayor, or something major such as a shootout.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Walk around with your camera reporting events that may go down throughout the city.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has access to the news camera.</li>
 						<br>
 						<li>Has ability to make money off of news TVs.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>(Tip) When you are not on the streets broadcasting, you could set up a news station and have more staff. This way you can have interviews and indoor news broadcasts, such as reporting a past event or the weather.</li>
 					</ul>
 				</div>
 				<div id="hitman" style="display:none" class="list">
-					<h1 style="text-align:center">Hitman</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Hitman</h2>
+					<h3>In-Game Description:</h3>
 					<p>Hitmen earn money by taking hits from other players. To request a hit to a hitman, type !placehit in chat. You can then enter the player you want dead and the price you are paying to the hitman. If the hitman has a hit that he is currently on the job for, other hits cannot be placed. You can also earn extra money as a hitman by acting as a bounty hunter for government officials and getting paid to capture wanted players. Please note that as a hitman, you must supply your own weapons.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Complete hits that other players order.</li>
 						<br>
 						<li>(Optional) Take bounties for government officials and capture wanted criminals.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to take hits via the hit menu.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>You are not allowed to accept hits that were made outside of the official menu (e.g. in text chat).</li>
 						<br>
@@ -319,11 +327,11 @@
 					</ul>
 				</div>
 				<div id="banker" style="display:none" class="list">
-					<h1 style="text-align:center">Banker</h1>
-					<h2>In-Game Description</h2>
+					<h2 style="text-align:center">Banker</h2>
+					<h3>In-Game Description</h3>
 					<p>Bankers hand out loans and store money in deposit boxes to collect interest from other players. Loans must come from your personal wallet, so make sure you have a good amount of money saved up. You are by default permitted to carry weapons around the bank and banker NPC for protection. If you see any illegal activity going on inside the bank, you are to report it to police.</p>
 					<br>
-					<h2>Duties</h2>
+					<h3>Duties</h3>
 					<ul>
 						<li>Protect the bank from robbers and report any illegal activity to police.</li>
 						<br>
@@ -332,56 +340,56 @@
 						<li>Give out loans to players and have them pay you back later.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items</h2>
+					<h3>Special Job-Specific Items</h3>
 					<ul>
 						<li>Has access to the deposit boxes and deposit box computer in the bank.</li>
 						<br>
 						<li>Has ability to open and conceal carry in the bank without permission and make money off of players' deposit boxes</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules & Tips</h2>
+					<h3>Job-Specific Rules & Tips</h3>
 					<ul>
 						<li>(Tip) It is recommended that you take note of the loans you give out so you can ensure that you get paid back even when the server closes.</li>
 					</ul>
 				</div>
 				<div id="gundealer" style="display:none" class="list">
-					<h1 style="text-align:center">Gun Dealer</h1>
-					<h2>In-Game Description</h2>
+					<h2 style="text-align:center">Gun Dealer</h2>
+					<h3>In-Game Description</h3>
 					<p>Gun dealers provide citizens with a faster (but more expensive) alternative to crafting higher-tier weapons through shipments.</p>
 					<br>
-					<h2>Duties</h2>
+					<h3>Duties</h3>
 					<ul>
 						<li>Buy, sell, and craft weapons to help arm citizens of the city.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items</h2>
+					<h3>Special Job-Specific Items</h3>
 					<ul>
 						<li>Can spawn and customize weapon shipments.</li>
 						<br>
 						<li>Can craft items at a discount.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules & Tips</h2>
+					<h3>Job-Specific Rules & Tips</h3>
 					<ul>
 						<li>(Tip) While you have the ability to buy and sell any non-explosive weapon, the mayor might make some or all of these weapons illegal. It is recommended you follow the law and only sell legal weapons or else you might lose business.</li>
 					</ul>
 				</div>
 				<div id="cook" style="display:none" class="list">
-					<h1 style="text-align:center">Cook</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Cook</h2>
+					<h3>In-Game Description:</h3>
 					<p>The cook's responsibility to feed everyone in the city. You can spawn food from the F4 menu, cook pizza with your oven, cook caught fish on your stove, or sell freshly grown farm food.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Serve players food through either delivery, drive-thru, or walk-in restaurant.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has access to the food section, microwave, and fish cooking stove of the F4 menu as well as the pizza system.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>You cannot make your food outrageously expensive. Food that you regularly sell should not cost more than $100. Any "specials" that you do not make or sell often do not apply to this rule.</li>
 						<br>
@@ -393,21 +401,21 @@
 					</ul>
 				</div>
 				<div id="busdriver" style="display:none" class="list">
-					<h1 style="text-align:center">Bus Driver</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Bus Driver</h2>
+					<h3>In-Game Description:</h3>
 					<p>The bus driver's duty is just as the name suggests: to drive buses. To spawn your bus, go to the car dealer where you would spawn a normal car. You may create a set of rules that your passengers must follow such as setting bus stop locations or having your passengers remain quiet while on the bus. If a passenger doesn't follow these rules, you have a right to deny them service and kick them off of your bus.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Drive your bus around and make a profit off of transporting people.</li>
 					</ul>
 					<br>
-					<h2>Special Job-Specific Items:</h2>
+					<h3>Special Job-Specific Items:</h3>
 					<ul>
 						<li>Has ability to spawn a bus at the civilian car dealer.</li>
 					</ul>
 					<br>
-					<h2>Job-Specific Rules/Tips:</h2>
+					<h3>Job-Specific Rules/Tips:</h3>
 					<ul>
 						<li>You may only charge up to $200 for each passenger to ride your bus.</li>
 						<br>
@@ -415,11 +423,11 @@
 					</ul>
 				</div>
 				<div id="citizen" style="display:none" class="list">
-					<h1 style="text-align:center">Citizen</h1>
-					<h2>In-Game Description:</h2>
+					<h2 style="text-align:center">Citizen</h2>
+					<h3>In-Game Description:</h3>
 					<p>The Citizen is the base job and has no salary, intended for people who don't want to hold a job or want to do freelance/contract work.</p>
 					<br>
-					<h2>Duties:</h2>
+					<h3>Duties:</h3>
 					<ul>
 						<li>Citizens have no set duties since they are not as limited as other jobs, but to give players an idea of what they can do, here is a list: Mining ores for cash, mining iron for crafting, farming for cash, farming for health, money printing, making drugs for personal use, making drugs for cash, running a business such as a gun store, logging for cash, logging for crafting, robbing ATMs, robbing the police bank, robbing the government bank, mugging players for cash, fishing, and kidnapping someone and demanding cash for their release.</li>
 					</ul>
@@ -427,7 +435,7 @@
 			</div>
 		</div>
 		<footer>
-			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+			<p>© 2023 LambdaGaming. This page was last updated on <script>document.write( updated )</script>.</p>
 		</footer>
 	</body>
 </html>

@@ -16,7 +16,7 @@ function DisplaySearchResults() {
 	for ( const item of ItemList.data ) {
 		if ( item.name.toLowerCase().includes( search.value.toLowerCase() ) ) {
 			var div = document.createElement( "div" )
-			var title = document.createElement( "h2" )
+			var title = document.createElement( "h3" )
 			title.innerHTML = item.name
 			var desc = document.createElement( "p" )
 			desc.innerHTML = `Description: ${item.desc}`

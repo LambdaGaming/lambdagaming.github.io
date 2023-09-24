@@ -9,29 +9,34 @@
 		<script src="../js/items.js"></script>
     </head>
 	<script>
-		const updated = "2-28-23"
+		const updated = "9-23-23"
 		LoadItems( "../data/items_hlurp.json" )
 	</script>
     <body>
 		<nav id="navbar">
 			<div id="menu" class="menu">
-				<a href="https://discord.gg/9RGdUS2">Discord</a>
-				<a href="https://steamcommunity.com/groups/lambdaG">Steam Group</a>
-				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
-				<a href="https://lambdagaming.github.io/community_rules.html">Community Rules</a>
 				<div class="dropdown">
-					<button class="dropbtn">Server Rules & Guidelines</button>
+					<button class="dropbtn">Projects</button>
 					<div id="dropdown" class="dropdown-content">
-						<a href="https://lambdagaming.github.io/cityrp/main.html">CityRP</a>
-						<a href="https://lambdagaming.github.io/hlurp/main.html">Half-Life Universe RP</a>
-						<a href="https://lambdagaming.github.io/minecraft/main.html">Minecraft</a>
+						<a href="https://github.com/lambdagaming">OPGman's Projects</a>
+						<p title="Working on a project and want to appear here? Let OP know!">Coming soon...</p>
 					</div>
 				</div>
+				<a href="https://lambdagaming.github.io/gallery.html">Gallery</a>
+				<a href="https://lambdagaming.github.io/community_rules.html">Rules</a>
+				<div class="dropdown">
+					<button class="dropbtn">Servers</button>
+					<div id="dropdown" class="dropdown-content">
+						<a href="cityrp/main.html">CityRP</a>
+						<a href="hlurp/main.html">Half-Life Universe RP</a>
+						<a href="minecraft/main.html">Minecraft</a>
+					</div>
+				</div>
+				<a href="https://discord.gg/9RGdUS2">Discord</a>
 			</div>
 			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="../graphics/lambda_circle.png"></a>
 		</nav>
-		<h1 class="headertitle">Half-Life Universe RP</h1>
-		<h2 class="headertitle2">Item Catalog</h2>
+		<h2 class="headertitle2">HLU RP Item Catalog</h2>
 		<div id="main" class="main" style="padding-top:10px;">
 			<div class="itemsearch">
 				<input id="search" type="text" onkeyup="DisplaySearchResults()" placeholder="Search for an item...">
@@ -40,7 +45,7 @@
 			<div id="list" class="list"><script>setTimeout( DisplaySearchResults, 350 )</script></div>
 		</div>
 		<footer>
-			<p>Credits: <a href="https://steamcommunity.com/profiles/76561198136556075/">OP</a> for website coding and logo graphics. This page was last updated on <script>document.write( updated )</script>.</p>
+			<p>© 2023 LambdaGaming. This page was last updated on <script>document.write( updated )</script>.</p>
 		</footer>
 	</body>
 </html>
