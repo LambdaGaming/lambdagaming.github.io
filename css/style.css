@@ -198,3 +198,7 @@ footer p {
 	font-size: 30px;
 	text-align: center;
 }
+
+.maincenter p {
+	line-height: 1;
+}
