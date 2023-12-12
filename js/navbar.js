@@ -23,6 +23,20 @@ function Slideshow() {
 				image.src = json.data[randimage].src // Set image to a random one from the list
 			}
 			RandomImage()
-			setInterval( RandomImage, 10000 ) // 3 second timer loop
+			setInterval( RandomImage, 10000 ) // 10 second timer loop
+		} )
+}
+
+function GetCreators() {
+	fetch( "https://raw.githubusercontent.com/LambdaGaming/lambdagaming.github.io/master/data/creators.json" )
+		.then( response => response.json() )
+		.then( json => {
+			var list = document.getElementById( "creators" )
+			for ( const c of json.creators ) {
+				var link = document.createElement( "a" )
+				link.href = c.url
+				link.innerText = c.name
+				list.prepend( link )
+			}
 		} )
 }
