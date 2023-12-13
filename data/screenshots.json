@@ -1,13 +1,18 @@
 {
 	"data":[
 		{
+			"src":"https://steamuserimages-a.akamaihd.net/ugc/1008188268579807438/7875BA4AE48F996B348845124777FC476C9A160C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+			"caption":"Untitled. (SCP:SL)",
+			"id":"null"
+		},
+		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/2021584341853769325/71DB3D5C407437EBBE0AD951D0BC91C0506C04B1/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
 			"caption":"A janitor finds something unusual while cleaning out the air vents. (HLU RP)",
 			"id":"hlurp"
 		},
 		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/1928120687791640453/85CDA4F7852926B2064372BA06B6EB200FD306FC/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
-			"caption":"Police hire a contractor to build an armored vehicle that pollutes the city and disturbs the homeless. (CityRP)",
+			"caption":"Police hire a contractor to build an armored vehicle that pollutes the city. (CityRP)",
 			"id":"cityrp"
 		},
 		{
@@ -372,7 +377,7 @@
 		},
 		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/2422250057107899524/B93618ACAAB4E9093177916F72EB8BF077C5CD75/",
-			"caption":"Religious cult kidnaps the mayor and kills him as part of a ritual. (CityRP)",
+			"caption":"Religious cult kidnaps the mayor. (CityRP)",
 			"id":"cityrp"
 		},
 		{
@@ -406,11 +411,6 @@
 			"id":"hlurp"
 		},
 		{
-			"src":"https://steamuserimages-a.akamaihd.net/ugc/921417946950663293/C3AF49C1427637F6BD8E42CAFD23F579B7C23C2F/",
-			"caption":"A biochemist traps an illegal alien behind bulletproof glass for experiments. (HLU RP)",
-			"id":"hlurp"
-		},
-		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/921417946945344182/5A0204607DF68DDB112C4EA2E1FD4C0919828CB8/",
 			"caption":"A technician sets up a server system for Black Mesa personnel. (HLU RP)",
 			"id":"hlurp"
@@ -433,11 +433,6 @@
 		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/865118579588089151/06FCFC9AD1C7C39396B36E44AD4F180F72668245/",
 			"caption":"The mayor participates in exotic dancing inside the city bank vault. (CityRP)",
-			"id":"cityrp"
-		},
-		{
-			"src":"https://steamuserimages-a.akamaihd.net/ugc/865118579588090920/CA4C4521A714BFAF11549F68806CD2470DF24DF1/",
-			"caption":"Citizen vandalizes supermarket to send a message. (CityRP)",
 			"id":"cityrp"
 		},
 		{
@@ -587,7 +582,7 @@
 		},
 		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/83717093933822483/258EDC073B509960C872AFF124F36D9A8B4F0BE2/",
-			"caption":"Communist mayor orders officers to burn down a cabin with a filthy capitalist pig inside. (CityRP)",
+			"caption":"Communist mayor has citizen killed for his beliefs, but doesn't realize he escaped through a broken window. (CityRP)",
 			"id":"cityrp"
 		},
 		{
@@ -597,7 +592,7 @@
 		},
 		{
 			"src":"https://steamuserimages-a.akamaihd.net/ugc/99473989844236637/050D5C59CFE6028902F225D0A61F9193D610E6B6/",
-			"caption":"Players gather in a local hotel for a drug party. (CityRP)",
+			"caption":"Players gather in a local hotel for a party. (CityRP)",
 			"id":"cityrp"
 		}
 	]
