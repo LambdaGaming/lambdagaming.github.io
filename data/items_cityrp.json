@@ -76,11 +76,6 @@
 			"location":"Main area of the city bank, usually near the ATMs."
 		},
 		{
-			"name":"Jailbreaker",
-			"desc":"Used by criminals who have been arrested to break out of jail. To use, someone must first break you out of your cell. You can then press your use key on the jailbreaker to initiate a timer that will free you once it ends. Note that the police will be notified when the timer starts.",
-			"location":"Near the front desk of the police station."
-		},
-		{
 			"name":"Mayors Secretary",
 			"desc":"Used to enter mayor elections. An election will start once at least two players have entered. An election cannot be started if there is already a mayor in office.",
 			"location":"Front desk of city hall."
@@ -163,7 +158,7 @@
 		{
 			"name":"Battering Ram",
 			"desc":"Breaks down doors owned by players with active search warrants. Right click to hold it up into position and left click in front of the target door to force it open.",
-			"user":"All police jobs except undercover officer"
+			"other":"Using the SWAT locker"
 		},
 		{
 			"name":"Arrest/Unarrest Sticks",
@@ -171,14 +166,9 @@
 			"user":"All police jobs"
 		},
 		{
-			"name":"Confiscation Tool",
-			"desc":"Allows user to view and take illegal weapons and tools from the target player's weapon slots. Confiscated items will be given to the user, or spawned next to them if the user already has the same item. Only works on handcuffed players.",
-			"user":"All police jobs"
-		},
-		{
 			"name":"Car Bomb Checker",
 			"desc":"Scans for and defuses car bombs. Left click to scan the target vehicle for car bombs, and right click to defuse and remove the bomb if it exists.",
-			"user":"All police jobs except undercover officer"
+			"other":"Using the SWAT locker"
 		},
 		{
 			"name":"Car Bomb Protection",
@@ -609,7 +599,7 @@
 		},
 		{
 			"name":"Evidence Wand",
-			"desc":"Transfers items that police confiscate to the evidence locker for processing or safekeeping. To use, aim at a contraband item and press primary fire.",
+			"desc":"When aimed at a handcuffed player, the wand allows the user to view and take illegal weapons and tools from the target's weapon slots. Confiscated items will be given to the user, or spawned next to them if they already have the same item. When aimed at certain contraband entities, the wand transfers them to the evidence locker for processing or safekeeping.",
 			"user":"All police jobs"
 		},
 		{
@@ -651,6 +641,11 @@
 			"name":"Electronic Component",
 			"desc":"Crafting material used in advanced recipes for electronic devices. Can only be obtained by robbing the evidence locker at the police station.",
 			"other":"Robbing the evidence locker"
+		},
+		{
+			"name":"SWAT Shield",
+			"desc":"Ballistic shield used by SWAT officers to protect themselves and others from gunfire. Most effective when used while crouching.",
+			"other":"Using the SWAT locker"
 		}
 	]
 }
