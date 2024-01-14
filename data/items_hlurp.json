@@ -31,25 +31,25 @@
 		},
 		{
 			"name":"Rebel Crafting Table",
-			"desc":"Crafting table that supplies weapons, tools, traps, and ammo for refugees and rebels.",
+			"desc":"Supplies weapons, tools, traps, and ammo for refugees and rebels.",
 			"rp":"City 17 RP & Outland RP",
 			"shop":"F3 Menu"
 		},
 		{
 			"name":"Biochemist Crafting Table",
-			"desc":"Crafting table that allows biochemists to create biological weapons and alien life forms.",
+			"desc":"Allows biochemists to create biological weapons and alien life forms.",
 			"rp":"BMRP",
 			"shop":"F3 Menu"
 		},
 		{
 			"name":"Weapon Engineer Crafting Table",
-			"desc":"Crafting table that allows weapon engineers to create normal, prototype, and unusual weapons.",
+			"desc":"Allows weapon engineers to create normal, prototype, and unusual weapons.",
 			"rp":"BMRP",
 			"shop":"F3 Menu"
 		},
 		{
 			"name":"Combine Crafting Table",
-			"desc":"Crafting table that allows Combine units and scientists to craft science locker keys and defensive items including turrets.",
+			"desc":"Allows Combine units and scientists to craft science locker keys and defensive items including turrets.",
 			"rp":"City 17 RP & Outland RP",
 			"shop":"F3 Menu"
 		},
@@ -111,7 +111,7 @@
 			"name":"High-Energy Crystal Fragment",
 			"desc":"Modified Xen crystal that has been broken up, causing it to become unstable. Has more destructive effects when used with various lab equipment, but can be used in crafting rare items.",
 			"rp":"BMRP",
-			"other":"Experimenting with harvested crystals."
+			"other":"Breaking up a harvested crystal with a high-powered laser."
 		},
 		{
 			"name":"Harvested Crystal",
@@ -171,7 +171,7 @@
 			"name":"Radioactive Crystal",
 			"desc":"Xen crystal that has been modified to give off high amounts of radiation.",
 			"rp":"BMRP",
-			"other":"Experimenting with harvested crystals."
+			"other":"Placing a harvested crystal in a nuclear reactor."
 		},
 		{
 			"name":"Lost Crystal",
@@ -266,19 +266,19 @@
 			"name":"Organic Matter",
 			"desc":"Petri dish that contains samples of organic matter. Used in crafting.",
 			"rp":"BMRP",
-			"other":"Mining a Xen tree."
+			"other":"Mining a Xen tree. (90% chance)"
 		},
 		{
 			"name":"Cooked Organic Matter",
 			"desc":"Organic matter than has been heated enough to be edible.",
 			"rp":"BMRP",
-			"other":"Experimenting with organic matter."
+			"other":"Heating organic matter with a bunsen burner (100% chance) or electric generator (75% chance if frozen, 50% if not)."
 		},
 		{
 			"name":"Radioactive Organic Matter",
 			"desc":"Organic matter that emits low amounts of radiation. Used in crafting.",
 			"rp":"BMRP",
-			"other":"Experimenting with organic matter."
+			"other":"Placing organic matter in a nuclear reactor."
 		},
 		{
 			"name":"Rare Organic Matter",
@@ -344,19 +344,19 @@
 			"name":"Xen Iron",
 			"desc":"Alien metal that can be used in crafting.",
 			"rp":"BMRP",
-			"other":"Mining a Xen crystal. (60% chance)"
+			"other":"Mining a Xen crystal (60% chance), or duplicating xen iron with a high-powered laser (50% chance)."
 		},
 		{
 			"name":"Radioactive Xen Iron",
 			"desc":"Xen iron that emits low amounts of radiation. Used in crafting.",
 			"rp":"BMRP",
-			"other":"Experimenting with Xen iron."
+			"other":"Placing xen iron in a nuclear reactor."
 		},
 		{
 			"name":"Refined Xen Iron",
 			"desc":"Xen iron that has been refined to be more pure. Used in crafting rare items.",
 			"rp":"BMRP",
-			"other":"Experimenting with Xen iron."
+			"other":"Heating xen iron with a bunsen burner."
 		},
 		{
 			"name":"Gman Teleporter",
