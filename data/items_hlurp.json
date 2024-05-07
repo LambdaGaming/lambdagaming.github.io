@@ -359,8 +359,8 @@
 			"other":"Heating xen iron with a bunsen burner."
 		},
 		{
-			"name":"Gman Teleporter",
-			"desc":"Allows players to teleport back to a saved point. Right click to save a point, and left click to teleport back to that saved point.",
+			"name":"Gman's Teleporting Briefcase",
+			"desc":"Used to enter a solid white 'door' and disappear by turning invisible, like the Gman at the end of Half-Life 2. While invisible, you run faster and cannot use weapons.",
 			"rp":"BMRP & City 17 RP",
 			"user":"Government Man"
 		},
