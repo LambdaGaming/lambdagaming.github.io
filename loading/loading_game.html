@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="shortcut icon" type="image/x-icon" href="https://lambdagaming.github.io/favicon.ico">
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/loading.css">
+		<script src="../js/loading.js"></script>
+		<style>
+			p {
+				line-height:22px;
+				padding-left:0%;
+				padding-right:0%;
+				text-align:center;
+			}
+			body {
+				padding: 0;
+			}
+			.screenshots {
+				padding-left: 27.5%;
+			}
+		</style>
+		<script>
+			function GetRandomString( str ) {
+				return str[Math.floor( Math.random() * str.length )]
+			}
+
+			function GetTrivia() {
+				var trivia = [
+					"Lambda Gaming was founded in late 2015, making it at least 2 years old.",
+					"Half-Life Universe RP is themed around the popular game franchise Half-Life.",
+					"The vice mayor used to be in CityRP until he escaped. His whereabouts are currently unknown.",
+					"Chronet has fallen. Millions must get banned.",
+					"CityRP is very fun when people actually play on it.",
+					"The voices are getting louder.",
+					"Nixon's moon landings WERE real. Trust me bro.",
+					"I have no reputable sources for any of this information.",
+					"The Deathkitty incident remains one of the dramas to ever hit the community.",
+					"OP?! Are you in here? Oh...hi random. I guess OP isn't in this loading screen. I'll check the other ones.",
+					"The creation of the SCP:SL server is a reference to the fact that everyone in the community is an SCP.",
+					"The mayor has breached containment.",
+					"The DarkRP shotgun is real and it WILL hurt you.",
+					"You can press the space bar on your keyboard to jump."
+				]
+				var questions = [
+					"Did you know?",
+					"Fun fact!",
+					"Tip:"
+				]
+				var t = document.getElementById( "trivia" )
+				t.innerText = `${GetRandomString( questions )} - ${GetRandomString( trivia )}`
+			}
+
+			function RandomSong() {
+				var songs = [
+					"https://ia600908.us.archive.org/6/items/soundcloud-188767130/Alan_Walker_-_Spectre_NoCopyRelease-188767130.mp3",
+					"https://ia800703.us.archive.org/6/items/soundcloud-316058029/Alan_Walker_-_Fade_NCS_Release-316058029.mp3",
+					"https://ia803208.us.archive.org/29/items/ItroTobuCloud9NCSRelease/Itro%20%20Tobu%20-%20Cloud%209%20%5BNCS%20Release%5D.mp3",
+					"https://dn720300.ca.archive.org/0/items/hl-2-soundtrack/22%20LG%20Orbifold.mp3"
+				]
+				var audio = document.getElementById( "music" )
+				audio.innerHTML = `<source src="${GetRandomString( songs )}" type="audio/mpeg">`
+				audio.play()
+			}
+
+			function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, language ) {
+				var map = document.getElementById( "mapName" )
+				map.innerText = mapname
+			}
+		</script>
+    </head>
+    <body>
+		<audio loop id="music"></audio>
+		<div>
+			<img src="../graphics/lambda_sandbox.png" class="logo">
+			<p style="position:relative" class="welcometext">You're on your way to <span id="mapName">somewhere</span>. Good luck. You're gonna need it.</p>
+			<br><br>
+			<img id="image" class="screenshots" src="" style="margin-top:-1%;">
+			<script>WriteImageAll()</script>
+			<p id="trivia"></p>
+			<script>GetTrivia(); RandomSong(); setInterval( GetTrivia, 3000 )</script>
+		</div>
+    </body>
+</html>
