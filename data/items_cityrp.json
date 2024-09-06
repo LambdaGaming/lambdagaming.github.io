@@ -646,6 +646,11 @@
 			"name":"SWAT Shield",
 			"desc":"Ballistic shield used by SWAT officers to protect themselves and others from gunfire. Most effective when used while crouching.",
 			"other":"Using the SWAT locker"
+		},
+		{
+			"name":"Boombox",
+			"desc":"Plays internet radio streams in 3D space.",
+			"shop":"Supermarket"
 		}
 	]
 }
