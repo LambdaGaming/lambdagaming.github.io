@@ -322,11 +322,11 @@
 		{
 			"name":"News Camera",
 			"desc":"Broadcasts a live feed of what you're looking at to news TVs. You can edit the ticker that appears at the bottom of the screen by right clicking.",
-			"user":"News Cameraman"
+			"user":"News Reporter"
 		},
 		{
 			"name":"News TV",
-			"desc":"Displays a live feed of the news cameraman's camera. Any voice or text chats that are within range of the news cameraman will emit from the TV.",
+			"desc":"Displays a live feed of the news reporter's camera. Any voice or text chats that are within range of the news reporter will emit from the TV.",
 			"shop":"Supermarket"
 		},
 		{
