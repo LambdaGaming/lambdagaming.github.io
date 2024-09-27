@@ -6,9 +6,6 @@
 		<link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/menu.css">
 		<script src="../js/navbar.js"></script>
-		<script>
-			const updated = "9-4-24"
-		</script>
     </head>
     <body>
 		<nav id="navbar">
@@ -60,7 +57,7 @@
 			</ol>
 		</div>
 		<footer>
-			<p>© 2019-2024 OPGman. This page was last updated on <script>document.write( updated )</script>.</p>
+			<p>© 2019-2024 OPGman. This page was last updated on <script>document.write( document.lastModified.split( ' ' )[0] )</script>.</p>
 		</footer>
 	</body>
 </html>

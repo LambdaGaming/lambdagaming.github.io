@@ -6,9 +6,6 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
 		<script src="js/navbar.js"></script>
-		<script>
-			const updated = "9-4-24"
-		</script>
 		<style>
 			body { margin-top:75px; }
 			footer { margin-top: 0; }
@@ -41,7 +38,7 @@
 			</div>
 		</div>
 		<footer>
-			<p>© 2019-2024 OPGman. This page was last updated on <script>document.write( updated )</script>.</p>
+			<p>© 2019-2024 OPGman. This page was last updated on <script>document.write( document.lastModified.split( ' ' )[0] )</script>.</p>
 		</footer>
 	</body>
 </html>

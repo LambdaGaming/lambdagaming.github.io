@@ -9,7 +9,6 @@
 		<script src="../js/items.js"></script>
     </head>
 	<script>
-		const updated = "5-7-24"
 		LoadItems( "../data/items_hlurp.json" )
 	</script>
     <body>
@@ -38,7 +37,7 @@
 			<div id="list" class="list"><script>setTimeout( DisplaySearchResults, 350 )</script></div>
 		</div>
 		<footer>
-			<p>© 2019-2024 OPGman. This page was last updated on <script>document.write( updated )</script>.</p>
+			<p>© 2019-2024 OPGman. This page was last updated on <script>document.write( document.lastModified.split( ' ' )[0] )</script>.</p>
 		</footer>
 	</body>
 </html>
