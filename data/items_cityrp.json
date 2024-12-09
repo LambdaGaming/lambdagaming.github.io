@@ -7,7 +7,7 @@
 		},
 		{
 			"name":"ATM",
-			"desc":"Used to deposit and withdraw money. ATMs can be robbed by any job by equipping a crowbar and repeatedly right clicking the ATM. Starting a robbery will sound an alarm that nearby players will be able to hear.",
+			"desc":"Used to deposit and withdraw money. ATMs can be robbed by any job by equipping a crowbar and repeatedly right clicking the ATM. Starting a robbery will sound an alarm that nearby players will be able to hear. The amount you can rob depends on how many players are on the server, but robbing an ATM does not take away money from other players.",
 			"location":"Usually in the main lobby of the city bank."
 		},
 		{
@@ -650,6 +650,11 @@
 		{
 			"name":"Boombox",
 			"desc":"Plays internet radio streams in 3D space.",
+			"shop":"Supermarket"
+		},
+		{
+			"name":"Inventory Box",
+			"desc":"Portable box for carrying up to 9 inventory items. Can be destroyed if dealt enough damage. Destroyed boxes will drop all of its contents.",
 			"shop":"Supermarket"
 		}
 	]
