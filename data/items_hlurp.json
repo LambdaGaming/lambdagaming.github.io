@@ -72,16 +72,10 @@
 			"location":"Restricted and secured areas of the facility that are accessible to HECU jobs."
 		},
 		{
-			"name":"Combine Vehicle Shop",
-			"desc":"Supplies Combine vehicles such as hunter choppers and gunships to all Combine jobs.",
+			"name":"Vehicle Deployment Terminal",
+			"desc":"Allows all Combine units to deploy their own vehicles such as Hunter Choppers, Striders, and Gunships. All vehicles have a global cooldown that limits them to one deployment every 5-10 minutes.",
 			"rp":"Outland RP",
 			"location":"Usually near Combine bases or airports with enough room for the vehicles to spawn and take off."
-		},
-		{
-			"name":"Rebel Item Shop",
-			"desc":"Supplies JMod items such as turrets and radios to all rebel jobs.",
-			"rp":"Outland RP",
-			"location":"Usually in a storage room within the rebel base."
 		},
 		{
 			"name":"Radioactive Material Container",
@@ -91,7 +85,7 @@
 		},
 		{
 			"name":"Rebel Rocket",
-			"desc":"Rocket that sends the codes to close the Combine portal into a satellite in space. To start the launch procedure, press the button with the green light near the launch controls as a resistance leader. The launch can be aborted by Combine units if they manage to breach the base's defenses.",
+			"desc":"Rocket that sends the codes to close the Combine portal into a satellite in space. To start the launch procedure, press the button with the green light in the command center of the rebel base. The launch can be aborted by Combine units if they manage to breach the base's defenses.",
 			"rp":"Outland RP",
 			"location":"Rocket silo of the rebel base."
 		},
@@ -287,16 +281,10 @@
 			"other":"Mining a Xen tree. (10% chance)"
 		},
 		{
-			"name":"Outland Crate/Log/Generator",
-			"desc":"Items that could contain the codes to shutdown the Combine portal. To search for the codes, press your use key on the item.",
-			"rp":"Outland RP",
-			"location":"Scattered around the outlands."
-		},
-		{
 			"name":"Item Cache",
-			"desc":"Cache that can supply players with turret ammo, turret batteries, food, or medical items. Resupplies itself with a random item 3 minutes after being looted.",
+			"desc":"Cache that can supply players with turret ammo, turret batteries, food, or medical items. Resupplies itself with a random item 5 minutes after being looted, as long as there aren't any players nearby.",
 			"rp":"Outland RP",
-			"location":"Scatted around the outlands."
+			"location":"Scattered around the outlands, mainly in ruined buildings."
 		},
 		{
 			"name":"Rebel Teleporter",
@@ -305,8 +293,8 @@
 			"other":"Crafting"
 		},
 		{
-			"name":"Satellite Control Console",
-			"desc":"Used by the rebels to forcefully destroy the Combine portal. Requires the rebels to have the portal codes, which can be found in certain objects scattered around the map. Once the portal is destroyed, it will explode with such force that the outlands get reduced to a wasteland.",
+			"name":"Combine Central Core",
+			"desc":"Central core of the Combine's Outland base that can be destroyed by the rebels as an alternate way to win, if their rocket fails to launch. The core is extremely strong and requires a lot of firepower to destroy.",
 			"rp":"Outland RP",
 			"location":"Inside the Combine base, usually locked behind a secure door."
 		},
@@ -390,7 +378,7 @@
 		},
 		{
 			"name":"Escape Truck",
-			"desc":"Black Mesa research truck used to evacuate Black Mesa employees away from the facility. When a player evacuates, they will join the HECU.",
+			"desc":"Black Mesa research truck used to evacuate people away from the facility. When a player evacuates, they will join the HECU. The truck spawns topside at the beginning of the cascade event.",
 			"rp":"BMRP",
 			"location":"Topside after the cascade starts."
 		},
