@@ -1,6 +1,6 @@
 .borderleft{
 	width:22%;
-	height:80%;
+	height:550px;
 	padding:25px;
 	border:1px solid #FF5900;
 	border-radius:25px;
@@ -10,7 +10,7 @@
 
 .borderright{
 	width:22%;
-	height:80%;
+	height:550px;
 	padding:25px;
 	border:1px solid #FF5900;
 	border-radius:25px;

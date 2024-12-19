@@ -8,6 +8,34 @@
 		<script src="../js/loading.js"></script>
 		<script>
 			var imageid = 2
+			var rpType = -1
+			var rpNames = ["Black Mesa", "City 17", "Outlands"]
+			var rpInfo = [
+				"Black Mesa RP (aka BMRP) takes place in the Black Mesa Research Facility, on the day of the Resonance Cascade. You will spawn as a visitor, with very limited access to the facility. You will need to choose a job and complete tasks, but you also have some freedom to do your own things as well.<br><br>Each job plays a unique role, but some are more important for progressing to the next stage. For example, the survey team is tasked with gathering resources from Xen, which other jobs can use to craft special items. They can also mine crystals for a chance to get a rare sample that can be used in the Anti-Mass Spectrometer (AMS), which will ultimately trigger the cascade.<br><br>Once the cascade starts, aliens will start teleporting into the facility and certain pathways will be blocked off. The goal then becomes escaping the facility alive and joining the HECU, who are tasked with nuking the facility and killing anything that tries to stop them. Once the facility is nuked, the server will move onto the next stage, City 17 RP.",
+				"City 17 RP (aka HL2RP) takes place in either City 17 or City 24, depending on what crystal was inserted into the AMS on BMRP. You will spawn as an ordinary citizen who has full loyalty to the Combine. You can choose to stay a loyal citizen, join the Combine, or slowly work to become rebellious enough to overthrow the Combine.<br><br>The Combine is limited to metrocops until resistance is high enough to start deploying soldiers and guards. The Combine can also work with scientists to research advanced units and weapons such as elites and cremators.<br><br>Citizens have a loyalty value that prevents them from performing certain tasks until they get it down enough. Loyalty degrades slowly over time, but it can be sped up by attacking Combine units and breaching Combine-controlled areas. Loyalty can also be restored by mining for resources, being hit with a stunstick, or being arrested.<br><br>Once the resistance builds up enough, they need to breach the Citadel and start the detonation sequence, which can be stopped by Combine units if left undefended. If the detonation succeeds, the server will move onto the next stage, Outland RP.",
+				"Outland RP takes place in the outskirts of City 17, after the citadel explodes and the city is evacuated. You will spawn as a refugee, a neutral party with limited resources. You can choose to stay neutral, or you can join the rebels or Combine.<br><br>The ultimate goal is for the rebels to eradicate the Combine for good by closing the portal above the destroyed Citadel, which they can do through two methods: Launch a rocket that taps into an old satellite, or attack the Combine base and destroy their central core. If you're coming from City 17 RP, there will be a 30 minute cooldown before the rebels can launch their rocket.<br><br>The Combine need to use their advanced vehicles and weapons to keep the rebels at bay and prevent them from closing the portal.<br><br>The rebels have 1.5 hours to complete their goal before the rest of the Combine come through the portal and take over Earth for good. As this is the final stage, the server will close for the day no matter who wins in the end."
+			]
+			function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, language ) {
+				switch ( mapname ) {
+					case "rp_bmrf": case "gm_atomic":
+						rpType = 0
+						break
+					case "rp_city17_build210": case "rp_city24_v4":
+						rpType = 1
+						break
+					case "rp_mezs":
+						rpType = 2
+						break
+					default:
+						break
+				}
+				if ( rpType >= 0 ) {
+					var name = document.getElementById( "rpname" )
+					var desc = document.getElementById( "rpdesc" )
+					name.innerText = "Current Stage: " + rpNames[rpType]
+					desc.innerHTML = rpInfo[rpType]
+				}
+			}
 		</script>
 		<style>
 			ul, ol {
@@ -23,37 +51,26 @@
     </head>
     <body>
 		<img src="../graphics/lambda_hlurp.png" class="logo">
-		<p class="welcometext">Welcome and enjoy your stay! The rules for the server are on the left, and info about this server is on the right. You can access this information and more after you have spawned in by typing !rules in chat.</p>
 		<br><br>
 		<img id="image" class="screenshots" src="">
 		<script>WriteImage()</script>
 		<div class="borderleft">
-			<h4>General Server Rules:</h4>
-			<ol>
-				<li>On Black Mesa RP, randomly killing players is not allowed until the resonance cascade happens. On City 17 RP and Outland RP, random killing is allowed between two teams, but team killing is only allowed if your teammate did something to negatively affect you.</li>
-				<br>
-				<li>Don't kill players just because they killed you, and don't keep an event going after you died unless members of your team are still taking part in the event.</li>
-				<br>
-				<li>If you are held at gunpoint, you can do whatever is necessary to survive as long as it doesn't break any other rules.</li>
-				<br>
-				<li>On City 17 RP and Outland RP, as a Combine role, you cannot kill or arrest resistance leaders who are disguised as a friendly unless you have obtained proof in the RP that they are a rebel.</li>
-				<br>
-				<li>On City 17 RP, as a Combine role, you are not allowed to raid a rebel base just because you know one exists on the map. You need solid RP evidence that rebels are there before you can raid it.</li>
-			</ol>
+			<h4 id="rpname">Current Stage: Unknown</h4>
+			<p id="rpdesc">Couldn't detect what stage the server is currently playing on. You're either viewing this page from a normal web browser, or the server is running a map that isn't part of any of the stages.</p>
 		</div>
 		<div class="borderright">
 			<h4>About This Server:</h4>
-			<p>This server goes through the entire Half-Life storyline inside a roleplay environment starting with Black Mesa RP, continuing to City 17 RP, and ending with Outland RP. All of these segments are run a bit differently compared to most other servers, so don't be afraid to ask an admin about what to do.</p>
+			<p>This server goes through the entire Half-Life storyline inside a roleplay environment. It starts with Black Mesa, continues to City 17, and ends with the Outlands. Hopefully one day it won't end there. All of these stages are run a bit differently compared to most other servers that host them individually, so don't be afraid to ask if you're confused.</p>
 			<br>
 			<h4>Notes:</h4>
 			<ul>
-				<li>This server does not run 24/7. If you want to be notified the next time it opens, join the Discord. The link can be found by typing !discord in chat.</li>
+				<li>This server does not run 24/7. If you want to be notified the next time it opens, join the Discord. You can get the link by typing !discord in chat.</li>
 				<br>
-				<li>If you are missing the addons, you may need to enable multiplayer downloads in the game options. If you prefer to manually download them, you can type !addons in chat once you have loaded in.</li>
+				<li>If you are missing the addons, you might need to enable multiplayer downloads in the game options. If you prefer to manually download them, type !addons in chat.</li>
 				<br>
-				<li>The rules on the left are only the major ones. For the full list of server-wide rules and other info, type !rules in chat once you have spawned in.</li>
+				<li>To see the rules and other resources, type !rules in chat.</li>
 			</ul>
 		</div>
-		<p style="padding-left:30%">Have a screenshot from the server? Upload it to Steam and send the link to OP and he'll add it to this page!</p>
+		<p style="padding-left:30%">Have a screenshot from the server? Upload it to Steam and send the link to OP and he'll add it to the website!</p>
     </body>
 </html>
