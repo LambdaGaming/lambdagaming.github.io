@@ -27,7 +27,7 @@
 			"name":"Broom",
 			"desc":"Clears decals such as blood spatter and bullet holes from any surface. Some surfaces may be harder to clean than others depending on how many decals are already on it.",
 			"rp":"BMRP",
-			"user":"Service Official"
+			"user":"Custodian"
 		},
 		{
 			"name":"Rebel Crafting Table",
@@ -55,7 +55,7 @@
 		},
 		{
 			"name":"Vending Machines",
-			"desc":"Various types of vending machines that dispense food and drinks, which replenish HP. On BMRP, vending machines have a limited supply and need to be restocked by a service official after being used a certain amount of times. On City 17 RP, the food dispenser may be restricted by the Combine until they decide to allow for ration intakes.",
+			"desc":"Various types of vending machines that dispense food and drinks, which replenish HP. On BMRP, vending machines have a limited supply and need to be restocked by a custodian after being used a certain amount of times. On City 17 RP, the food dispenser may be restricted by the Combine until they decide to allow for ration intakes.",
 			"rp":"BMRP & City 17 RP",
 			"location":"Commonly traveled areas such as tram stations or lobbies of public buildings."
 		},
@@ -174,13 +174,13 @@
 		},
 		{
 			"name":"Generator",
-			"desc":"Part of the power outage event. Requires a service official to interact with it to end the event.",
+			"desc":"Part of the power outage event. Requires a custodian to interact with it to end the event.",
 			"rp":"BMRP",
-			"location":"Usually inside maintenance areas that are only accessible by the service official."
+			"location":"Usually inside maintenance areas that are only accessible by the custodian."
 		},
 		{
 			"name":"Portal Console",
-			"desc":"Part of the broken portal event. Requires a service official to hit it with a pipe wrench to end the event.",
+			"desc":"Part of the broken portal event. Requires a custodian to hit it with a pipe wrench to end the event.",
 			"rp":"BMRP",
 			"location":"Usually near the rest of the controls for the Xen portal."
 		},
@@ -306,13 +306,13 @@
 		},
 		{
 			"name":"Trash Compactor",
-			"desc":"Removes trash collected by a service official. Rewards service officials with a small amount of funds for keeping the facility clean.",
+			"desc":"Removes trash collected by a custodian. Rewards custodians with a small amount of funds for keeping the facility clean.",
 			"rp":"BMRP",
 			"location":"Usually in large storage areas."
 		},
 		{
 			"name":"Trash",
-			"desc":"Unused materials that have been thrown away by a service official and can now be put in a trash compactor.",
+			"desc":"Unused materials that have been thrown away by a custodian and can now be put in a trash compactor.",
 			"rp":"BMRP",
 			"other":"Using a trash bag on an unused crafting material."
 		},
@@ -356,7 +356,7 @@
 			"name":"Trash Bag",
 			"desc":"Used to throw away unused crafting materials. To use, left click while looking at a crafting material.",
 			"rp":"BMRP",
-			"user":"Service Official"
+			"user":"Custodian"
 		},
 		{
 			"name":"Two-Way Portal Pairing Tool",
@@ -384,7 +384,7 @@
 		},
 		{
 			"name":"Fire Extinguisher Case",
-			"desc":"Wall-mounted case that contains a fire extinguisher. When an extinguisher is taken out, another one cannot be taken from that case unless it is restocked by a service official.",
+			"desc":"Wall-mounted case that contains a fire extinguisher. When an extinguisher is taken out, another one cannot be taken from that case unless it is restocked by a custodian.",
 			"rp":"BMRP",
 			"location":"At least one is mounted on the wall in every sector."
 		}
