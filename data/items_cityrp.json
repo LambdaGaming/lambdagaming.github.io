@@ -11,28 +11,18 @@
 			"location":"Usually in the main lobby of the city bank."
 		},
 		{
-			"name":"Banker",
-			"desc":"Used to cash-in checks and money bags. To use, press your use key on a check or money bag that is in range of the NPC.",
-			"location":"Usually standing along a road on the opposite side of the map from the bank."
-		},
-		{
 			"name":"Car Dealer",
-			"desc":"Used to buy, sell, and store vehicles. When selling a vehicle, you will receive 75% of the vehicle's current price. Spawning a new vehicle will remove and store your old one, so be aware of the rules surrounding that.",
+			"desc":"Used to buy, sell, and store vehicles. When selling a vehicle, you will receive 75% of the vehicle's current price. Spawning a new vehicle will remove and store your old one, so be aware of the server rules regarding that. Mechanics can also use the car dealer to rent out vehicles to other players, and to sell stolen vehicles that people bring in.",
 			"location":"Front desk of the car dealership."
 		},
 		{
 			"name":"Contraband Dealer",
-			"desc":"Sells a variety of items that are illegal by default such as weed plants and money printers. The mayor can decide for each item whether or not it should remain illegal, though items declared legal will still be sold at this dealer.",
-			"location":"Usually at the end of alleys located in between buildings."
-		},
-		{
-			"name":"Drug Dealer",
-			"desc":"Used to sell all types of drugs. To sell your drugs, drop them near the NPC and press your use key on him. Government and police jobs will have a 10 minute cooldown after selling before they can sell again. Changing to a civilian job will not remove the cooldown.",
-			"location":"Usually in an alley or along an outskirts road, away from popular areas."
+			"desc":"Sells a variety of items that are illegal by default such as weed plants and money printers. The mayor can decide for each item whether or not it should remain illegal, though items that are declared legal will still be sold at this dealer. To help prevent camping, the contraband dealer will occasionally move between four different locations.",
+			"location":"Hidden or less populated areas such as alleys or an outskirts road."
 		},
 		{
 			"name":"Dumpster",
-			"desc":"Used to find items. Normal items have a 40% chance of spawning, and can range from simple fish bait to a crafting blueprint. Rare items have a 1% chance of spawning, and include drugs and weapons. Once a dumpster is searched, a 2 minute cooldown will be in effect before it can be searched again.",
+			"desc":"Contains trash, but allows players to loot for a chance of getting an item of value. Normal items have a 40% chance of spawning, and can range from simple fish bait to a crafting blueprint. Rare items have a 1% chance of spawning, and include drugs and weapons. Once a dumpster is searched, a 2 minute cooldown will be in effect before it can be searched again.",
 			"location":"Parking lots of popular buildings such as stores, gas stations, car dealerships, and hospitals."
 		},
 		{
@@ -57,7 +47,7 @@
 		},
 		{
 			"name":"Bank Vault",
-			"desc":"Contains all of the funds used by the city. Up to $20,000 can be robbed from the bank, though this will scale depending on how much is actually in the bank. The minimum amount that can be robbed is $4,000. A robbery cannot start without at least 2 cops, or 1 cop and 1 banker, being on the server. A robbery can end prematurely if the robber leaves the area or the server. When this happens, existing bags will not despawn and can still be cashed, but more bags will not spawn. A bag containing $4,000 will spawn every 2 minutes during a robbery under normal conditions, which means the maximum amount of time it can take to rob is 10 minutes. Stolen money bags can be cashed in by civilian jobs at the banker NPC. The bags can also be returned to the vault by cops and bankers.",
+			"desc":"Contains all of the funds used by the city. Up to $20,000 can be robbed from the bank, though this will scale depending on how much is actually in the bank. The minimum amount that can be robbed is $4,000. A robbery cannot start without at least 2 cops, or 1 cop and 1 banker, being on the server. A robbery can end prematurely if the robber leaves the area or the server. When this happens, existing bags will not despawn and can still be cashed, but more bags will not spawn. A bag containing $4,000 will spawn every 2 minutes during a robbery under normal conditions, which means the maximum amount of time it can take to rob is 10 minutes. Stolen money bags can be cashed in by civilian jobs at the smuggler. The bags can also be returned to the vault by cops and bankers.",
 			"location":"Inside the vault of the city bank."
 		},
 		{
@@ -67,8 +57,8 @@
 		},
 		{
 			"name":"Smelter",
-			"desc":"Used to turn craftable items back into iron, and to smelt raw ores into precious materials to be used in crafting. Touch a compatible item with it to start the smelting process. Smelting time varies depending on how much the item is worth. Up to 3 items can be processed at once. You can also press your use key on the smelter to duplicate iron at the cost of $50 for each.",
-			"location":"Usually in industrial areas of the main city."
+			"desc":"Used to turn craftable items back into its raw materials, and to smelt iron into steel for crafting. Touch a compatible item with it to start the smelting process. Smelting time varies depending on how much the item is worth. Iron that is output by the smelter cannot be placed back in until a player puts the iron in their inventory and takes it back out.",
+			"shop":"Supermarket"
 		},
 		{
 			"name":"Item Bank",
@@ -87,22 +77,17 @@
 		},
 		{
 			"name":"Purifier",
-			"desc":"Purifies cocaine into a form that can be sold or consumed. To use, touch raw cocaine with the purifier. Each raw coke can take up to 45 minutes to purify, but you can stop the purifying process early to get a better purity by pressing your use key on the purifier. The ideal purity takes exactly 30 minutes. Over-purifying the coke will make it extremely poor quality and nearly worthless. Once the coke is done purifying, it will spawn next to the purifier. The purifier also has a small chance of overheating and catching fire while running.",
+			"desc":"Purifies raw cocaine into a form that can be sold or consumed. Each raw coke can take up to 16 minutes to fully purify, but you can stop the purifying process early to get a product that isn't 100% pure by pressing your use key on the purifier. Once the coke is done purifying, it will spawn next to the purifier. The purifier also has a small chance of overheating and catching fire while running.",
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Rock and Tree Grinders",
-			"desc":"Accepts cartloads of logs or ores. To use, fill a cart with ores or logs and take it to the appropriate grinder. Grinding time and cash earned depends on the amount of logs and the type of ores that are being processed.",
-			"location":"Usually in grassy areas along main roads in the outskirts of the city."
-		},
-		{
 			"name":"Supermarket",
-			"desc":"Sells a wide variety of items such as low-grade weapons, vehicle repair tools, and media players. The supermarket only sells items that are legal by default, although some items that are sold can be used illegally. Items sold here are affected by sales tax set by the mayor.",
+			"desc":"Sells a wide variety of items such as low-grade weapons, vehicle repair tools, and media players. The supermarket only sells items that are legal by default, although some items that are sold can be used illegally. Purchases made here are affected by sales tax set by the mayor.",
 			"location":"Stores located in popular areas of the city and/or outskirts."
 		},
 		{
 			"name":"Smuggler",
-			"desc":"Used to sell smuggled items. To use, press your use key on the NPC with the your item nearby. You will then receive payment and the item will be removed.",
+			"desc":"Used to sell illegal or stolen items. To use, press your use key on the NPC with the your item nearby. You will then receive payment and the item will be removed. To help prevent camping, the smuggler will occasionally move between four different locations.",
 			"location":"Usually in outskirts as far away from the main city as possible."
 		},
 		{
@@ -151,8 +136,8 @@
 		},
 		{
 			"name":"Handheld Metal Detector",
-			"desc":"Scans for any weapons that the target player may have on them. If weapons are detected, the device will beep and display what weapons were found in the user's chat. Unlike the large walk-through metal detector, this will not detect explosives or weapons in a players inventory.",
-			"user":"All police jobs",
+			"desc":"Right click scans for any weapons that the target player may have on them. If weapons are detected, the device will beep and display what weapons were found in the user's chat. Unlike the large walk-through metal detector, this will not detect explosives or weapons in a players inventory. When left clicking while aimed at a handcuffed player, the detector allows the user to view and take illegal weapons and tools from the target's weapon slots. Confiscated items will be given to the user, or spawned next to them if they already have the same item.",
+			"user":"All police jobs and the detective",
 			"shop":"Supermarket"
 		},
 		{
@@ -197,9 +182,9 @@
 			"user":"Mechanic"
 		},
 		{
-			"name":"Bagged Deposit Box Money",
-			"desc":"Bag of money that was stolen from a player's deposit box. To cash one in, press your use key on the bag near the banker NPC.",
-			"other":"Robbing a deposit box"
+			"name":"Money Bag",
+			"desc":"Duffel bag that contains a varying amount of money, depending on where it came from. If the bag came from a deposit box, its owner can press their use key on it to collect the money. If the bag was robbed from the bank, civilian jobs can cash it in at the smuggler. Stolen bags can also be returned to the vault by police and the banker.",
+			"other":"Robbing the bank, robbing a deposit box, withdrawing from a deposit box, or collecting during a banker event."
 		},
 		{
 			"name":"Deposit Boxes",
@@ -217,13 +202,8 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Coca Plant",
-			"desc":"Outputs raw cocaine once fully grown. Requires a constant heat source from a heat lamp to grow.",
-			"shop":"Contraband Dealer"
-		},
-		{
-			"name":"Weed/Meth/Pure Cocaine",
-			"desc":"Gives you boosts such as increased health or armor if consumed. Taking too much can result in an overdose, which can lead to negative effects such as low health and slower walk speed. These drugs can also be sold at the drug dealer. Prices vary depending on the type of drug.",
+			"name":"Weed/Meth/Cocaine",
+			"desc":"Various drugs that give you boosts such as increased health or speed if consumed. Taking too much will result in an overdose, which causes low health, slow movement speed, and potentially death. Weed and meth have special variants that give extra effects. These drugs can also be sold by placing them in a drug box and taking the box to the smuggler. Prices vary depending on the type of drug.",
 			"other":"Cooking or growing with various equipment and ingredients"
 		},
 		{
@@ -239,7 +219,7 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Gas Can",
+			"name":"Modified Gas Can",
 			"desc":"Used to pour gas on the ground. To use, hold left click and move in the direction you want the stream to go. To ignite the gas, stand near the pour gas and right click.",
 			"shop":"Contraband Dealer"
 		},
@@ -250,17 +230,17 @@
 		},
 		{
 			"name":"Heat Lamp",
-			"desc":"Provides heat to coca plants so they can grow. Has a 20% chance of catching fire every 5 minutes while turned on. Requires propane to work. Will explode if it takes too much damage.",
+			"desc":"Provides heat to plants so they can grow without sunlight. Has a 20% chance of catching fire every 5 minutes while turned on. Requires fuel to work. Will explode if it takes too much damage.",
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Meth Stove",
-			"desc":"Cooks meth inside meth pots that have the proper ingredients in them. Requires propane to work.",
+			"name":"Meth Mixer",
+			"desc":"Used for preparing meth for baking by mixing all the ingredients together. Various ingredients can be added to the meth for increased effects and quality. The higher the quality, the more the meth will be worth but the longer it will take to cook and bake. Attempting to add certain items as ingredients, or failing to add filler, may cause an explosion. The mixer needs a total of 10 ingredients loaded into it before it will start the mixing process.",
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Meth Pot",
-			"desc":"Holds the ingredients used to cook meth and meth ingredients. Place on a meth stove to start the cooking process once the required ingredients are inside. Press your use key on the pot to harvest the final product once it's done cooking. Note that when cooking meth, chloride needs to be added first before sodium. Otherwise, the pot will explode.",
+			"name":"Meth Oven",
+			"desc":"Bakes prepared meth into its final consumable and sellable form. Requires fuel to work. The amount of time it takes to bake depends on how many extra ingredients were added; 1 minute for each ingredient. The oven runs continuously as long as it has fuel. Adding certain items as ingredients, or leaving finished meth inside for too long, may cause an explosion. The oven also has a small chance of bursting info flames when running.",
 			"shop":"Contraband Dealer"
 		},
 		{
@@ -279,9 +259,9 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Chloride/Sodium",
-			"desc":"Required ingredients for making meth. Created by combining ingredients in a meth pot.",
-			"other":"Making in a meth pot"
+			"name":"Meth Filler",
+			"desc":"The only required ingredient for making bare minimum meth. Adding this alone to the meth station will yield a nearly worthless product, and not adding it at all will cause an explosion.",
+			"shop":"Contraband Dealer"
 		},
 		{
 			"name":"Weed Plant",
@@ -290,7 +270,7 @@
 		},
 		{
 			"name":"Seed",
-			"desc":"Many different seeds can be purchased and planted in dirt. Once a plant has grown food, you can harvest the food to eat and restore health, or to sell to other players or the farmer NPC.",
+			"desc":"Many different seeds can be purchased and planted in dirt. Once a plant has grown food, you can harvest the food to eat and restore hunger and health, to sell to other players or the farmer NPC, or in some cases, use the food as ingredients for making other things.",
 			"shop":"Supermarket"
 		},
 		{
@@ -305,13 +285,13 @@
 		},
 		{
 			"name":"Fire Extinguisher",
-			"desc":"Puts out fires by spraying a foam-like substance. Can be used an unlimited amount of times.",
+			"desc":"Puts out fires by spraying a foamy substance. Can be used an unlimited amount of times.",
 			"user":"Firefighters",
 			"shop":"Supermarket"
 		},
 		{
 			"name":"Med Kit",
-			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are healed near an ambulance. Right click to heal yourself.",
+			"desc":"Quickly heals players by intervals of 10. Players can be healed up to 150 HP if they are near an ambulance. Right click to heal yourself.",
 			"user":"Firefighters"
 		},
 		{
@@ -337,23 +317,18 @@
 		},
 		{
 			"name":"Rock",
-			"desc":"Mined with a pickaxe. Yields ores and/or iron depending on rarity. The rarer the rock is, the more iron it will yield. The max amount of iron a rock can produce is 15. Max amount of ores is 6.",
+			"desc":"Contains between 2-6 iron that can be harvested with a pickaxe.",
 			"location":"Scattered around the map, mostly in grassy and rocky areas."
 		},
 		{
-			"name":"Mining Cart",
-			"desc":"Holds up to 20 logs or ores, can be put in a grinder or sawmill for a profit. Ores and logs cannot be placed in the same cart at once. The cart needs to be emptied for its item type to reset.",
-			"shop":"Supermarket"
-		},
-		{
 			"name":"Pickaxe",
-			"desc":"Mines rocks. Can also be used by the mechanic to repair potholes.",
+			"desc":"Mines rocks. Mechanics can also use it to repair potholes.",
 			"shop":"Supermarket",
 			"user":"Mechanic"
 		},
 		{
 			"name":"Tree",
-			"desc":"Yields logs that can be used in crafting or sold for a profit. Their leaves are always red/orange to help distinguish them from map trees.",
+			"desc":"Contains between 2-4 wood that can be harvested with an axe. The leaves are always red/orange to help distinguish them from normal trees.",
 			"location":"Scattered around the map, mostly in wooded areas."
 		},
 		{
@@ -363,7 +338,7 @@
 		},
 		{
 			"name":"Frag Grenade",
-			"desc":"Throwable explosive that deals a great amount of damage to anyone nearby by launching metal fragments outward in all directions.",
+			"desc":"Throwable explosive that deals a great amount of damage to anyone nearby by launching metal fragments outward in all directions. Capable of instantly destroying rocks.",
 			"other":"Crafting"
 		},
 		{
@@ -389,7 +364,7 @@
 		},
 		{
 			"name":"Timed C4",
-			"desc":"Plastic explosive with a timer that does large amounts of damage. Left click to plant the explosive where you're standing. Right click to change the timer settings. The timer can range from instantaneous to 10 minutes.",
+			"desc":"Plastic explosive with a timer that does large amounts of damage. Left click to plant the explosive where you're standing. Right click to change the timer settings. The timer ranges from instantaneous to 10 minutes.",
 			"other":"Crafting"
 		},
 		{
@@ -398,9 +373,9 @@
 			"other":"Crafting"
 		},
 		{
-			"name":"Wrench",
-			"desc":"Crafting ingredient used in advanced weapon recipes.",
-			"other":"Crafting"
+			"name":"Steel",
+			"desc":"Crafting ingredient used in weapon recipes.",
+			"other":"Smelting iron"
 		},
 		{
 			"name":"Crafting Blueprint",
@@ -434,12 +409,12 @@
 		},
 		{
 			"name":"Crafting Table",
-			"desc":"Used to create items such as weapons and tools with various ingredients. To add ingredients, touch them with the table. To craft something, first click on an item to see it's ingredient requirements. If all requirements are met, click the craft button. The crafted item will spawn below the table. Certain high-scale items require a blueprint on top of their ingredients in order to be crafted.",
+			"desc":"Used to create items such as weapons and tools with various ingredients. To add ingredients, touch them with the table. To craft something, first click on an item to see it's ingredient requirements. If all requirements are met, click the craft button. The crafted item will spawn below the table. Certain high-scale items also require a blueprint along with the normal ingredients.",
 			"shop":"Supermarket"
 		},
 		{
 			"name":"Fuel Can",
-			"desc":"Fills up 75% of a vehicle's fuel tank. To use, touch it with a vehicle that needs fuel.",
+			"desc":"Fills up 75% of a vehicle's fuel tank, and 100% of other machines that require fuel to operate. To use, touch it with something that needs fuel.",
 			"shop":"Supermarket"
 		},
 		{
@@ -454,12 +429,7 @@
 		},
 		{
 			"name":"Media Player TV",
-			"desc":"Plays videos and music through a number of different websites including YouTube, Twitch, and Soundcloud. Press your use key to turn it on and hold C while looking at it to add media. Currently requires players to have the x86-64 beta branch for Gmod installed to work properly.",
-			"shop":"Supermarket"
-		},
-		{
-			"name":"Propane Canister",
-			"desc":"Contains propane for fueling the meth stove and heat lamp. To use, touch the canister with the stove or lamp and they will become welded to each other and ready to use. Press your use key on the canister to detach it. If the canister is empty, you can press your use key on it again to remove it.",
+			"desc":"Plays videos and music through a number of different websites including YouTube, Twitch, and Soundcloud. Press your use key to turn it on and hold C while looking at it to add media. Currently requires players to have the x86-64 beta branch installed to work properly.",
 			"shop":"Supermarket"
 		},
 		{
@@ -491,7 +461,7 @@
 		},
 		{
 			"name":"Keg",
-			"desc":"Creates alcoholic drinks using farm foods. Accepts 1 food and outputs 1 case per brew. Each brew takes 100 seconds. The output drink and its effects are based on the input food.",
+			"desc":"Creates alcoholic drinks using farm foods. Outputs 1 case per brew. Each brew takes 100 seconds. Each drink has its own unique effects when consumed.",
 			"shop":"F4 Menu",
 			"user":"Cook"
 		},
@@ -543,7 +513,7 @@
 		},
 		{
 			"name":"Fishing Rod",
-			"desc":"Used to catch fish. Press reload to adjust your throwing strength and left click to cast your line. Once you start seeing splashes around your hook, right click to reel in what you caught.",
+			"desc":"Used to catch fish. Press reload to adjust your throwing strength and left click to cast your line. Once you start seeing splashes around your hook, right click to reel in what you caught. If you're fishing as a cook, the fish you collect will be placed in a hidden inventory that will be emptied when you use a cooking stove.",
 			"shop":"Fisherman"
 		},
 		{
@@ -569,13 +539,8 @@
 		},
 		{
 			"name":"SWAT Locker",
-			"desc":"Used by police officers to equip SWAT gear. While SWAT, you have a much slower walk speed and cannot use certain NPCs such as the supermarket and contraband dealer. The locker keeps your current gear safe when you use it so you won't lose any weapons.",
+			"desc":"Used by police officers to equip SWAT gear. While SWAT, you have a much slower walk speed and cannot use certain NPCs such as the supermarket and contraband dealer. The locker keeps your current gear safe when you use it so you won't lose any weapons. Civilians can also rob this locker for a PCB, with a 50% chance of getting SWAT-related items as well.",
 			"location":"Secure areas of the police station."
-		},
-		{
-			"name":"Rock Scanner",
-			"desc":"Displays the contents of rocks without needing to mine it. To use, press your primary fire while looking at a nearby rock.",
-			"shop":"Supermarket"
 		},
 		{
 			"name":"Job Broker",
@@ -586,21 +551,6 @@
 			"name":"Printer Paper",
 			"desc":"Paper used in money printers. Can also be manually written to and saved like a notebook.",
 			"shop":"Supermarket"
-		},
-		{
-			"name":"Rock Decimator",
-			"desc":"Powerful gun that instantly mines rocks by destroying them. Has a small spin up time before firing. Can be used 3 times before it removes itself.",
-			"other":"Crafting or buying at supermarket."
-		},
-		{
-			"name":"Evidence Locker",
-			"desc":"Stores items that are considered illegal by default such as drug contraband, money printers, and weapons. Items are sent to the locker via the evidence wand. Anyone can access and retrieve items from the locker by pressing their use key on it.",
-			"location":"Secure areas of the police station."
-		},
-		{
-			"name":"Evidence Wand",
-			"desc":"When aimed at a handcuffed player, the wand allows the user to view and take illegal weapons and tools from the target's weapon slots. Confiscated items will be given to the user, or spawned next to them if they already have the same item. When aimed at certain contraband entities, the wand transfers them to the evidence locker for processing or safekeeping.",
-			"user":"All police jobs"
 		},
 		{
 			"name":"Cargo Drone",
@@ -638,9 +588,9 @@
 			"other":"Crafting"
 		},
 		{
-			"name":"Electronic Component",
-			"desc":"Crafting material used in advanced recipes for electronic devices. Can only be obtained by robbing the evidence locker at the police station.",
-			"other":"Robbing the evidence locker"
+			"name":"PCB",
+			"desc":"Crafting material used in advanced recipes for electronic devices.",
+			"other":"Robbing the SWAT locker (100% chance) or mining rocks (5% chance)"
 		},
 		{
 			"name":"SWAT Shield",
@@ -656,6 +606,11 @@
 			"name":"Inventory Box",
 			"desc":"Portable box for carrying up to 9 inventory items. Can be destroyed if dealt enough damage. Destroyed boxes will drop all of its contents.",
 			"shop":"Supermarket"
+		},
+		{
+			"name":"Drug Box",
+			"desc":"Crate used to transport drugs to the smuggler for selling. Drugs cannot be sold unless they are in this box. Up to 5 drugs can be added to a box, and cannot be removed once added.",
+			"shop":"Contraband Dealer"
 		}
 	]
 }
