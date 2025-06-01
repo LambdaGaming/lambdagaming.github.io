@@ -264,11 +264,6 @@
 			"shop":"Contraband Dealer"
 		},
 		{
-			"name":"Weed Plant",
-			"desc":"Grows weed. Once the plant has fully grown, press your use key on it to harvest the weed and restart the growing cycle. Requires a heat source from either a heat lamp or sunlight.",
-			"shop":"Contraband Dealer"
-		},
-		{
 			"name":"Seed",
 			"desc":"Many different seeds can be purchased and planted in dirt. Once a plant has grown food, you can harvest the food to eat and restore hunger and health, to sell to other players or the farmer NPC, or in some cases, use the food as ingredients for making other things.",
 			"shop":"Supermarket"
@@ -449,13 +444,8 @@
 			"user":"Cook"
 		},
 		{
-			"name":"Cooked Fish",
-			"desc":"Output of the cooking stove. Can be eaten to restore full HP and hunger.",
-			"other":"Cooking a fish on the cooking stove."
-		},
-		{
 			"name":"Cooking Stove",
-			"desc":"Cooks fish you catch as a cook. To use, press your use key on it after catching some fish. A pot will appear to indicate that your fish are cooking. The fish will appear on the stove once they are done.",
+			"desc":"Cooks basic food such as fish, hot dogs, hamburgers, and donuts. Each food item takes 30 seconds to cook, and up to four can be cooked at once. Cooking fish requires the cook to actually catch the fish first. Each food item restores between 15 and 100 hunger depending on what it is.",
 			"shop":"F4 Menu",
 			"user":"Cook"
 		},
@@ -541,11 +531,6 @@
 			"name":"SWAT Locker",
 			"desc":"Used by police officers to equip SWAT gear. While SWAT, you have a much slower walk speed and cannot use certain NPCs such as the supermarket and contraband dealer. The locker keeps your current gear safe when you use it so you won't lose any weapons. Civilians can also rob this locker for a PCB, with a 50% chance of getting SWAT-related items as well.",
 			"location":"Secure areas of the police station."
-		},
-		{
-			"name":"Job Broker",
-			"desc":"Allows players to take jobs and start special events for a price. The reward for completing a job varies for each.",
-			"location":"Front desk of city hall."
 		},
 		{
 			"name":"Printer Paper",
