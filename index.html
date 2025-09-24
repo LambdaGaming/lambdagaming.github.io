@@ -5,10 +5,24 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
-		<script src="js/navbar.js"></script>
 		<style>
-			body { margin-top:75px; }
+			body { margin:0; }
 		</style>
+		<script>
+			function Slideshow() {
+				fetch( "https://raw.githubusercontent.com/LambdaGaming/lambdagaming.github.io/master/data/screenshots.json" )
+					.then( response => response.json() )
+					.then( json => {
+						var image = document.getElementById( "image" )
+						function RandomImage() {
+							var randimage = Math.floor( Math.random() * json.data.length )
+							image.src = json.data[randimage].src
+						}
+						RandomImage()
+						setInterval( RandomImage, 10000 )
+					} )
+			}
+		</script>
 	</head>
 	<body>
 		<nav id="navbar">
@@ -27,14 +41,14 @@
 			</div>
 			<a href="https://lambdagaming.github.io/index.html" style="all:initial"><img id="logo" src="graphics/lambda_circle.png"></a>
 		</nav>
+		<div class="maincenter">
+			<h1>Welcome!</h1>
+			<p>We are a community focused on gaming, modding, programming, and other hobbies. Come join us!</p>
+			<a href="https://discord.gg/9RGdUS2"><img src="https://discord.com/api/guilds/605211752124383233/widget.png?style=banner3"></a>
+		</div>
 		<div class="imgbackground">
 			<img src="" id="image">
 			<script>Slideshow()</script>
-			<div class="maincenter">
-				<h1>Welcome!</h1>
-				<p>We are a community focused on gaming, modding, programming, and other hobbies. Come join us!</p>
-				<a href="https://discord.gg/9RGdUS2"><img src="https://discord.com/api/guilds/605211752124383233/widget.png?style=banner3"></a>
-			</div>
 		</div>
 		<footer>
 			<p>© 2019-2025 OPGman. This page was last updated on <script>document.write( document.lastModified.split( ' ' )[0] )</script>.</p>
