@@ -53,3 +53,7 @@ function DisplaySearchResults() {
 		}
 	}
 }
+
+document.addEventListener( "DOMContentLoaded", function() {
+    DisplaySearchResults();
+} )

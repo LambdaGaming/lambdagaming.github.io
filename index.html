@@ -5,24 +5,10 @@
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
+		<script src="js/slideshow.js"></script>
 		<style>
 			body { margin:0; }
 		</style>
-		<script>
-			function Slideshow() {
-				fetch( "https://raw.githubusercontent.com/LambdaGaming/lambdagaming.github.io/master/data/screenshots.json" )
-					.then( response => response.json() )
-					.then( json => {
-						var image = document.getElementById( "image" )
-						function RandomImage() {
-							var randimage = Math.floor( Math.random() * json.data.length )
-							image.src = json.data[randimage].src
-						}
-						RandomImage()
-						setInterval( RandomImage, 10000 )
-					} )
-			}
-		</script>
 	</head>
 	<body>
 		<nav id="navbar">
@@ -48,7 +34,6 @@
 		</div>
 		<div class="imgbackground">
 			<img src="" id="image">
-			<script>Slideshow()</script>
 		</div>
 		<footer>
 			<p>© 2019-2025 OPGman. This page was last updated on <script>document.write( document.lastModified.split( ' ' )[0] )</script>.</p>
