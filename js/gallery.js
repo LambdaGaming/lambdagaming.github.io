@@ -12,5 +12,5 @@ function GetScreenshots() {
 }
 
 document.addEventListener( "DOMContentLoaded", function() {
-    GetScreenshots();
+	GetScreenshots();
 } )

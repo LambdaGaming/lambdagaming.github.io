@@ -6,10 +6,8 @@
 		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/menu.css">
 		<script src="../js/items.js"></script>
+		<script>LoadItems( "https://lambdagaming.github.io/data/items_cityrp.json" )</script>
 	</head>
-	<script>
-		LoadItems( "../data/items_cityrp.json" )
-	</script>
 	<body>
 		<nav id="navbar">
 			<div id="menu" class="menu">
@@ -32,7 +30,7 @@
 			<div class="itemsearch">
 				<input id="search" type="text" onkeyup="DisplaySearchResults()" placeholder="Search for an item...">
 			</div>
-			<hr>
+			<hr style="margin-left:10%; margin-right:10%;">
 			<div id="list"></div>
 		</div>
 		<footer>

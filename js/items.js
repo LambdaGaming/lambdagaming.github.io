@@ -1,12 +1,8 @@
 var ItemList = []
 function LoadItems( file ) {
 	fetch( file ).then( response => response.json() ).then( json => {
-		SaveJSON( json )
+		ItemList = json
 	} )
-}
-
-function SaveJSON( json ) {
-	ItemList = json
 }
 
 function DisplaySearchResults() {
@@ -14,7 +10,8 @@ function DisplaySearchResults() {
 	var search = document.getElementById( "search" )
 	list.innerHTML = ""
 	for ( const item of ItemList.data ) {
-		if ( item.name.toLowerCase().includes( search.value.toLowerCase() ) ) {
+		let value = search.value.toLowerCase()
+		if ( item.name.toLowerCase().includes( value ) || item.desc.toLowerCase().includes( value ) ) {
 			var div = document.createElement( "div" )
 			var title = document.createElement( "h3" )
 			title.innerHTML = item.name
@@ -55,5 +52,5 @@ function DisplaySearchResults() {
 }
 
 document.addEventListener( "DOMContentLoaded", function() {
-    DisplaySearchResults();
+	setTimeout( DisplaySearchResults, 300 );
 } )
