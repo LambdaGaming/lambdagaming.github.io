@@ -25,21 +25,21 @@ body {
 }
 
 h1 {
-	font-size:74px;
+	font-size: 56px;
 	color: var( --text-light );
 	text-align: center;
 	margin:0;
 }
 
 h2 {
-	font-size:56px;
+	font-size: 44px;
 	color: var( --text-light );
 	text-align: center;
 	margin:0;
 }
 
 h3 {
-	font-size: 38px;
+	font-size: 32px;
 	color: var( --text-light );
 	margin-bottom: 0;
 	margin-left: 10%;
@@ -81,7 +81,7 @@ ul {
 
 ol {
 	color: var( --text-light );
-	padding-left:10%;
+	padding-left:12%;
 	padding-right:10%;
 }
 

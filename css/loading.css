@@ -43,3 +43,14 @@ img.screenshots{
 	margin-right:30%;
 	position:absolute;
 }
+
+ul, ol {
+	padding-left:5%;
+	padding-right:5%;
+}
+
+p {
+	line-height:22px;
+	padding-left:0%;
+	padding-right:0%;
+}
