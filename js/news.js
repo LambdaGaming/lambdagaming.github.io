@@ -1,7 +1,7 @@
 let news = []
 
 function LoadNews() {
-	fetch( "../data/news.json" )
+	fetch( "https://lambdagaming.github.io/data/news.json" )
 		.then( response => response.json() )
 		.then( json => {
 			news = json;
