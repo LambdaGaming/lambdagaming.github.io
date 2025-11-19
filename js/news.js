@@ -5,6 +5,9 @@ function LoadNews() {
 		.then( response => response.json() )
 		.then( json => {
 			news = json;
+			const params = new URL( window.location.href ).searchParams;
+			var id = params.get( "id" );
+			ShowNews( id );
 		} );
 }
 
@@ -36,7 +39,4 @@ function ShowNews( id ) {
 
 document.addEventListener( "DOMContentLoaded", function() {
 	LoadNews();
-	const params = new URL( window.location.href ).searchParams;
-	var id = params.get( "id" );
-	ShowNews( id );
 } )
