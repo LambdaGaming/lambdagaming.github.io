@@ -1,5 +1,10 @@
 [
 	{
+		"title": "CityRP Update 5/21",
+		"date": "May 21, 2026",
+		"info": "<h3>Changes</h3><ul><li>Reverted the change that gave shooter and robber NPCs Arc9 weapons instead of HL2 weapons. The Arc9 weapons aren't designed for NPCs and caused their animations to break.</li><li>Players that are fully submerged in water will now have decals cleared off of them.</li><li>Optimized how the property system checks for valid entities to save. This also fixes a potential exploit where people may have been able to bypass restrictions when saving entities.</li></ul>"
+	},
+	{
 		"title": "Modded 2 Update 4/29",
 		"date": "April 29, 2026",
 		"info": "<p>This covers all the changes Modded 2 has received over the last 6 months, not including the regular monthly updates to existing mods.</p><ul><li>Added Create: Aeronautics, Create: Big Cannons, Create: Enchantment Industry, and EmoteCraft.</li><li>Removed Noisium and Minecolonies + related mods. Noisium was a performance mod that provided little to no benefit and potentially caused compatibility issues. Minecolonies was removed because it took a ridiculous amount of time to get anything done and I was the only person who regularly used it.</li></ul>"
