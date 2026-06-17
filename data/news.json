@@ -202,7 +202,7 @@
 	{
 		"title": "HLU RP Update 5/27",
 		"date": "May 27, 2022",
-		"info": "<h3>Additions:</h3><ul><li>Added !discord chat command that links to the Lambda Gaming Discord.</li></ul><h3>Changes:</h3><ul><li>Preset vox and overwatch announcement chat commands are now called differently. The new format is !announce [keyword]. See <a href='https://lambdagaming.github.io/hlurp/commands.html'>the website</a> for more info.</li><li>Increased the cooldown for vox and overwatch chat commands from 5 seconds to 10.</li><li>The vox chat and console command is now available for the facility administrator and is no longer exclusive to server admins.</li></ul>"
+		"info": "<h3>Additions:</h3><ul><li>Added !discord chat command that links to the Lambda Gaming Discord.</li></ul><h3>Changes:</h3><ul><li>Preset vox and overwatch announcement chat commands are now called differently. The new format is !announce [keyword]. See <a href='https://lambdagaming.github.io/hlurp/commands'>the website</a> for more info.</li><li>Increased the cooldown for vox and overwatch chat commands from 5 seconds to 10.</li><li>The vox chat and console command is now available for the facility administrator and is no longer exclusive to server admins.</li></ul>"
 	},
 	{
 		"title": "HLU RP Update 10/24",
