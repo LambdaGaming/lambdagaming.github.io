@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Server Screenshot Gallery</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<title>Server Gallery</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/menu.css">
 		<script src="js/gallery.js"></script>
 	</head>
 	<body>
-		<nav id="navbar">
-			<div id="menu" class="menu">
-				<div class="dropdown">
-					<button class="dropbtn">Resources</button>
-					<div id="dropdown" class="dropdown-content">
+		<nav>
+			<div class="logo">
+				<a href="/"><img src="graphics/lambda_circle.png"></a>
+			</div>
+			<ul class="links">
+				<li><a href="https://discord.gg/9RGdUS2">Discord</a></li>
+				<li><a href="https://fluxer.gg/hYRqNwQT">Fluxer</a></li>
+				<li><a href="https://github.com/LambdaGaming">GitHub</a></li>
+				<li><a href="gallery">Gallery</a></li>
+				<li><a href="news">News</a></li>
+				<li class="dropdown">
+					<a class="dropButton">More</a>
+					<div class="dropdownContent">
+						<a href="rules">Community Rules</a>
 						<a href="cityrp">CityRP</a>
 						<a href="hlurp">Half-Life Universe RP</a>
 						<a href="minecraft">Minecraft</a>
 					</div>
-				</div>
-				<a href="news">News</a>
-				<a href="gallery">Gallery</a>
-				<a href="https://discord.gg/9RGdUS2">Discord</a>
-				<a href="rules">Community Rules</a>
-			</div>
-			<a href="/" style="all:initial"><img id="logo" src="graphics/lambda_circle.png"></a>
+				</li>
+			</ul>
 		</nav>
-		<h1 style="text-align:center">Server Screenshot Gallery</h1>
-		<p style="text-align:center; padding-left:20%; padding-right:20%">This gallery contains screenshots taken by members of the community on various Lambda Gaming servers. If you have a screenshot from one of our servers that you would like to see on this page, submit it to OP through Steam or Discord and he will consider adding it.</p>
-		<div id="gallery" class="main gallery" style="padding-top:0; margin:auto"></div>
+		<h1>Server Gallery</h1>
+		<p class="galleryDesc">This gallery contains screenshots taken by members of the community during various game sessions. If you have a screenshot that you would like to see on this page, submit it to OP through Steam or Discord and he will consider adding it.</p>
+		<div id="gallery" class="main gallery"></div>
 		<footer>
-			<p>© 2019-2026 OPGman</script></p>
+			<p>© 2019-2026 OPGman. <a href="https://github.com/LambdaGaming/lambdagaming.github.io">Source Code</a></p>
 		</footer>
 	</body>
 </html>

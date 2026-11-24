@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 		<title>HLU RP Item Catalog</title>
 		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" href="../css/style.css">
@@ -9,22 +10,26 @@
 		<script>LoadItems( "https://lambdagaming.github.io/data/items-hlurp.json" )</script>
 	</head>
 	<body>
-		<nav id="navbar">
-			<div id="menu" class="menu">
-				<div class="dropdown">
-					<button class="dropbtn">Resources</button>
-					<div id="dropdown" class="dropdown-content">
+		<nav>
+			<div class="logo">
+				<a href="/"><img src="../graphics/lambda_circle.png"></a>
+			</div>
+			<ul class="links">
+				<li><a href="https://discord.gg/9RGdUS2">Discord</a></li>
+				<li><a href="https://fluxer.gg/hYRqNwQT">Fluxer</a></li>
+				<li><a href="https://github.com/LambdaGaming">GitHub</a></li>
+				<li><a href="../gallery">Gallery</a></li>
+				<li><a href="../news">News</a></li>
+				<li class="dropdown">
+					<a class="dropButton">More</a>
+					<div class="dropdownContent">
+						<a href="../rules">Community Rules</a>
 						<a href="../cityrp">CityRP</a>
 						<a href="../hlurp">Half-Life Universe RP</a>
 						<a href="../minecraft">Minecraft</a>
 					</div>
-				</div>
-				<a href="../news">News</a>
-				<a href="../gallery">Gallery</a>
-				<a href="../https://discord.gg/9RGdUS2">Discord</a>
-				<a href="../rules">Community Rules</a>
-			</div>
-			<a href="/" style="all:initial"><img id="logo" src="../graphics/lambda_circle.png"></a>
+				</li>
+			</ul>
 		</nav>
 		<h1>HLU RP Item Catalog</h1>
 		<div id="main" class="main" style="padding-top:10px;">
@@ -35,7 +40,7 @@
 			<div id="list" class="list"></div>
 		</div>
 		<footer>
-			<p>© 2019-2026 OPGman</script></p>
+			<p>© 2019-2026 OPGman. <a href="https://github.com/LambdaGaming/lambdagaming.github.io">Source Code</a></p>
 		</footer>
 	</body>
 </html>

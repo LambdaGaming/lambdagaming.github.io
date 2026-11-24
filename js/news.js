@@ -26,6 +26,7 @@ function ShowNews( id ) {
 		var date = document.createElement( "h4" );
 		var author = n.author || "OPGman";
 		link.href = `https://lambdagaming.github.io/news?id=${currentId}`;
+		link.className = "title"
 		title.innerHTML = n.title;
 		title.id = String( currentId );
 		date.innerHTML = `Published on ${n.date} by ${author}`;
